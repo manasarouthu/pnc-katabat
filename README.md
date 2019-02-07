@@ -1,10 +1,10 @@
 <a href="https://cmcit.github.io/pnc-katabat/Login.html">Login.html</a>
 
+<a href="https://cmcit.github.io/pnc-katabat/Survey%20and%20Treatments.html">Survey and Treatments.html</a>
+
 <a href="https://cmcit.github.io/pnc-katabat/Customer%20Summary.html">Customer Summary.html</a>
 
 <a href="https://cmcit.github.io/pnc-katabat/Account%20Summary.html">Account Summary.html</a>
-
-<a href="https://cmcit.github.io/pnc-katabat/Survey%20and%20Treatments.html">Survey and Treatments.html</a>
 
 <a href="https://cmcit.github.io/pnc-katabat/Make%20a%20Payment.html">Make a Payment.html</a>
 
