@@ -1,0 +1,242 @@
+
+.date-row > .ui-datepicker-trigger{
+    vertical-align: middle;
+}
+
+.date-row button{
+    border: 1px solid #ccc;
+    line-height: 1;
+    margin-left: -1px;
+    background:#f5f5f5;
+    height:37px;
+}
+
+.text_left {
+    text-align: left;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.text_right {
+    text-align: right;
+}
+
+tr.workflow_group_table {
+    border-bottom: none;
+}
+
+.workflow_group_table>td {
+    padding: 5px;
+}
+
+#surveyFormWithoutButton input[type='text'], #surveyFormWithoutButton textarea{
+    width: 100%;
+}
+
+
+#top_nav_container ul > li > a{
+    font-size: 1.6em;
+    padding: 0 10px 0 10px;
+}
+#top_nav_container ul > li:last-child > a{
+    padding-right: 0px;
+}
+label.nwr{
+    /*white-space: nowrap;*/
+    margin-top: 5px;
+}
+label.nwr input[type="radio"]{
+    margin: 0 5px 0 0;
+}
+
+.wf-check-group-v{
+    display: block;
+}
+.wf-check-group-h{
+    display: none;
+}
+.wf-check-group-spliter{
+    display: inline;
+}
+
+@media only screen and (max-width: 850px){
+    #surveyFormWithoutButton .no_more_tables td:before {
+        width: 25%;
+        padding-top: 3px;
+    }
+
+    #surveyFormWithoutButton .no_more_tables.table-standard thead + tbody td, .no_more_tables.table-condensed thead + tbody td{
+        padding-left: 30%;
+    }
+
+    #surveyFormWithoutButton .no_more_tables.table-standard thead + tbody td.showHeader, .no_more_tables.table-condensed thead + tbody td.showHeader{
+        width:70% !important;
+    }
+
+    #surveyFormWithoutButton .no_more_tables.table-standard thead + tbody td.noHeader, .no_more_tables.table-condensed thead + tbody td.noHeader{
+        padding-left: inherit;
+        width:100% !important;
+    }
+
+    #surveyFormWithoutButton td.width_30{
+        width: auto !important;
+    }
+
+    #surveyFormWithoutButton .no_more_tables.table-standard thead + tbody td.workflow_answer, .no_more_tables.table-condensed thead + tbody td.workflow_answer{
+        padding-left: 10px;
+    }
+    #surveyFormWithoutButton .no_more_tables td.workflow_answer:before{
+        width: 0px;
+    }
+
+    #surveyFormWithoutButton input[type='text'], #surveyFormWithoutButton textarea{
+        width: 90%;
+    }
+
+    .btn_wfl{
+        float:none !important;
+    }
+    .btn_wfl .vertical{
+        min-width:110px;
+        margin-left:1em;
+    }
+    .wf-check-group-h{
+        display: block;
+    }
+    .wf-check-group-spliter{
+        display: none;
+    }
+
+    .large-right{
+        float: right !important;
+    }
+}
+
+.process-box{
+    margin:10px 0;
+}
+.process-box ul {
+    margin: 0;
+    padding: 0;
+}
+
+.process-box ul li {
+    float: left;
+    margin: 5px 0;
+    padding:0;
+}
+
+.process-box ul li a {
+    background: #e1e1e1;
+    color: #919191;
+    padding: 3px 10px;
+    font-size: 14px;
+    margin: 0 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.process-box ul li.active a {
+    background: #00aae0;
+    color: #fff;
+    font-weight: bold;
+}
+.process-box ul li.finish a{
+    background: #7aa05f;
+    color: #fff;
+}
+.process-box ul li:before{
+    display: none;
+}
+.process-box ul li:after {
+    display: inline-block;
+    content: "➡";
+    color: #e1e1e1;
+}
+.process-box ul li:last-child:after{
+    content: "";
+}
+.process-box ul li.active:after {
+    color: #7aa05f;
+}
+.process-box ul li.finish:after {
+    color: #7aa05f;
+}
+.no_more_tables td{
+    min-height: 20px;
+}
+.top_nav_target{
+    z-index: 1;
+}
+
+.multicolumn_row .article{
+    margin-left: 1px;
+}
+
+.bg_success{
+    background-color: #9fbd4a;
+    color: #fff;
+}
+.bg_success span.fa-action-icon:before{
+    content: "\f058";
+}
+
+.bg_error{
+    background-color: #c3002f;
+    color: #fff;
+}
+.bg_error span.fa-action-icon:before{
+    content: "\f058";
+}
+.bg_failure{
+    background-color: #efefef;
+    color: #ff0000;
+}
+.bg_failure span.fa-action-icon:before{
+    content: "\f071";
+}
+#main_content_container{
+    padding-bottom:10px;
+}
+.solid-line{
+    border-top: solid 1px #ddd;
+    margin: 10px 0;
+    display:block;
+}
+
+.bg_active {
+    background-color: #008CCE;
+    color: white;
+    !important;
+}
+/* 公用     End */
+
+
+/* 窄屏设备     Begin */
+
+@media screen and (max-width: 480px) {
+    .process-box ul li {
+        float: none;
+        margin: 10px 0;
+    }
+    .process-box ul li a {
+        width: 100%;
+        margin: 0;
+        padding: 3px 0;
+        text-indent: 1em;
+        text-align: left;
+        display: block;
+    }
+    .process-box ul li:after {
+        width: 12px;
+        height: 16px;
+        margin: 0 auto;
+        display: block;
+        content: "↓";
+        color: #e1e1e1;
+    }
+    .no_more_tables td:before{
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,1756 @@
+            
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Payment Offer Details</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="robots" content="index, follow"/>
+
+            <link rel="shortcut icon" type="image/ico" href="./theme/favicon.ico"/>
+            <link rel="icon" type="image/ico" href="./theme/favicon.ico"/>
+            <link rel="apple-touch-icon" href="./theme/favicon.ico"/>
+            
+
+    <link href="./theme/css/global_css/global_framework_1.css" type="text/css" rel="stylesheet"/>
+    <link href="./theme/css/global_css/default_styles_1.css" type="text/css" rel="stylesheet"/>
+    <link href="./theme/css/sallie_mae_css/core/sallie_mae_core_1.css" type="text/css"
+          rel="stylesheet"/>
+    <link href="./theme/css/loan_servicing_css/loan_servicing_1.css" rel="stylesheet"
+          type="text/css"/>
+    <link href="./theme/css/cmc.css" rel="stylesheet" type="text/css"/>
+    <link href="./theme/css/client.css" rel="stylesheet" type="text/css"/>
+    <link href="./theme/css/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <script src="./theme/scripts/jquery-1.10.2.js" type="text/javascript"></script>
+    <style type="text/css">
+      .ui-datepicker .ui-datepicker-title {
+        margin: 0px 1.3em;
+        line-height: 1.8em;
+        text-align: center;
+      }
+    </style>
+    <link rel="stylesheet" href="./theme/css/common_style.css" type="text/css" title="" charset="utf-8"/>
+</head>
+<body class="responsive">
+
+            <div id="mobile_nav_flyout_left" class="small medium inactive">
+              <div id="mobile_nav_flyout_left_container">
+                  <div class="bg_off_white">
+                        <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large inactive">
+                              <a title="Account Summary" class="block horizontal active" href="/html/acctSummary">
+                                  <span class="text-transform">Account Summary</span>
+                              </a>
+                        </h3>
+
+                        <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large inactive">
+                            <a title="Payment Options" class="block horizontal inactive" href="javascript:void(0);" onclick="more(this)">
+                                <span class="plus_minus"><span class="fa-plus"></span></span>
+                                <span class="text-transform">Payment Options</span>
+                            </a>
+                        </h3>
+                        <div class="accordion_content">
+                            <a title="Make A Payment" class="vertical bg_white button_menu_item " href="/exec/payment">
+                                <span class="indent_1 alignment_wide">Make A Payment</span><span class="fa-chevron-right"></span>
+                            </a>
+                            <a title="Review Payment Offers" class="vertical bg_white button_menu_item " href="/exec/program">
+                                <span class="indent_1 alignment_wide">Review Payment Offers</span><span class="fa-chevron-right"></span>
+                            </a>
+                            <a title="Manage Payment Methods" class="vertical bg_white button_menu_item " href="/payments/manageBankAccounts">
+                                <span class="indent_1 alignment_wide">Manage Payment Methods</span><span class="fa-chevron-right"></span>
+                            </a>
+                              <a title="Promise To Pay" class="vertical bg_white button_menu_item " href="/exec/promise">
+                                  <span class="indent_1 alignment_wide">Promise To Pay</span><span class="fa-chevron-right"></span>
+                              </a>
+                        </div>
+
+                        <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large active">
+                            <a title="Update Contact Info" class="block horizontal active" href="/flow/contactFlow">
+                                <span class="text-transform">Update Contact Info</span>
+                            </a>
+                        </h3>
+
+                        <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large active">
+                            <a title="Schedule Appointment" class="block horizontal active" href="/appointment/list">
+                                <span class="text-transform">Schedule Appointment</span>
+                            </a>
+                        </h3>
+
+                          <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large active">
+                              <a target="_blank" class="block horizontal active" href="/flow/workflow/start?ozEsYt=jgywGwqZLX2k37a65PNMeaBPCBiI6qcJwm0jsa8ZKCK8O1fOAAV1O7x7i6gmhlT54OfJgUnh8UZELHHtKskYNy3O0PQuViWGKZoAwdBbvlc=">
+                                  <span>Test Workflow</span>
+                              </a>
+                          </h3>
+                    <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large active">
+                          <a title="Logout" class="block horizontal active" href="/security/logout">
+                              <span class="text-transform">Logout</span>
+                          </a>
+                    </h3>
+                  </div>
+
+              </div>
+             </div>
+
+             <div id="mobile_nav_flyout_right" class="small medium inactive">
+                <div id="mobile_nav_flyout_right_container">
+                </div>
+              </div>
+            
+
+
+<div id="page_center">
+  <div id="page_center_container">
+    <div id='content'>
+      <div id='content_container'>
+        <div id='header'>
+          <div id='header_container'>
+          
+            <div id="mobile_nav" class="small medium">
+              <ul>
+                <li class="icon">
+                    <a class="menu_activator" href="javascript:mobile_menu('mobile_nav_flyout_left')"><span
+                      class="fa-bars"></span></a>
+                </li>
+                <li>
+Welcome <br/>
+                    <span class="weight_bold welcome_info">
+                        Jeffrey Collins
+                    </span>
+                </li>
+                <li class="icon">
+                  <a title="CMC" href="/html/acctSummary">
+                    <img class="logo" alt="CMC" src="./theme/images/logo/pnc_logo_rev.svg">
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div id="user_logout" class="large">
+                <div id="user_logout_container">
+                  <p class="weight_bold">Welcome &nbsp; 
+                          Jeffrey Collins
+                  &nbsp;|&nbsp;
+                    <a href="/security/logout">Logout</a>
+                  </p>
+                </div>
+            </div>
+            <div class="clear"></div>
+          
+          
+            <div id="top_nav" class="large">
+              <div id="top_nav_container">
+                <div class="multicolumn_row multicolumn_row_borderless">
+                  <div class="multicolumn_column top_logo_width">
+                    <div class="multicolumn_column_container">
+                      <a title="CMC" href="/html/acctSummary">
+                        <img alt="CMC" src="./theme/images/logo/pnc_logo_rev.svg">
+                      </a>
+                      <div class="column_fill">
+                      </div>
+                      <!-- End multicolumn_column_container -->
+                    </div>
+                    <!-- End multicolumn_column -->
+                  </div>
+                    <div class="multicolumn_column width_last top_nav_width">
+                      <div class="multicolumn_column_container">
+                        <ul id="top_nav_menu" class="hotspot_menu">
+                            <li id="top_nav_menu_0">
+                              <a title="Account Summary" href="/html/acctSummary" class="text-transform">Account Summary</a>
+                            </li>
+                            <li id="top_nav_menu_1" class="menu_button url_off not_full">
+                              <a title="Payment Options" class="menu_button_a text-transform" href="javascript:void(0);">Payment Options</a>
+                              <div id="top_nav_targets_1" class="top_nav_target flyout">
+                                <div class="article article_standard">
+                                  <p><a title="Make A Payment" href="/exec/payment">Make A Payment</a></p>
+                                  <p><a title="Review Payment Offers" href="/exec/program">Review Payment Offers</a></p>
+                                  <p><a title="Manage Payment Methods" href="/payments/manageBankAccounts">Manage Payment Methods</a></p>
+                                    <p><a title="Promise To Pay" href="/exec/promise">Promise To Pay</a></p>
+                                </div>
+                              </div>
+                            </li>
+                            <li id="top_nav_menu_2">
+                              <a title="Update Contact Info" href="/flow/contactFlow" class="text-transform">Update Contact Info</a>
+                            </li>
+                            <li id="top_nav_menu_3">
+                              <a title="Schedule Appointment" href="/appointment/list" class="text-transform">Schedule Appointment</a>
+                            </li>
+                              <li id="top_nav_menu_4">
+                                <a target="_blank" href="/flow/workflow/start?ozEsYt=jgywGwqZLX2k37a65PNMeaBPCBiI6qcJwm0jsa8ZKCK8O1fOAAV1O7x7i6gmhlT54OfJgUnh8UZELHHtKskYNy3O0PQuViWGKZoAwdBbvlc=">Test Workflow</a>
+                              </li>
+                        </ul>
+                        <div class="column_fill">
+                        </div>
+                        <!-- End multicolumn_column_container -->
+                      </div>
+                      <!-- End multicolumn_column -->
+                    </div>
+                  <!-- End multicolumn_row -->
+                </div>
+              </div>
+            </div>
+            
+            <div class='clear'></div>
+          </div>
+          <!-- End header_container -->
+          <div class='clear'></div>
+        </div>
+        <!-- End header -->
+        <div id='main'>
+          <div id='main_container'>
+            <div id="main_right_unit">
+              <div id="main_content_right_rail_unit">
+                <div id="main_content" class="no_right_rail">
+                  <div id="main_content_container">
+                    <div id="title_main_content" class="page_title">
+                      <h1 class="text-transform">Payment Offer Details<span class="page-header-stuffix">xxxxxxxxxxxx2475</span></h1>
+                      <!-- End title_main_content -->
+                    </div>
+                    <div class="multicolumn_row multicolumn_row_standard">
+                      <div class="multicolumn_column width_100 width_last">
+                        <div class="multicolumn_column_container">
+                          <p class="h4">Your current balance is: $161.00.</p>
+                          <p>
+We will accept a total payment of$161.00, payable over                                4 months
+, to fulfill your debt obligation.                          </p>
+
+                          <p class="h2 text_light font-min">Please click the button corresponding to your selection, then fill in all required information.</p>
+                          <div class="column_fill"></div>
+                          <!-- End multicolumn_column_container --></div>
+                        <!-- End multicolumn_column --></div>
+                      <div class="clear"></div>
+                      <!-- ECM0000 -->
+                      <!-- End multicolumn_row --></div>
+
+
+                  <form id="programOfferForm"
+                  action="/flow/program"
+                  method="post"
+                  enctype="multipart/form-data">
+                    <input type="hidden" name="_flowExecutionKey" value="e1s1">
+                    <input type="hidden" name="fromPage" value="M_OFFER">
+                    <input type="hidden" id="eventName">
+                    <input type="hidden" id="nextUrl" name="nextUrl" value="/flow/program?ozEsYt=F39m9xKG2_e6sTVe-3wQ6g==">
+                    <input type="hidden" id="initialized" name="initialized" value="false">
+
+                    <div class="multicolumn_row multicolumn_row_standard">
+                      <div class="multicolumn_column width_100">
+                        <div class="multicolumn_column_container">
+                          <div class="article article_standard width_100">
+                            <input type="hidden" name="programId" value="256">
+
+                            <div style="border-top: 1px solid #cccccc;"></div>
+                            <div class="article article_standard">
+                              <table class="no_more_tables table-striped table-standard cf ">
+                                <thead>
+                                <tr class="bg_light_blue">
+                                  <th><p class="weight_normal">Funding Account</p></th>
+                                  <th><p class="weight_normal">Payment Amount</p></th>
+                                  <th><p class="weight_normal">Payment Date</p></th>
+                                  <!--<th><p class="weight_normal">Status</p></th>-->
+                                </tr>
+                                </thead>
+
+
+                                <input type="hidden" id="requiredHidden"  name="payments[1156].required" value="true">
+
+                                <tr class="bg_faded_light_blue">
+                                  <td data-title="Funding Account" class="width_20" >
+                                    <p class="no_top_margin text_red"></p>
+                                    <p>
+                                      <select id="selectFundingAccount0" name="payments[1156].fundingAccountId"
+                                              class="offset-b10 no_top_margin" style="width:8em; font-size: 1em">
+                                            <option value="103">Jeff</option>
+                                            <option value="1">Savings Account</option>
+                                      </select>
+                                      <span class="fa-asterisk text_red bg_callout_padding"></span>
+                                    </p>
+                                    <div class="clear"></div>
+                                  </td>
+
+                                  <td data-title="Payment Amount" class="width_20">
+                                    
+      <input type="hidden" name="payments[1156].paymentAmount" value="40.25"/>
+      
+                                    <p class="large">
+$40.25                                    </p>
+
+                                    <p class="small medium right no_top_margin">
+$40.25                                    </p>
+
+                                    <div class="clear"></div>
+                                  </td>
+                                  <td data-title="Payment Date" class="width_20">
+                                    <p class="no_top_margin text_red"></p>
+                                       <p><span class="date-row">
+                                            <input type="text" id="paymentDate_1156" name="payments[1156].paymentDate" value="08/01/2017" 
+                                                            autocomplete="off"
+                                                            formField="true"
+                                                            required="true"
+                                                            fieldType="date"
+                                                            style="display:inline; width:6em; font-size: 1em;"
+                                                            maxlength="10"
+                                                            dateFormat="MM/dd/yyyy" maxValue="2" minValue="0"/>
+
+
+                                            
+                                              </span></p>
+
+                                    <div class="clear"></div>
+                                  </td>
+                                  <!--<td data-title="Status" class="width_20">-->
+                                    <!--<p class="large">-->
+                                    <!--$-{installment.paymentStatus???string('Existing','New')}-->
+                                    <!--</p>-->
+
+                                    <!--<p class="small medium right no_top_margin">-->
+                                    <!--$-{installment.paymentStatus???string('Existing','New')}-->
+                                    <!--</p>-->
+
+                                    <!--<div class="clear"></div>-->
+                                  <!--</td>-->
+                                </tr>
+
+
+                                <input type="hidden" id="requiredHidden"  name="payments[1157].required" value="true">
+
+                                <tr class="bg_faded_light_blue">
+                                  <td data-title="Funding Account" class="width_20" >
+                                    <p class="no_top_margin text_red"></p>
+                                    <p>
+                                      <select id="selectFundingAccount1" name="payments[1157].fundingAccountId"
+                                              class="offset-b10 no_top_margin" style="width:8em; font-size: 1em">
+                                            <option value="103">Jeff</option>
+                                            <option value="1">Savings Account</option>
+                                      </select>
+                                      <span class="fa-asterisk text_red bg_callout_padding"></span>
+                                    </p>
+                                    <div class="clear"></div>
+                                  </td>
+
+                                  <td data-title="Payment Amount" class="width_20">
+                                    
+      <input type="hidden" name="payments[1157].paymentAmount" value="40.25"/>
+      
+                                    <p class="large">
+$40.25                                    </p>
+
+                                    <p class="small medium right no_top_margin">
+$40.25                                    </p>
+
+                                    <div class="clear"></div>
+                                  </td>
+                                  <td data-title="Payment Date" class="width_20">
+                                    <p class="no_top_margin text_red"></p>
+                                       <p><span class="date-row">
+                                            <input type="text" id="paymentDate_1157" name="payments[1157].paymentDate" value="09/01/2017" 
+                                                            autocomplete="off"
+                                                            formField="true"
+                                                            required="true"
+                                                            fieldType="date"
+                                                            style="display:inline; width:6em; font-size: 1em;"
+                                                            maxlength="10"
+                                                            dateFormat="MM/dd/yyyy" maxValue="33" minValue="0"/>
+
+
+                                            
+                                              </span></p>
+
+                                    <div class="clear"></div>
+                                  </td>
+                                  <!--<td data-title="Status" class="width_20">-->
+                                    <!--<p class="large">-->
+                                    <!--$-{installment.paymentStatus???string('Existing','New')}-->
+                                    <!--</p>-->
+
+                                    <!--<p class="small medium right no_top_margin">-->
+                                    <!--$-{installment.paymentStatus???string('Existing','New')}-->
+                                    <!--</p>-->
+
+                                    <!--<div class="clear"></div>-->
+                                  <!--</td>-->
+                                </tr>
+
+
+                                <input type="hidden" id="requiredHidden"  name="payments[1158].required" value="true">
+
+                                <tr class="bg_faded_light_blue">
+                                  <td data-title="Funding Account" class="width_20" >
+                                    <p class="no_top_margin text_red"></p>
+                                    <p>
+                                      <select id="selectFundingAccount2" name="payments[1158].fundingAccountId"
+                                              class="offset-b10 no_top_margin" style="width:8em; font-size: 1em">
+                                            <option value="103">Jeff</option>
+                                            <option value="1">Savings Account</option>
+                                      </select>
+                                      <span class="fa-asterisk text_red bg_callout_padding"></span>
+                                    </p>
+                                    <div class="clear"></div>
+                                  </td>
+
+                                  <td data-title="Payment Amount" class="width_20">
+                                    
+      <input type="hidden" name="payments[1158].paymentAmount" value="40.25"/>
+      
+                                    <p class="large">
+$40.25                                    </p>
+
+                                    <p class="small medium right no_top_margin">
+$40.25                                    </p>
+
+                                    <div class="clear"></div>
+                                  </td>
+                                  <td data-title="Payment Date" class="width_20">
+                                    <p class="no_top_margin text_red"></p>
+                                       <p><span class="date-row">
+                                            <input type="text" id="paymentDate_1158" name="payments[1158].paymentDate" value="10/01/2017" 
+                                                            autocomplete="off"
+                                                            formField="true"
+                                                            required="true"
+                                                            fieldType="date"
+                                                            style="display:inline; width:6em; font-size: 1em;"
+                                                            maxlength="10"
+                                                            dateFormat="MM/dd/yyyy" maxValue="63" minValue="0"/>
+
+
+                                            
+                                              </span></p>
+
+                                    <div class="clear"></div>
+                                  </td>
+                                  <!--<td data-title="Status" class="width_20">-->
+                                    <!--<p class="large">-->
+                                    <!--$-{installment.paymentStatus???string('Existing','New')}-->
+                                    <!--</p>-->
+
+                                    <!--<p class="small medium right no_top_margin">-->
+                                    <!--$-{installment.paymentStatus???string('Existing','New')}-->
+                                    <!--</p>-->
+
+                                    <!--<div class="clear"></div>-->
+                                  <!--</td>-->
+                                </tr>
+
+
+                                <input type="hidden" id="requiredHidden"  name="payments[1159].required" value="true">
+
+                                <tr class="bg_faded_light_blue">
+                                  <td data-title="Funding Account" class="width_20" >
+                                    <p class="no_top_margin text_red"></p>
+                                    <p>
+                                      <select id="selectFundingAccount3" name="payments[1159].fundingAccountId"
+                                              class="offset-b10 no_top_margin" style="width:8em; font-size: 1em">
+                                            <option value="103">Jeff</option>
+                                            <option value="1">Savings Account</option>
+                                      </select>
+                                      <span class="fa-asterisk text_red bg_callout_padding"></span>
+                                    </p>
+                                    <div class="clear"></div>
+                                  </td>
+
+                                  <td data-title="Payment Amount" class="width_20">
+                                    
+      <input type="hidden" name="payments[1159].paymentAmount" value="40.25"/>
+      
+                                    <p class="large">
+$40.25                                    </p>
+
+                                    <p class="small medium right no_top_margin">
+$40.25                                    </p>
+
+                                    <div class="clear"></div>
+                                  </td>
+                                  <td data-title="Payment Date" class="width_20">
+                                    <p class="no_top_margin text_red"></p>
+                                       <p><span class="date-row">
+                                            <input type="text" id="paymentDate_1159" name="payments[1159].paymentDate" value="11/01/2017" 
+                                                            autocomplete="off"
+                                                            formField="true"
+                                                            required="true"
+                                                            fieldType="date"
+                                                            style="display:inline; width:6em; font-size: 1em;"
+                                                            maxlength="10"
+                                                            dateFormat="MM/dd/yyyy" maxValue="94" minValue="0"/>
+
+
+                                            
+                                              </span></p>
+
+                                    <div class="clear"></div>
+                                  </td>
+                                  <!--<td data-title="Status" class="width_20">-->
+                                    <!--<p class="large">-->
+                                    <!--$-{installment.paymentStatus???string('Existing','New')}-->
+                                    <!--</p>-->
+
+                                    <!--<p class="small medium right no_top_margin">-->
+                                    <!--$-{installment.paymentStatus???string('Existing','New')}-->
+                                    <!--</p>-->
+
+                                    <!--<div class="clear"></div>-->
+                                  <!--</td>-->
+                                </tr>
+                              </table>
+                              <div class="clear">&nbsp;</div>
+                            </div>
+                            <div id="displayReminderAdvanceDay"  class="article article_standard width_100">
+                              <p></p>
+                              <p class="no_top_margin text_red"></p>
+                              <p>
+                                <input type="hidden" id="needReminderHidden"  name="paymentReminder.needReminder" value="false">
+                                <input type="checkbox" id="needReminder"  onclick="checkBox(this);"
+                                        class="inline"/>
+                                &nbsp;I'd like to receive an
+                                  <select id="reminderType" style="font-size: inherit" name="reminderType" onchange="checkReminderType(this);"
+                                          itemTag="WF_FORM_ITEM"
+                                          class="inline" >
+                                      <option id="SMS"  value="SMS" selected="selected">SMS</option>
+                                      <option id="email"  value="email" >EMAIL</option>
+                                      
+                                  </select>
+                                  reminder <input type="text" id="reminderAdvanceDay"
+                                                                                    readOnly=readOnly
+                                                                                    name="paymentReminder.reminderAdvanceDay"
+                                                                                    value="15"
+                                                                                    style="width: 50px;display: inline;font-size: 1em;"/>days before my payment is processed.
+                              </p>
+  
+                              <div id="reminderEmails" style="display:none;">
+                                <label for="sendEmail">Send email alert to:</label>
+  
+                                <p class="no_top_margin text_red"></p>
+                              
+        <input type="text" id="reminderEmail" name="reminderEmail" value="BatchMail-PRODUCT@cmcagile.com" />
+                              </div>
+                                <div id="reminderSMS" style="display:none;">
+                                    <label for="sendSMS">Send SMS alert to:</label>
+                                    <p class="no_top_margin text_red">
+        </p>
+                                    
+        
+          <input type="hidden" id="reminderSMSCountryCodeHidden" name="reminderSMS.countryCode" value="US"/>
+        
+      
+                                    
+        
+            <select  id="reminderSMSCountryCode" name="" class="countries">
+                  <option value="AF" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag AF" data-title="Afghanistan">Afghanistan&nbsp;(+93)</option>
+                  <option value="AL" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag AL" data-title="Albania">Albania&nbsp;(+355)</option>
+                  <option value="DZ" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag DZ" data-title="Algeria">Algeria&nbsp;(+213)</option>
+                  <option value="AD" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag AD" data-title="Andorra">Andorra&nbsp;(+376)</option>
+                  <option value="AO" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag AO" data-title="Angola">Angola&nbsp;(+244)</option>
+                  <option value="AI" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag AI" data-title="Anguilla">Anguilla&nbsp;(+1264)</option>
+                  <option value="AG" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag AG" data-title="Antigua and Barbuda">Antigua and Barbuda&nbsp;(+1268)</option>
+                  <option value="AR" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag AR" data-title="Argentina">Argentina&nbsp;(+54)</option>
+                  <option value="AM" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag AM" data-title="Armenia">Armenia&nbsp;(+374)</option>
+                  <option value="AW" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag AW" data-title="Aruba">Aruba&nbsp;(+297)</option>
+                  <option value="AU" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag AU" data-title="Australia">Australia&nbsp;(+61)</option>
+                  <option value="AZ" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag AZ" data-title="Azerbaijan">Azerbaijan&nbsp;(+994)</option>
+                  <option value="BS" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag BS" data-title="Bahamas">Bahamas&nbsp;(+1242)</option>
+                  <option value="BH" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag BH" data-title="Bahrain">Bahrain&nbsp;(+973)</option>
+                  <option value="BD" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag BD" data-title="Bangladesh">Bangladesh&nbsp;(+880)</option>
+                  <option value="BB" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag BB" data-title="Barbados">Barbados&nbsp;(+1246)</option>
+                  <option value="BY" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag BY" data-title="Belarus">Belarus&nbsp;(+375)</option>
+                  <option value="BE" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag BE" data-title="Belgium">Belgium&nbsp;(+32)</option>
+                  <option value="BZ" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag BZ" data-title="Belize">Belize&nbsp;(+501)</option>
+                  <option value="BJ" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag BJ" data-title="Benin">Benin&nbsp;(+229)</option>
+                  <option value="BM" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag BM" data-title="Bermuda">Bermuda&nbsp;(+1441)</option>
+                  <option value="BT" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag BT" data-title="Bhutan">Bhutan&nbsp;(+975)</option>
+                  <option value="BO" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag BO" data-title="Bolivia">Bolivia&nbsp;(+591)</option>
+                  <option value="BA" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag BA" data-title="Bosnia-Hercegovina">Bosnia-Hercegovina&nbsp;(+387)</option>
+                  <option value="BW" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag BW" data-title="Botswana">Botswana&nbsp;(+267)</option>
+                  <option value="BR" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag BR" data-title="Brazil">Brazil&nbsp;(+55)</option>
+                  <option value="IO" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag IO" data-title="British Indian Ocean Terr">British Indian Ocean Terr&nbsp;(+246)</option>
+                  <option value="VG" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag VG" data-title="British Virgin Islands">British Virgin Islands&nbsp;(+1284)</option>
+                  <option value="BN" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag BN" data-title="Brunei Darussalam">Brunei Darussalam&nbsp;(+673)</option>
+                  <option value="BG" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag BG" data-title="Bulgaria">Bulgaria&nbsp;(+359)</option>
+                  <option value="BF" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag BF" data-title="Burkina Faso">Burkina Faso&nbsp;(+226)</option>
+                  <option value="MM" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag MM" data-title="Burma">Burma&nbsp;(+95)</option>
+                  <option value="BI" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag BI" data-title="Burundi">Burundi&nbsp;(+257)</option>
+                  <option value="CM" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag CM" data-title="Cameroon">Cameroon&nbsp;(+237)</option>
+                  <option value="CA" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag CA" data-title="Canada">Canada&nbsp;(+1)</option>
+                  <option value="CV" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag CV" data-title="Cape Verde">Cape Verde&nbsp;(+238)</option>
+                  <option value="KY" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag KY" data-title="Cayman Islands">Cayman Islands&nbsp;(+1345)</option>
+                  <option value="CF" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag CF" data-title="Central African Republic">Central African Republic&nbsp;(+236)</option>
+                  <option value="TD" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag TD" data-title="Chad">Chad&nbsp;(+235)</option>
+                  <option value="CL" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag CL" data-title="Chile">Chile&nbsp;(+56)</option>
+                  <option value="CN" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag CN" data-title="China">China&nbsp;(+86)</option>
+                  <option value="CO" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag CO" data-title="Colombia">Colombia&nbsp;(+57)</option>
+                  <option value="KM" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag KM" data-title="Comoros">Comoros&nbsp;(+269)</option>
+                  <option value="CD" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag CD" data-title="Congo">Congo&nbsp;(+243)</option>
+                  <option value="CR" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag CR" data-title="Costa Rica">Costa Rica&nbsp;(+506)</option>
+                  <option value="CI" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag CI" data-title="Cote DIvoire">Cote DIvoire&nbsp;(+225)</option>
+                  <option value="HR" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag HR" data-title="Croatia">Croatia&nbsp;(+385)</option>
+                  <option value="CU" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag CU" data-title="Cuba">Cuba&nbsp;(+53)</option>
+                  <option value="CY" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag CY" data-title="Cyprus">Cyprus&nbsp;(+357)</option>
+                  <option value="CZ" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag CZ" data-title="Czech Republic">Czech Republic&nbsp;(+420)</option>
+                  <option value="DK" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag DK" data-title="Denmark">Denmark&nbsp;(+45)</option>
+                  <option value="DJ" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag DJ" data-title="Djibouti">Djibouti&nbsp;(+253)</option>
+                  <option value="DM" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag DM" data-title="Dominica">Dominica&nbsp;(+1767)</option>
+                  <option value="DO" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag DO" data-title="Dominican Republic">Dominican Republic&nbsp;(+1809)</option>
+                  <option value="TL" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag TL" data-title="East Timor">East Timor&nbsp;(+670)</option>
+                  <option value="EG" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag EG" data-title="Egypt">Egypt&nbsp;(+20)</option>
+                  <option value="SV" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag SV" data-title="El Salvador">El Salvador&nbsp;(+503)</option>
+                  <option value="CQ" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag CQ" data-title="Equatorial Guinea">Equatorial Guinea&nbsp;(+240)</option>
+                  <option value="ER" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag ER" data-title="Eritrea">Eritrea&nbsp;(+291)</option>
+                  <option value="EE" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag EE" data-title="Estonia">Estonia&nbsp;(+372)</option>
+                  <option value="ET" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag ET" data-title="Ethiopia">Ethiopia&nbsp;(+251)</option>
+                  <option value="FK" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag FK" data-title="Falkland Islands">Falkland Islands&nbsp;(+500)</option>
+                  <option value="FO" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag FO" data-title="Faroe Islands">Faroe Islands&nbsp;(+298)</option>
+                  <option value="FJ" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag FJ" data-title="Fiji">Fiji&nbsp;(+679)</option>
+                  <option value="FI" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag FI" data-title="Finland">Finland&nbsp;(+358)</option>
+                  <option value="FR" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag FR" data-title="France">France&nbsp;(+33)</option>
+                  <option value="GF" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag GF" data-title="French Guiana">French Guiana&nbsp;(+594)</option>
+                  <option value="PF" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag PF" data-title="French Polynesia">French Polynesia&nbsp;(+689)</option>
+                  <option value="GA" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag GA" data-title="Gabon">Gabon&nbsp;(+241)</option>
+                  <option value="GM" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag GM" data-title="Gambia">Gambia&nbsp;(+220)</option>
+                  <option value="DE" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag DE" data-title="Germany">Germany&nbsp;(+49)</option>
+                  <option value="GH" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag GH" data-title="Ghana">Ghana&nbsp;(+233)</option>
+                  <option value="GI" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag GI" data-title="Gibraltar">Gibraltar&nbsp;(+350)</option>
+                  <option value="GR" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag GR" data-title="Greece">Greece&nbsp;(+30)</option>
+                  <option value="GL" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag GL" data-title="Greenland">Greenland&nbsp;(+299)</option>
+                  <option value="GD" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag GD" data-title="Grenada">Grenada&nbsp;(+1473)</option>
+                  <option value="GT" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag GT" data-title="Guatemala">Guatemala&nbsp;(+502)</option>
+                  <option value="GN" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag GN" data-title="Guinea">Guinea&nbsp;(+224)</option>
+                  <option value="GW" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag GW" data-title="Guinea-Bissau">Guinea-Bissau&nbsp;(+245)</option>
+                  <option value="GY" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag GY" data-title="Guyana">Guyana&nbsp;(+592)</option>
+                  <option value="HT" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag HT" data-title="Haiti">Haiti&nbsp;(+509)</option>
+                  <option value="HN" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag HN" data-title="Honduras">Honduras&nbsp;(+504)</option>
+                  <option value="HK" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag HK" data-title="Hong Kong">Hong Kong&nbsp;(+852)</option>
+                  <option value="HU" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag HU" data-title="Hungary">Hungary&nbsp;(+36)</option>
+                  <option value="IS" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag IS" data-title="Iceland">Iceland&nbsp;(+354)</option>
+                  <option value="IN" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag IN" data-title="India">India&nbsp;(+91)</option>
+                  <option value="ID" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag ID" data-title="Indonesia">Indonesia&nbsp;(+62)</option>
+                  <option value="IR" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag IR" data-title="Iran">Iran&nbsp;(+98)</option>
+                  <option value="IQ" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag IQ" data-title="Iraq">Iraq&nbsp;(+964)</option>
+                  <option value="IE" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag IE" data-title="Ireland">Ireland&nbsp;(+353)</option>
+                  <option value="IL" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag IL" data-title="Israel">Israel&nbsp;(+972)</option>
+                  <option value="IT" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag IT" data-title="Italy">Italy&nbsp;(+39)</option>
+                  <option value="JM" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag JM" data-title="Jamaica">Jamaica&nbsp;(+1876)</option>
+                  <option value="JP" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag JP" data-title="Japan">Japan&nbsp;(+81)</option>
+                  <option value="JO" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag JO" data-title="Jordan">Jordan&nbsp;(+962)</option>
+                  <option value="KH" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag KH" data-title="Kampuchea">Kampuchea&nbsp;(+855)</option>
+                  <option value="KZ" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag KZ" data-title="Kazakhstan">Kazakhstan&nbsp;(+7)</option>
+                  <option value="KE" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag KE" data-title="Kenya">Kenya&nbsp;(+254)</option>
+                  <option value="KI" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag KI" data-title="Kiribati">Kiribati&nbsp;(+686)</option>
+                  <option value="KW" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag KW" data-title="Kuwait">Kuwait&nbsp;(+965)</option>
+                  <option value="KG" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag KG" data-title="Kyrgyzstan">Kyrgyzstan&nbsp;(+996)</option>
+                  <option value="LA" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag LA" data-title="Laos">Laos&nbsp;(+856)</option>
+                  <option value="LV" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag LV" data-title="Latvia">Latvia&nbsp;(+371)</option>
+                  <option value="LB" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag LB" data-title="Lebanon">Lebanon&nbsp;(+961)</option>
+                  <option value="LS" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag LS" data-title="Lesotho">Lesotho&nbsp;(+266)</option>
+                  <option value="LR" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag LR" data-title="Liberia">Liberia&nbsp;(+231)</option>
+                  <option value="LY" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag LY" data-title="Libya">Libya&nbsp;(+218)</option>
+                  <option value="LI" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag LI" data-title="Liechtenstein">Liechtenstein&nbsp;(+423)</option>
+                  <option value="LT" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag LT" data-title="Lithuania">Lithuania&nbsp;(+370)</option>
+                  <option value="LU" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag LU" data-title="Luxembourg">Luxembourg&nbsp;(+352)</option>
+                  <option value="MO" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag MO" data-title="Macao">Macao&nbsp;(+853)</option>
+                  <option value="MK" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag MK" data-title="Macedonia">Macedonia&nbsp;(+389)</option>
+                  <option value="MG" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag MG" data-title="Madagascar">Madagascar&nbsp;(+261)</option>
+                  <option value="MW" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag MW" data-title="Malawi">Malawi&nbsp;(+265)</option>
+                  <option value="MY" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag MY" data-title="Malaysia">Malaysia&nbsp;(+60)</option>
+                  <option value="MV" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag MV" data-title="Maldives">Maldives&nbsp;(+960)</option>
+                  <option value="ML" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag ML" data-title="Mali">Mali&nbsp;(+223)</option>
+                  <option value="MT" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag MT" data-title="Malta">Malta&nbsp;(+356)</option>
+                  <option value="MQ" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag MQ" data-title="Martinique">Martinique&nbsp;(+596)</option>
+                  <option value="MR" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag MR" data-title="Mauritania">Mauritania&nbsp;(+222)</option>
+                  <option value="MU" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag MU" data-title="Mauritius">Mauritius&nbsp;(+230)</option>
+                  <option value="MX" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag MX" data-title="Mexico">Mexico&nbsp;(+52)</option>
+                  <option value="MD" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag MD" data-title="Moldova">Moldova&nbsp;(+373)</option>
+                  <option value="MN" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag MN" data-title="Mongolia">Mongolia&nbsp;(+976)</option>
+                  <option value="ME" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag ME" data-title="Montenegro">Montenegro&nbsp;(+382)</option>
+                  <option value="MS" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag MS" data-title="Montserrat">Montserrat&nbsp;(+1664)</option>
+                  <option value="MA" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag MA" data-title="Morocco">Morocco&nbsp;(+212)</option>
+                  <option value="MZ" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag MZ" data-title="Mozambique">Mozambique&nbsp;(+258)</option>
+                  <option value="NA" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag NA" data-title="Namibia">Namibia&nbsp;(+264)</option>
+                  <option value="NR" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag NR" data-title="Nauru">Nauru&nbsp;(+674)</option>
+                  <option value="NP" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag NP" data-title="Nepal">Nepal&nbsp;(+977)</option>
+                  <option value="NL" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag NL" data-title="Netherlands">Netherlands&nbsp;(+31)</option>
+                  <option value="AN" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag AN" data-title="Netherlands Antilles">Netherlands Antilles&nbsp;(+599)</option>
+                  <option value="NC" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag NC" data-title="New Caledonia">New Caledonia&nbsp;(+687)</option>
+                  <option value="NZ" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag NZ" data-title="New Zealand">New Zealand&nbsp;(+64)</option>
+                  <option value="NI" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag NI" data-title="Nicaragua">Nicaragua&nbsp;(+505)</option>
+                  <option value="NE" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag NE" data-title="Niger">Niger&nbsp;(+227)</option>
+                  <option value="NG" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag NG" data-title="Nigeria">Nigeria&nbsp;(+234)</option>
+                  <option value="KP" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag KP" data-title="North Korea">North Korea&nbsp;(+850)</option>
+                  <option value="NO" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag NO" data-title="Norway">Norway&nbsp;(+47)</option>
+                  <option value="OM" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag OM" data-title="Oman">Oman&nbsp;(+968)</option>
+                  <option value="PK" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag PK" data-title="Pakistan">Pakistan&nbsp;(+92)</option>
+                  <option value="PA" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag PA" data-title="Panama">Panama&nbsp;(+507)</option>
+                  <option value="PG" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag PG" data-title="Papua New Guinea">Papua New Guinea&nbsp;(+675)</option>
+                  <option value="PY" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag PY" data-title="Paraguay">Paraguay&nbsp;(+595)</option>
+                  <option value="PE" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag PE" data-title="Peru">Peru&nbsp;(+51)</option>
+                  <option value="PH" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag PH" data-title="Philippines">Philippines&nbsp;(+63)</option>
+                  <option value="PN" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag PN" data-title="Pitcairn Island">Pitcairn Island&nbsp;(+64)</option>
+                  <option value="PL" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag PL" data-title="Poland">Poland&nbsp;(+48)</option>
+                  <option value="PT" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag PT" data-title="Portugal">Portugal&nbsp;(+351)</option>
+                  <option value="QA" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag QA" data-title="Qatar">Qatar&nbsp;(+974)</option>
+                  <option value="GE" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag GE" data-title="Republic of Georgia">Republic of Georgia&nbsp;(+995)</option>
+                  <option value="RE" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag RE" data-title="Reunion Island">Reunion Island&nbsp;(+242)</option>
+                  <option value="RO" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag RO" data-title="Romania">Romania&nbsp;(+40)</option>
+                  <option value="RU" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag RU" data-title="Russia">Russia&nbsp;(+7)</option>
+                  <option value="RW" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag RW" data-title="Rwanda">Rwanda&nbsp;(+250)</option>
+                  <option value="ST" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag ST" data-title="Sao Tome and Principe">Sao Tome and Principe&nbsp;(+239)</option>
+                  <option value="SA" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag SA" data-title="Saudi Arabia">Saudi Arabia&nbsp;(+966)</option>
+                  <option value="SN" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag SN" data-title="Senegal">Senegal&nbsp;(+221)</option>
+                  <option value="RS" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag RS" data-title="Serbia">Serbia&nbsp;(+381)</option>
+                  <option value="SC" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag SC" data-title="Seychelles">Seychelles&nbsp;(+248)</option>
+                  <option value="SL" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag SL" data-title="Sierra Leone">Sierra Leone&nbsp;(+232)</option>
+                  <option value="SG" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag SG" data-title="Singapore">Singapore&nbsp;(+65)</option>
+                  <option value="SK" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag SK" data-title="Slovak Republic">Slovak Republic&nbsp;(+421)</option>
+                  <option value="SI" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag SI" data-title="Slovenia">Slovenia&nbsp;(+386)</option>
+                  <option value="SB" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag SB" data-title="Solomon Islands">Solomon Islands&nbsp;(+677)</option>
+                  <option value="SO" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag SO" data-title="Somalia">Somalia&nbsp;(+252)</option>
+                  <option value="ZA" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag ZA" data-title="South Africa">South Africa&nbsp;(+27)</option>
+                  <option value="KR" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag KR" data-title="South Korea">South Korea&nbsp;(+82)</option>
+                  <option value="ES" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag ES" data-title="Spain">Spain&nbsp;(+34)</option>
+                  <option value="LK" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag LK" data-title="Sri Lanka">Sri Lanka&nbsp;(+94)</option>
+                  <option value="KN" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag KN" data-title="Saint Kitts and Nevis">Saint Kitts and Nevis&nbsp;(+1869)</option>
+                  <option value="SH" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag SH" data-title="St Helena">St Helena&nbsp;(+290)</option>
+                  <option value="LC" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag LC" data-title="St Lucia">St Lucia&nbsp;(+1758)</option>
+                  <option value="PM" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag PM" data-title="St Pierre and Miquelon">St Pierre and Miquelon&nbsp;(+508)</option>
+                  <option value="VC" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag VC" data-title="St Vincent and Grenadines">St Vincent and Grenadines&nbsp;(+1784)</option>
+                  <option value="SD" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag SD" data-title="Sudan">Sudan&nbsp;(+249)</option>
+                  <option value="SR" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag SR" data-title="Suriname">Suriname&nbsp;(+597)</option>
+                  <option value="SZ" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag SZ" data-title="Swaziland">Swaziland&nbsp;(+268)</option>
+                  <option value="SW" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag SW" data-title="Sweden">Sweden&nbsp;(+46)</option>
+                  <option value="CH" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag CH" data-title="Switzerland">Switzerland&nbsp;(+41)</option>
+                  <option value="SY" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag SY" data-title="Syria">Syria&nbsp;(+963)</option>
+                  <option value="TW" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag TW" data-title="Taiwan">Taiwan&nbsp;(+886)</option>
+                  <option value="TJ" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag TJ" data-title="Tajikistan">Tajikistan&nbsp;(+992)</option>
+                  <option value="TZ" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag TZ" data-title="Tanzania">Tanzania&nbsp;(+255)</option>
+                  <option value="TH" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag TH" data-title="Thailand">Thailand&nbsp;(+66)</option>
+                  <option value="TG" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag TG" data-title="Togo">Togo&nbsp;(+228)</option>
+                  <option value="TK" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag TK" data-title="Tokelau">Tokelau&nbsp;(+690)</option>
+                  <option value="TO" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag TO" data-title="Tonga">Tonga&nbsp;(+676)</option>
+                  <option value="TT" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag TT" data-title="Trinidad and Tobago">Trinidad and Tobago&nbsp;(+1868)</option>
+                  <option value="SH" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag SH" data-title="Saint Helena, Ascension and Tristan da Cunha">Saint Helena, Ascension and Tristan da Cunha&nbsp;(+654)</option>
+                  <option value="TN" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag TN" data-title="Tunisia">Tunisia&nbsp;(+216)</option>
+                  <option value="TR" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag TR" data-title="Turkey">Turkey&nbsp;(+90)</option>
+                  <option value="TM" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag TM" data-title="Turkmenistan">Turkmenistan&nbsp;(+993)</option>
+                  <option value="TC" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag TC" data-title="Turks and Caicos Islands">Turks and Caicos Islands&nbsp;(+1649)</option>
+                  <option value="TV" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag TV" data-title="Tuvalu">Tuvalu&nbsp;(+688)</option>
+                  <option value="UG" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag UG" data-title="Uganda">Uganda&nbsp;(+256)</option>
+                  <option value="UA" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag UA" data-title="Ukraine">Ukraine&nbsp;(+380)</option>
+                  <option value="AE" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag AE" data-title="United Arab Emirates">United Arab Emirates&nbsp;(+971)</option>
+                  <option value="GB" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag GB" data-title="United Kingdom">United Kingdom&nbsp;(+44)</option>
+                  <option selected="selected" value="US" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag US" data-title="United States">United States&nbsp;(+1)</option>
+                  <option value="UY" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag UY" data-title="Uruguay">Uruguay&nbsp;(+598)</option>
+                  <option value="UZ" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag UZ" data-title="Uzbekistan">Uzbekistan&nbsp;(+998)</option>
+                  <option value="VU" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag VU" data-title="Vanuatu">Vanuatu&nbsp;(+678)</option>
+                  <option value="VA" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag VA" data-title="Vatican City">Vatican City&nbsp;(+379)</option>
+                  <option value="VE" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag VE" data-title="Venezuela">Venezuela&nbsp;(+58)</option>
+                  <option value="VN" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag VN" data-title="Vietnam">Vietnam&nbsp;(+84)</option>
+                  <option value="VG" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag VG" data-title="Virgin Islands (British)">Virgin Islands (British)&nbsp;(+1284)</option>
+                  <option value="VI " data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag VI " data-title="Virgin Islands (U.S.)">Virgin Islands (U.S.)&nbsp;(+1340)</option>
+                  <option value="WF" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag WF" data-title="Wallis and Futuna Islands">Wallis and Futuna Islands&nbsp;(+681)</option>
+                  <option value="WS" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag WS" data-title="Western Samoa">Western Samoa&nbsp;(+685)</option>
+                  <option value="YE" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag YE" data-title="Yemen">Yemen&nbsp;(+967)</option>
+                  <option value="CG" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag CG" data-title="Zaire">Zaire&nbsp;(+242)</option>
+                  <option value="ZM" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag ZM" data-title="Zambia">Zambia&nbsp;(+260)</option>
+                  <option value="ZW" data-image="./theme/images/blank.gif"
+                                        data-imagecss="flag ZW" data-title="Zimbabwe">Zimbabwe&nbsp;(+263)</option>
+            </select>
+        
+                                     
+        <input type="text" id="reminderSMSPhoneNum" name="reminderSMS.phoneNum" value="9898543973" onkeypress="return isIntegerKey(event)" class="dd_input_tel"/>
+                                </div>
+                            </div>
+
+
+                            <div class="multicolumn_row multicolumn_row_standard">
+                              <div class="multicolumn_column_container">
+                                <p>
+                                  <input id="continueBtn" class="vertical button_standard bg_blue input_submit inline offset-r10 btn btn-primary" type="submit" name="_eventId_review" value="Accept Program"/>
+                                  <input class="vertical button_standard bg_blue input_submit inline offset-r10 btn btn-default" type="submit" name="_eventId_decline" value="Decline"/>
+                                    <input type="submit" value="Add Card Account" onclick="addNewCardAccount();" class="vertical button_standard bg_blue input_submit inline offset-r10 btn btn-default" />
+                                  <input type="submit" value="Add Bank Account" onclick="addNewBankAccount();" class="vertical button_standard bg_blue input_submit inline offset-r10 btn btn-default" />
+                                </p>
+                                <p>
+                                </p>
+                                <div class="column_fill"></div>
+                              </div>
+                              <div class="clear"></div>
+                            </div>
+
+                            <script>
+                              $(document).ready(function () {
+                                initFundingAcct();
+                              });
+
+                              function initFundingAcct() {
+                                var fundingAcctId = "newBank",
+                                        fundingType = "",
+                                        fundingSubType = "",
+                                        newBankRadio = $('#newBankRadio'),
+                                        newCardRadio = $('#newCardRadio');
+                                if (fundingAcctId === 'newCard') {
+                                  fundingType = "";
+                                  fundingSubType = "";
+                                } else if (fundingAcctId === 'newBank') {
+                                  fundingType = "";
+                                  fundingSubType = "";
+                                }
+
+                                if (fundingAcctId === 'newCard') {
+                                  newCardRadio.attr('checked', 'checked');
+                                  if (fundingType) {
+                                    $('#fundingAccount.newCard.type').val(fundingType);
+                                  }
+                                  if (fundingSubType) {
+                                    $('#fundingAccount.newCard.subtype').val(fundingSubType)
+                                  }
+                                  showAddressInfo(true);
+                                } else if (fundingAcctId === 'newBank') {
+                                  newBankRadio.attr('checked', 'checked');
+                                  if (fundingType) {
+                                    $('#fundingAccount.newBank.type').val(fundingType);
+                                  }
+                                  if (fundingSubType) {
+                                    $('#fundingAccount.newBank.type').val(fundingSubType)
+                                  }
+                                  showAddressInfo(false);
+                                } else {
+                                  showAddressInfo(false, true);
+                                  $('#existFundingAcct_' + fundingAcctId).attr('checked', 'checked');
+                                }
+                              }
+
+                              function onFundingAcctChanged(isHideAll) {
+                                var newBankRadioVal = $('#newBankRadio').is(':checked') || false;
+                                if (isHideAll) {
+                                  showAddressInfo(false, true);
+                                } else {
+                                  showAddressInfo(!newBankRadioVal);
+                                }
+
+                              }
+
+                              function showAddressInfo(showNewCardInfo, allHide) {
+                                var newCardAddressInfo = $('#newCardAddressInfo'),
+                                        newBankInfo = $('#newBankInfo');
+                                newCardAddressInfo.css('display', showNewCardInfo ? '' : 'none');
+                                newBankInfo.css('display', showNewCardInfo ? 'none' : '');
+                                if (allHide) {
+                                  newCardAddressInfo.css('display', 'none');
+                                  newBankInfo.css('display', 'none');
+                                }
+                              }
+
+                              function onUseOtherFundingAcctChanged() {
+                                var fundingAcctVal = $('#useOtherFundingAcctCheckbox').is(':checked') || false;
+                                if (fundingAcctVal) {
+                                  $('#fundingContainer').css('display', 'block');
+                                  $('.confirmFundingAccountColumn').css('display', 'none');
+                                } else {
+                                  $('#fundingContainer').css('display', 'none');
+                                  $('.confirmFundingAccountColumn').css('display', '');
+                                }
+                              }
+
+                            </script>
+                          </div>
+
+                          <div class="column_fill"></div>
+                          <!-- End multicolumn_column_container --></div>
+                        <!-- End multicolumn_column --></div>
+                      <div class="clear"></div>
+                      <!-- ECM0000 -->
+                      <!-- End multicolumn_row -->
+                    </div>
+                  </form>
+                  </div>
+                </div>
+                <div class='clear'></div>
+              </div>
+              <div class='clear'></div>
+            </div>
+            <div class='clear'></div>
+          </div>
+        
+                        <div class="clear"></div>
+                        <div id="main_bottom">
+                            <div id="main_bottom_container">
+                                <div class="modal" id="timeoutCutDownWin">
+                                    <div class="modal_container">
+                                        <div class="modal_close right h2 no_top_margin"><a class="modal_link" href="javascript:void(0);"><span
+                                                class="fa-times-circle">&nbsp;</span></a></div>
+                                        <p class="h2">Session Timeout</p>
+                                        <hr>
+                                        <p>Due to lack of activity, this session will be logged out in 2 minutes.</p>
+
+                                        <p class="text_red">
+                                          <span id="sessionTimeoutLeftSeconds">
+120                                          </span>
+second(s) left ...                                        </p>
+                                        <p><a href="javascript:void(0);" onclick="activeSession();"
+                                              class="vertical button_standard bg_blue btn btn-primary">
+                                                <span>
+                                                  <strong>
+Keep Session Active                                                  </strong>
+                                                </span>
+                                              </a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="clear">&nbsp;</div>
+                            </div>
+                            <div class="clear">&nbsp;</div>
+                        </div>
+                        <div class="clear"></div>
+            
+          <div class='clear'></div>
+        </div>
+        <!-- End main -->
+        <div class='clear'></div>
+      </div>
+      <!-- End content_container -->
+    
+      <div id="footer">
+        <div id="footer_top_border">
+          <!-- End footer_top_border -->
+        </div>
+        <div id="footer_container">
+          <div class="article article_standard">
+            <p>
+              <span>
+                <a href="/doc/termsConditions" target="_blank">Terms and Conditions</a>
+                &nbsp;&nbsp;|&nbsp;
+                <a href="/doc/securityPolicy" target="_blank">Security Policy</a>
+                &nbsp;&nbsp;|&nbsp;
+                <a href="/doc/privacyPolicy" target="_blank">Privacy Policy</a>
+                &nbsp;&nbsp;|&nbsp;
+                <a href="/doc/contactUs" target="_blank">Contact Us</a>
+              </span>
+            </p>
+            <p>
+              <span>
+Copyright &copy; 2015                  <a id="usb" href="http://www.cmcagile.com" target="cmcuscorp">CMC US</a>
+              </span>
+              <span class="right">
+Call Us:&nbsp; 1-302-830-9262              </span>
+            </p>
+            <p></p>
+            <!-- End article -->
+          </div>
+          <div class="clear"></div>
+          <!-- End footer_container" -->
+        </div>
+        <div class="clear">
+        </div>
+        <!-- End footer -->
+      </div>
+            
+      <div class='clear'></div>
+    </div>
+    <!-- End content -->
+  </div>
+  <!-- End page_center_container -->
+</div>
+<!-- End page_center -->
+
+
+<script src="./theme/js/global_js/global_framework_1.js" type="text/javascript"
+        language="javascript"></script>
+<script language="javascript" type="text/javascript"
+        src="./theme/js/sallie_mae_js/core/sallie_mae_core_1.js"></script>
+<script type="text/javascript" language="javascript"
+        src="./theme/js/loan_servicing_js/loan_servicing_1.js"></script>
+<script type="text/javascript" language="javascript"
+        src="./theme/js/loan_servicing_js/jquery-ui.min-1.11.2.js"></script>
+<script type="text/javascript">
+    var sessionCutDownTimes = 120;
+
+    var timeOutId = null;
+    function cutDownSessionTimeout() {
+        clearTimeout(timeOutId);
+        if (sessionCutDownTimes == 0) {
+            window.location.href = "/security/logout";
+        } else {
+            sessionCutDownTimes--;
+            jQuery("#sessionTimeoutLeftSeconds").html(sessionCutDownTimes);
+            timeOutId = setTimeout(cutDownSessionTimeout, 1000);
+        }
+    }
+    function activeSession() {
+        jQuery.ajax({
+            url: "/ping",
+            success: function (data, textStatus, xhr) {
+                var sessionTimeoutFlag = xhr.getResponseHeader("SessionTimeout")
+                if ("Y" == sessionTimeoutFlag)
+                    window.location.href = "/security/logout";
+                else {
+                    modalToggle("timeoutCutDownWin");
+                    clearTimeout(timeOutId);
+                }
+            }
+        });
+    }
+    function sessionTimeoutWarning() {
+        modalToggle("timeoutCutDownWin");
+        timeOutId = setTimeout(cutDownSessionTimeout, 1000);
+    }
+
+    function openPopupWin(uri) {
+        if (uri) {
+            window.frames["popupWinFrame"].location.href = uri;
+            openModal("popupWinModel");
+        }
+    }
+
+    function cancelPopupWin() {
+        modalToggle("popupWinModel");
+        return false;
+    }
+    $(document).ready(function () {
+          setTimeout(sessionTimeoutWarning, 1080* 1000);
+    });
+</script>
+            
+<script type="text/javascript">
+    var _form_validation = {
+        errorDisplayPrefix: "form_error_",
+        attr: {
+            errorPrefix: 'error_',
+            required: 'required',
+            fieldType: 'fieldtype',
+            fieldName: 'fieldname',
+            maxValue: 'maxvalue',
+            minValue: 'minvalue',
+            dateFormat: 'dateformat',
+            regExpr: 'regexpr'
+        },
+        availableFieldType: {
+            numeric: 'numeric',
+            date: 'date',
+            radio: 'radio'
+        },
+        fieldTypeReg: {
+            numeric: /^\d+(\.\d+)?$/
+        }
+    };
+
+    function initDateFields() {
+//        console.log('initDateFields');
+        var dateFields = jQuery("input[" + _form_validation.attr.fieldType + "='"
+                                + _form_validation.availableFieldType.date + "']");
+        for (var i = 0; i < dateFields.length; i++) {
+            var field = jQuery(dateFields[i]);
+            var availableDays = field.attr("availableDays") ?
+                                field.attr("availableDays").split(";") : null;
+            var dateFormat = field.attr('dateformat');
+            var dateTrigger = field.attr('dateTrigger');
+            if (!dateTrigger){
+               dateTrigger = 'button'
+            }
+//            console.log('dateFormat', dateFormat);
+            if (dateFormat) {
+//                console.log('dateFormat 2', dateFormat);
+                dateFormat = dateFormat.replace("yyyy", 'yy');
+                dateFormat = dateFormat.replace("MM", 'mm');
+                field.attr('dateformat', dateFormat);
+            }
+
+            var config = {
+                dateFormat: dateFormat || "yy-mm-dd",
+                maxDate:    field.attr("maxvalue") || null,
+                minDate:    field.attr("minvalue") || null,
+                yearRange:  field.attr("yearRange") || "c-10:c+10",
+                buttonImage: './theme/images/cal-icon32.png',
+                buttonImageOnly: false,
+                autoSize: true,
+                showOn: dateTrigger,
+                onGenerate: function (ct) {
+                  jQuery(this).find('.xdsoft_date').toggleClass('xdsoft_disabled');
+                },
+                buttonText : field.attr("buttonText") || '',
+                showButtonPanel: true,
+                changeYear: true,
+                changeMonth: true,
+                beforeShowDay: function (date) {
+                    if (!availableDays) {
+                        return [true, ""];
+                    }
+
+                    var dmy = jQuery.datepicker.formatDate(dateFormat, date);
+                    if (jQuery.inArray(dmy, availableDays) != -1) {
+                        return [true, ""];
+                    } else {
+                        return [false, ""];
+                    }
+                },
+                beforeShow: function (input) {
+                    setTimeout(function () {
+//                        var buttonPane = jQuery(input).datepicker("widget").find(".ui-datepicker-buttonpane");
+//
+//                        jQuery("<button>", {
+//                            text: "Clear",
+//                            click: function () {
+//                                //Code to clear your date field (text box, read only field etc.) I had to remove the line below and add custom code here
+//                                jQuery.datepicker._clearDate(input);
+//                            }
+//                        }).appendTo(buttonPane).addClass("ui-datepicker-clear ui-state-default ui-priority-primary ui-corner-all");
+                     //change today button opacity
+                     jQuery('button.ui-datepicker-current').css('opacity',1).css('font-weight','bold');
+                    }, 1);
+                }
+//              ,
+//                onChangeMonthYear: function (year, month, instance) {
+//                    setTimeout(function () {
+//                        var buttonPane = jQuery(instance)
+//                                .datepicker("widget")
+//                                .find(".ui-datepicker-buttonpane");
+//
+//                        jQuery("<button>", {
+//                            text: "Clear",
+//                            click: function () {
+//                                //Code to clear your date field (text box, read only field etc.) I had to remove the line below and add custom code here
+//                                jQuery.datepicker._clearDate(instance.input);
+//                            }
+//                        }).appendTo(buttonPane).addClass("ui-datepicker-clear ui-state-default ui-priority-primary ui-corner-all");
+//                    }, 1);
+//                }
+            };
+
+            field.datepicker(config);
+        }
+        /**
+         * override datepicker _gotoToday function
+         */
+        if(dateFields.length > 0 && jQuery.datepicker) {
+          var original_gotoToday = jQuery.datepicker._gotoToday;
+          jQuery.datepicker._gotoToday = function (id) {
+            var target = jQuery(id), inst = this._getInst(target[0]);
+            original_gotoToday.call(this, id);
+            this._selectDate(id, this._formatDate(inst, inst.selectedDay, inst.drawMonth, inst.drawYear));
+            inst.input.blur();
+          }
+        }
+    }
+
+    function validateForm(formId) {
+        if (!formId) {
+            throw "The param 'formId' is required.";
+        }
+        try {
+
+            var errorCount = 0;
+
+            var validateFormFields = function (formFields) {
+                for (var i = 0; i < formFields.length; i++) {
+                    var formField = jQuery(formFields[i]);
+                    errorCount += validateField(formField).length;
+                }
+            }
+
+            var inputFields = jQuery("#" + formId + " input[formField=true][type!='radio']");
+            validateFormFields(inputFields);
+            var textareaFields = jQuery("#" + formId + " textarea[formField=true]");
+            validateFormFields(textareaFields);
+            var selectFields = jQuery("#" + formId + " select[formField=true]");
+            validateFormFields(selectFields);
+            var radioFields = jQuery("#" + formId + " input[formField=true][type='radio']:checked");
+            validateFormFields(radioFields);
+
+            return errorCount <= 0;
+        } catch (e) {
+            console.log(e);
+        }
+        return false;
+    }
+
+    function printFieldErrors(formField, errors) {
+        var name = formField.attr("name") || formField.attr(_form_validation.attr.fieldName);
+        name = name.replace(".", "_");
+        var errorDisplay = jQuery("#" + _form_validation.errorDisplayPrefix + name);
+        if (errorDisplay) {
+            var html = "";
+            if (errors && errors.length > 0) {
+                for (var i = 0; i < errors.length; i++) {
+                    html += (( i != 0 ? "<br/>*&nbsp;&nbsp;&nbsp;&nbsp;" : "*&nbsp;&nbsp;&nbsp;&nbsp;") + errors[i]);
+                }
+            }
+            jQuery(errorDisplay).html(html);
+        }
+    }
+
+    function validateField(formField) {
+        var messageField = jQuery("#_form_error_msg");
+        var fieldName = formField.attr("name");
+        var fieldNamePrefix = fieldName + "_";
+        var errors = [];
+        var fieldType = formField.attr(_form_validation.attr.fieldType);
+        var val = formField.val();
+        var field = formField;
+
+        if (fieldType == _form_validation.availableFieldType.radio) {
+            var f = jQuery("input[name='" + formField.attr(_form_validation.attr.fieldName) + "']:checked");
+            if (f && f.length == 1) {
+                val = f.val();
+                field = f;
+            } else {
+                val = null;
+            }
+        }
+
+        var checkField = function () {
+            if (fieldType == _form_validation.availableFieldType.numeric) {
+                // test data type
+                var fieldTypeMatched = _form_validation.fieldTypeReg.numeric.test(val);
+                if (!fieldTypeMatched) {
+                    errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.fieldType) || "Data type is mismatched.");
+                } else {
+                    // check max & min value
+                    var maxValue = formField.attr(_form_validation.attr.maxValue);
+                    var minValue = formField.attr(_form_validation.attr.minValue);
+                    if (maxValue && (parseFloat(val) > parseFloat(maxValue))) {
+                        errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.maxValue) || ("The max value is " + maxValue + "."));
+                    }
+                    if (minValue && (parseFloat(val) < parseFloat(minValue))) {
+                        errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.minValue) || ("The min value is " + maxValue + "."));
+                    }
+                }
+            }
+            else if (fieldType == _form_validation.availableFieldType.date) {
+                var dateFormat = formField.attr(_form_validation.attr.dateFormat);
+                if (dateFormat) {
+                    var date = null;
+                    try {
+                        date = jQuery.datepicker.parseDate(dateFormat, val);
+                    } catch (e) {
+                        errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.fieldType) || "Invalid date format.");
+                    }
+                    if (date) {
+                        var maxDateOption = formField.datepicker("option", "maxDate");
+                        var maxDate = jQuery.datepicker._determineDate(date, maxDateOption);
+                        var minDateOption = formField.datepicker("option", "minDate");
+                        var minDate = jQuery.datepicker._determineDate(date, minDateOption);
+
+                        if (maxDate && date.getTime() > maxDate.getTime()) {
+                            errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.maxValue) || ("The max value is " + maxValue + "."));
+                        }
+                        if (minDate && date.getTime() < minDate.getTime()) {
+                            errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.minValue) || ("The min value is " + maxValue + "."));
+                        }
+                    }
+                }
+            }
+            else if (fieldType == _form_validation.availableFieldType.radio) {
+                var dateFormat = formField.attr(_form_validation.attr.dateFormat);
+                if (dateFormat) {
+                    var date = null;
+                    try {
+                        date = jQuery.datepicker.parseDate(dateFormat, val);
+                    } catch (e) {
+                        errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.fieldType) || "Invalid date format.");
+                    }
+                    if (date) {
+                        var maxDate = formField.datepicker("option", "maxDate");
+                        var minDate = formField.datepicker("option", "minDate");
+
+                        if (maxDate && date.getTime() > maxDate.getTime()) {
+                            errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.maxValue) || ("The max value is " + maxValue + "."));
+                        }
+                        if (minDate && date.getTime() < minDate.getTime()) {
+                            errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.minValue) || ("The min value is " + maxValue + "."));
+                        }
+                    }
+                }
+            }
+            else {
+                var regExpr = formField.attr(_form_validation.attr.regExpr);
+                if (regExpr) {
+                    var flag = false;
+                    try {
+                        var reg = new RegExp(regExpr);
+                        flag = reg.test(val)
+                    } catch (e) {
+                    }
+
+                    if (!flag) {
+                        errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.regExpr) || ("Mismatched regular expression: " + regExpr + ""));
+                    }
+                }
+            }
+        }
+        //check if answer is require.
+        var required = formField.attr(_form_validation.attr.required);
+        if (required) {
+            if (val) {
+                checkField()
+            } else {
+                errors.push(formField.attr(fieldNamePrefix + _form_validation.attr.required) || "Value is required.");
+            }
+        }
+        else {
+            checkField()
+        }
+        console.log('errors', errors);
+        printFieldErrors(field, errors);
+        return errors;
+    }
+
+    function showModalMask(modalDivId) {
+        jQuery(".modal-backdrop").show();
+    }
+
+    function hideModalMask(modalDivId) {
+        jQuery(".modal-backdrop").hide();
+    }
+
+    function openModal(modalDivId) {
+        jQuery("#" + modalDivId).show(150);
+        jQuery("#" + modalDivId).addClass("in");
+        showModalMask();
+    }
+
+    function closeModal(modalDivId) {
+        jQuery("#" + modalDivId).hide(150);
+        jQuery("#" + modalDivId).removeClass("in");
+        hideModalMask();
+    }
+
+    function showDialog(title, bodyContent) {
+        var _defaultDialog = jQuery("#_defaultDialog");
+        if (_defaultDialog) {
+            var titleElement = jQuery("#_defaultDialog h4[name='title']");
+            if (titleElement) {
+                jQuery(titleElement).html(title)
+            }
+
+            var body = jQuery("#_defaultDialog div[name='body']");
+            if (body) {
+                jQuery(body).html(bodyContent);
+            }
+
+            var closeBtn = jQuery("#_defaultDialog button[name='close']");
+            if (closeBtn) {
+                jQuery(closeBtn).bind('click', function () {
+                    jQuery(closeBtn).hide(150);
+                    jQuery(closeBtn).removeClass("in");
+                    hideModalMask();
+                });
+            }
+
+            _defaultDialog.show(150);
+            _defaultDialog.addClass("in");
+            jQuery(".modal-backdrop").show();
+        }
+    }
+
+    function _disableFormSubmit() {
+        var submitButtons = jQuery("[type!='submit']");
+        for (var i = 0; i < submitButtons.length; i++) {
+            var btn = submitButtons[i];
+            jQuery(btn).bind("click", function () {
+//                console.log("disable submit");
+                return false;
+            });
+        }
+    }
+
+    /**
+     * add  init smartPhone  dateField
+     */
+    function initSmartPhoneDateFields(){
+      var dateFields = jQuery("input[" + _form_validation.attr.fieldType + "='"
+                       + _form_validation.availableFieldType.date + "']");
+      for (var i = 0; i < dateFields.length; i++) {
+        var field = jQuery(dateFields[i]);
+        var config = {
+          availableDays: field.attr("availableDays") || ''
+        };
+        field.mobileDatePicker(config);
+      }
+    }
+    jQuery(document).ready(function () {
+//            initSmartPhoneDateFields();
+            initDateFields();
+    });
+
+</script><script type="text/javascript" src="./theme/scripts/jquery.dd.min.js"></script>
+<script type="text/javascript" src="./theme/scripts/commonJS.js"></script>
+<script type="text/javascript">
+  function expirationYearSelect() {
+    jQuery("#expirationMonth").empty();
+    var d = new Date();
+    var vYear = d.getFullYear();
+    var vMon = 1;
+
+    var selectedYear = parseInt(jQuery('#expirationYear').val());
+
+    if (selectedYear == vYear) {
+      vMon = d.getMonth() + 1
+    }
+
+    for (var i = vMon; i <= 12; i++) {
+      jQuery("#expirationMonth").append("<option value='" + i + "'>" + i + "</option>")
+    }
+  }
+
+  function checkBox(value) {
+    var divReminderEmail = document.getElementById("reminderEmails");
+    var reminderAdvanceDay = $('#reminderAdvanceDay');
+      var divReminderSMS   = document.getElementById("reminderSMS");
+      var reminderType = document.getElementById("reminderType");
+    if (value.id == "needReminder") {
+      if (value.checked) {
+          if (reminderType.value == "email") {
+              divReminderEmail.style.display = "";
+          } else if (reminderType.value == "SMS") {
+              divReminderSMS.style.display = "";
+          }
+        reminderAdvanceDay.removeAttr('readOnly','readOnly');
+        $("#needReminderHidden").val(true);
+      }
+      else {
+          divReminderEmail.style.display = "none";
+          divReminderSMS.style.display = "none";
+        reminderAdvanceDay.attr('readOnly','readOnly');
+        $("#needReminderHidden").val(false);
+      }
+    }
+  }
+
+  //Add bank Account
+  function addNewBankAccount(){
+    $("#eventName").attr("name", "_eventId_addBankAccount");
+    $("#initialized").val(true);
+    document.getElementById("programOfferForm").submit();
+  }
+  //Add Card Account
+  function addNewCardAccount(){
+    $("#eventName").attr("name", "_eventId_addCardAccount");
+    $("#initialized").val(true);
+    document.getElementById("programOfferForm").submit();
+  }
+
+  function enableSelectFundingAccount(index, size) {
+    var first = $("#selectFundingAccount" + index).val();
+    $("#fundingAccount" + index).val(first);
+    if (first == "") {
+      for (var i = index; i < size; i++) {
+        if (!$("#selectFundingAccount" + (i+1)).prop("disabled")) {
+            $("#selectFundingAccount" + (i+1) + " option:selected").removeAttr("selected");
+            $("#selectFundingAccount" + (i+1)).val("");
+            $("#selectFundingAccount" + (i+1)).attr("disabled", "disabled");
+            $("#fundingAccount" + (i+1)).val("");
+        } else {
+            break;
+        }
+      }
+    } else {
+        $("#selectFundingAccount" + (index+1)).removeAttr("disabled");
+        for (var i = index+1; i < size; i++) {
+            if ($("#selectFundingAccount" + i).val() != "") {
+                $("#selectFundingAccount" + (i+1)).removeAttr("disabled");
+            } else {
+                break;
+            }
+        }
+    }
+  }
+
+  function checkReminderType(selected) {
+      var divReminderEmail = document.getElementById("reminderEmails");
+      var divReminderSMS   = document.getElementById("reminderSMS");
+      var needReminderBoxDiv = document.getElementById("needReminder");
+      var reminderAdvanceDay = $('#reminderAdvanceDay');
+
+      if (needReminderBoxDiv.id == "needReminder") {
+          if (needReminderBoxDiv.checked) {
+              if (selected.value == "email") {
+                  divReminderEmail.style.display = "";
+                  divReminderSMS.style.display = "none";
+              } else if (selected.value == "SMS") {
+                  divReminderSMS.style.display = "";
+                  divReminderEmail.style.display = "none";
+              }
+
+              reminderAdvanceDay.removeAttr('readOnly');
+              $('#needReminder').val(true);
+          }
+          else {
+              divReminderEmail.style.display = "none";
+              divReminderSMS.style.display = "none";
+              reminderAdvanceDay.attr('readOnly','readOnly');
+              $('#needReminder').val(false);
+
+          }
+      }
+  }
+
+
+  $(document).ready(function(){
+      var needReminderBoxDiv = document.getElementById("needReminder");
+      var reminderEmailsDiv = document.getElementById("reminderEmails");
+      var divReminderSMS   = document.getElementById("reminderSMS");
+      var emailOption = document.getElementById("email");
+      var smsOption = document.getElementById("SMS");
+      var reminderAdvanceDay = 10;
+      var reminderType = "";
+
+      if (needReminderBoxDiv && needReminderBoxDiv.checked) {
+          if (reminderType == "email") {
+              reminderEmailsDiv.style.display = "";
+              divReminderSMS.style.display = "none";
+              emailOption.setAttribute("selected",true);
+          }else if (reminderType == "SMS") {
+              divReminderSMS.style.display = "";
+              reminderEmailsDiv.style.display = "none";
+              smsOption.setAttribute("selected",true);
+          }
+
+      }
+
+      $('#continueBtn').click(function(){
+          $("#reminderSMSCountryCodeHidden").val($("#reminderSMSCountryCode").val());
+      });
+  });
+</script>
+
+</body>
+</html>

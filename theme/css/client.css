@@ -1,0 +1,64 @@
+.text-transform{
+    text-transform: Uppercase;
+}
+
+.bg_grey, a.bg_grey, a.bg_grey:visited, a.bg_grey:hover, a.bg_grey:active{
+    background-color: #e1e1e1;
+    color: #fff;
+}
+
+.page-header-stuffix{
+    font-size:14px; margin-left:20px;
+}
+
+@media screen and (max-width: 850px){
+    .page-header-stuffix{
+        font-size:14px; margin-left:2px;
+    }
+}
+.multicolumn_row .multicolumn_column{
+    word-wrap: break-word;
+    word-break:break-word;
+}
+.break-all{
+    word-break: break-all;
+}
+.welcome_info{
+    display: inline-block;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.mobile-select-small{
+    font-size: 12px;
+    padding:5px 0;
+}
+@media only screen and (max-width: 850px){
+    .welcome_info {
+        display: inline-block;
+        width: 300px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+@media only screen and (max-width: 600px){
+    .welcome_info {
+        display: inline-block;
+        width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+@media only screen and (max-width: 400px){
+    .welcome_info {
+        display: inline-block;
+        width: 130px;
+        white-space: nowrap;
+        overflow: hidden;
+        margin: 0 0 0 20px;
+        text-overflow: ellipsis;
+    }
+}

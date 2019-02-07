@@ -1,0 +1,898 @@
+            
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Make a Payment</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="robots" content="index, follow"/>
+
+            <link rel="shortcut icon" type="image/ico" href="./theme/favicon.ico"/>
+            <link rel="icon" type="image/ico" href="./theme/favicon.ico"/>
+            <link rel="apple-touch-icon" href="./theme/favicon.ico"/>
+            
+
+    <link href="./theme/css/global_css/global_framework_1.css" type="text/css" rel="stylesheet"/>
+    <link href="./theme/css/global_css/default_styles_1.css" type="text/css" rel="stylesheet"/>
+    <link href="./theme/css/sallie_mae_css/core/sallie_mae_core_1.css" type="text/css"
+          rel="stylesheet"/>
+    <link href="./theme/css/loan_servicing_css/loan_servicing_1.css" rel="stylesheet"
+          type="text/css"/>
+    <link href="./theme/css/cmc.css" rel="stylesheet" type="text/css"/>
+    <link href="./theme/css/client.css" rel="stylesheet" type="text/css"/>
+    <link href="./theme/css/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <script src="./theme/scripts/jquery-1.10.2.js" type="text/javascript"></script>
+    <style type="text/css">
+      .ui-datepicker .ui-datepicker-title {
+        margin: 0px 1.3em;
+        line-height: 1.8em;
+        text-align: center;
+      }
+    </style>
+  <script type="text/javascript">
+    var isSubmit = false;
+    function preventRepeatSubmit() {
+      if (isSubmit) {
+        return false;
+      } else {
+        isSubmit = true;
+        return true;
+      }
+    }
+  </script>
+</head>
+<body class="responsive">
+
+            <div id="mobile_nav_flyout_left" class="small medium inactive">
+              <div id="mobile_nav_flyout_left_container">
+                  <div class="bg_off_white">
+                        <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large inactive">
+                              <a title="Account Summary" class="block horizontal active" href="/html/acctSummary">
+                                  <span class="text-transform">Account Summary</span>
+                              </a>
+                        </h3>
+
+                        <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large inactive">
+                            <a title="Payment Options" class="block horizontal inactive" href="javascript:void(0);" onclick="more(this)">
+                                <span class="plus_minus"><span class="fa-plus"></span></span>
+                                <span class="text-transform">Payment Options</span>
+                            </a>
+                        </h3>
+                        <div class="accordion_content">
+                            <a title="Make A Payment" class="vertical bg_white button_menu_item " href="/exec/payment">
+                                <span class="indent_1 alignment_wide">Make A Payment</span><span class="fa-chevron-right"></span>
+                            </a>
+                            <a title="Review Payment Offers" class="vertical bg_white button_menu_item " href="/exec/program">
+                                <span class="indent_1 alignment_wide">Review Payment Offers</span><span class="fa-chevron-right"></span>
+                            </a>
+                            <a title="Manage Payment Methods" class="vertical bg_white button_menu_item " href="/payments/manageBankAccounts">
+                                <span class="indent_1 alignment_wide">Manage Payment Methods</span><span class="fa-chevron-right"></span>
+                            </a>
+                              <a title="Promise To Pay" class="vertical bg_white button_menu_item " href="/exec/promise">
+                                  <span class="indent_1 alignment_wide">Promise To Pay</span><span class="fa-chevron-right"></span>
+                              </a>
+                        </div>
+
+                        <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large active">
+                            <a title="Update Contact Info" class="block horizontal active" href="/flow/contactFlow">
+                                <span class="text-transform">Update Contact Info</span>
+                            </a>
+                        </h3>
+
+                        <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large active">
+                            <a title="Schedule Appointment" class="block horizontal active" href="/appointment/list">
+                                <span class="text-transform">Schedule Appointment</span>
+                            </a>
+                        </h3>
+
+                          <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large active">
+                              <a target="_blank" class="block horizontal active" href="/flow/workflow/start?ozEsYt=jgywGwqZLX2k37a65PNMeaBPCBiI6qcJwm0jsa8ZKCK8O1fOAAV1O7x7i6gmhlT54OfJgUnh8UZELHHtKskYNy3O0PQuViWGKZoAwdBbvlc=">
+                                  <span>Test Workflow</span>
+                              </a>
+                          </h3>
+                    <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large active">
+                          <a title="Logout" class="block horizontal active" href="/security/logout">
+                              <span class="text-transform">Logout</span>
+                          </a>
+                    </h3>
+                  </div>
+
+              </div>
+             </div>
+
+             <div id="mobile_nav_flyout_right" class="small medium inactive">
+                <div id="mobile_nav_flyout_right_container">
+                </div>
+              </div>
+            
+
+<div id="page_center">
+  <div id="page_center_container">
+    <div id='content'>
+      <div id='content_container'>
+        <div id='header'>
+          <div id='header_container'>
+          
+            <div id="mobile_nav" class="small medium">
+              <ul>
+                <li class="icon">
+                    <a class="menu_activator" href="javascript:mobile_menu('mobile_nav_flyout_left')"><span
+                      class="fa-bars"></span></a>
+                </li>
+                <li>
+Welcome <br/>
+                    <span class="weight_bold welcome_info">
+                        Jeffrey Collins
+                    </span>
+                </li>
+                <li class="icon">
+                  <a title="CMC" href="/html/acctSummary">
+                    <img class="logo" alt="CMC" src="./theme/images/logo/pnc_logo_rev.svg">
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div id="user_logout" class="large">
+                <div id="user_logout_container">
+                  <p class="weight_bold">Welcome &nbsp; 
+                          Jeffrey Collins
+                  &nbsp;|&nbsp;
+                    <a href="/security/logout">Logout</a>
+                  </p>
+                </div>
+            </div>
+            <div class="clear"></div>
+          
+          
+            <div id="top_nav" class="large">
+              <div id="top_nav_container">
+                <div class="multicolumn_row multicolumn_row_borderless">
+                  <div class="multicolumn_column top_logo_width">
+                    <div class="multicolumn_column_container">
+                      <a title="CMC" href="/html/acctSummary">
+                        <img alt="CMC" src="./theme/images/logo/pnc_logo_rev.svg">
+                      </a>
+                      <div class="column_fill">
+                      </div>
+                      <!-- End multicolumn_column_container -->
+                    </div>
+                    <!-- End multicolumn_column -->
+                  </div>
+                    <div class="multicolumn_column width_last top_nav_width">
+                      <div class="multicolumn_column_container">
+                        <ul id="top_nav_menu" class="hotspot_menu">
+                            <li id="top_nav_menu_0">
+                              <a title="Account Summary" href="/html/acctSummary" class="text-transform">Account Summary</a>
+                            </li>
+                            <li id="top_nav_menu_1" class="menu_button url_off not_full">
+                              <a title="Payment Options" class="menu_button_a text-transform" href="javascript:void(0);">Payment Options</a>
+                              <div id="top_nav_targets_1" class="top_nav_target flyout">
+                                <div class="article article_standard">
+                                  <p><a title="Make A Payment" href="/exec/payment">Make A Payment</a></p>
+                                  <p><a title="Review Payment Offers" href="/exec/program">Review Payment Offers</a></p>
+                                  <p><a title="Manage Payment Methods" href="/payments/manageBankAccounts">Manage Payment Methods</a></p>
+                                    <p><a title="Promise To Pay" href="/exec/promise">Promise To Pay</a></p>
+                                </div>
+                              </div>
+                            </li>
+                            <li id="top_nav_menu_2">
+                              <a title="Update Contact Info" href="/flow/contactFlow" class="text-transform">Update Contact Info</a>
+                            </li>
+                            <li id="top_nav_menu_3">
+                              <a title="Schedule Appointment" href="/appointment/list" class="text-transform">Schedule Appointment</a>
+                            </li>
+                              <li id="top_nav_menu_4">
+                                <a target="_blank" href="/flow/workflow/start?ozEsYt=jgywGwqZLX2k37a65PNMeaBPCBiI6qcJwm0jsa8ZKCK8O1fOAAV1O7x7i6gmhlT54OfJgUnh8UZELHHtKskYNy3O0PQuViWGKZoAwdBbvlc=">Test Workflow</a>
+                              </li>
+                        </ul>
+                        <div class="column_fill">
+                        </div>
+                        <!-- End multicolumn_column_container -->
+                      </div>
+                      <!-- End multicolumn_column -->
+                    </div>
+                  <!-- End multicolumn_row -->
+                </div>
+              </div>
+            </div>
+            
+            <div class='clear'>
+            </div>
+            <!-- End header_container -->
+          </div>
+          <div class='clear'>
+          </div>
+          <!-- End header -->
+        </div>
+        <div id='main'>
+          <div id='main_container'>
+            <div id="main_top">
+              <div id="main_top_container">
+              <form  id="paymentConfirmForm" action="/exec/payment" method="POST">
+                <div class="clear">&nbsp;</div>
+                <!--End main_top_container -->
+              </div>
+              <div class="clear">&nbsp;</div>
+              <!--End main_top-->
+            </div>
+            <div id="main_right_unit">
+              <div id="main_content_right_rail_unit">
+                <div id="main_content" class="no_right_rail">
+                  <div id="main_content_container">
+                    <div id="title_main_content" class="page_title">
+                      <h1 class="text-transform">Make A Payment<span class="page-header-stuffix">xxxxxxxxxxxx2475</span></h1>
+                      <!-- End title_main_content -->
+                    </div>
+                    <div class="article article_standard">
+                      <h3>Confirm Payment Information</h3>
+                    </div>
+                    <div class="article article_standard">
+                      <p>Please verify your payment information and click "Submit".</p>
+                      <!-- Article Ticket = ECM0000 -->
+                      <!-- End article -->
+                    </div>
+                    <div class="multicolumn_row multicolumn_row_standard">
+                      <div class="multicolumn_column width_50">
+                        <div class="multicolumn_column_container">
+                          <p class="no_top_margin">
+Payment Amount:                          </p>
+
+                          <div class="column_fill"></div>
+                          <!-- End multicolumn_column_container --></div>
+                        <!-- End multicolumn_column --></div>
+                      <div class="multicolumn_column width_50 width_last">
+                        <div class="multicolumn_column_container">
+                          <p>$34.00</p>
+
+                          <div class="column_fill"></div>
+                          <!-- End multicolumn_column_container --></div>
+                        <!-- End multicolumn_column --></div>
+                      <div class="clear"></div>
+                      <!-- ECM0000 -->
+                      <!-- End multicolumn_row -->
+                    </div>
+                    <div class='multicolumn_row_separator'></div>
+                    <div class="multicolumn_row multicolumn_row_standard">
+                      <div class="multicolumn_column width_50">
+                        <div class="multicolumn_column_container">
+                          <p class="no_top_margin">
+Payment Date:                          </p>
+
+                          <div class="column_fill"></div>
+                          <!-- End multicolumn_column_container --></div>
+                        <!-- End multicolumn_column --></div>
+                      <div class="multicolumn_column width_50 width_last">
+                        <div class="multicolumn_column_container">
+                          <p>08/01/2017</p>
+
+                          <div class="column_fill"></div>
+                          <!-- End multicolumn_column_container --></div>
+                        <!-- End multicolumn_column --></div>
+                      <div class="clear"></div>
+                      <!-- ECM0000 -->
+                      <!-- End multicolumn_row -->
+                    </div>
+                    <div class='multicolumn_row_separator'></div>
+                    <div class="multicolumn_row multicolumn_row_standard">
+                      <div class="multicolumn_column width_50">
+                        <div class="multicolumn_column_container">
+                          <p class="no_top_margin">
+Nick name:                          </p>
+
+                          <div class="column_fill"></div>
+                          <!-- End multicolumn_column_container --></div>
+                        <!-- End multicolumn_column --></div>
+                      <div class="multicolumn_column width_50 width_last">
+                        <div class="multicolumn_column_container">
+                          <p class="break_all_text">Savings Account</p>
+
+                          <div class="column_fill"></div>
+                          <!-- End multicolumn_column_container --></div>
+                        <!-- End multicolumn_column --></div>
+                      <div class="clear"></div>
+                      <!-- ECM0000 -->
+                      <!-- End multicolumn_row -->
+                    </div>
+                    <div class='multicolumn_row_separator'></div>
+                    <div class="multicolumn_row multicolumn_row_standard">
+                      <div class="multicolumn_column width_50">
+                        <div class="multicolumn_column_container">
+                          <p class="no_top_margin">
+Funding Account:                          </p>
+
+                          <div class="column_fill"></div>
+                          <!-- End multicolumn_column_container --></div>
+                        <!-- End multicolumn_column --></div>
+                      <div class="multicolumn_column width_50 width_last">
+                        <div class="multicolumn_column_container">
+                          
+                          <p>XXXXXXXXXXXX-8987</p>
+
+                          <div class="column_fill"></div>
+                          <!-- End multicolumn_column_container --></div>
+                        <!-- End multicolumn_column --></div>
+                      <div class="clear"></div>
+                      <!-- ECM0000 -->
+                      <!-- End multicolumn_row -->
+                    </div>
+                    <div class='multicolumn_row_separator'></div>
+                      <div class="multicolumn_row multicolumn_row_standard">
+                          <div class="multicolumn_column width_50">
+                              <div class="multicolumn_column_container">
+                                  <p class="no_top_margin">
+Reminder Alert:                                  </p>
+
+                                  <div class="column_fill"></div>
+                                  <!-- End multicolumn_column_container --></div>
+                              <!-- End multicolumn_column --></div>
+                          <div class="multicolumn_column width_50 width_last">
+                              <div class="multicolumn_column_container">
+
+                                  <p>
+SMS                                  </p>
+                                  <div class="column_fill"></div>
+                                  <!-- End multicolumn_column_container --></div>
+                              <!-- End multicolumn_column --></div>
+                          <div class="clear"></div>
+                          <!-- ECM0000 -->
+                          <!-- End multicolumn_row -->
+                      </div>
+                      <div class='multicolumn_row_separator'></div>
+                      <div class="multicolumn_row multicolumn_row_standard">
+                          <div class="multicolumn_column width_50">
+                              <div class="multicolumn_column_container">
+                                  <p class="no_top_margin">
+Reminder SMS Phone:                                  </p>
+
+                                  <div class="column_fill"></div>
+                                  <!-- End multicolumn_column_container --></div>
+                              <!-- End multicolumn_column --></div>
+                          <div class="multicolumn_column width_50 width_last">
+                              <div class="multicolumn_column_container">
+
+                                  <p>
+                                        9898543973
+                                  </p>
+                                  <div class="column_fill"></div>
+                                  <!-- End multicolumn_column_container --></div>
+                              <!-- End multicolumn_column --></div>
+                          <div class="clear"></div>
+                          <!-- ECM0000 -->
+                          <!-- End multicolumn_row -->
+                      </div>
+                      <div class='multicolumn_row_separator'></div>
+                    <input type="hidden" name="_flowExecutionKey" value="e1s4">
+
+                    <div class="multicolumn_row multicolumn_row_standard">
+                      <p>
+                        <b style="color:#1465B7;">Note: Click button only once.</b>
+                      </p>
+                      <p>
+                        <input type="submit" name="_eventId_cancel" value="Cancel"
+                               class="vertical button_standard bg_blue input_submit inline offset-r10 btn btn-default"/>
+                        <input type="submit" name="_eventId_review" value="Edit"
+                               class="vertical button_standard bg_blue input_submit inline offset-r10 btn btn-default"/>
+                        <input type="submit" name="_eventId_submit" value="Submit"  onclick="return preventRepeatSubmit();"
+                               class="vertical button_standard bg_blue input_submit inline offset-r10 btn btn-primary"/>
+                      </p>
+                    </div>
+                    <div class="clear"></div>
+                  </div>
+                  <div class="column_fill"></div>
+                  <div class="clear"></div>
+                  <!-- ECM0000 -->
+                  <!-- End multicolumn_row -->
+                </div>
+              </form>
+                <div class="clear">&nbsp;</div>
+                <!-- End main_content_right_rail_unit -->
+              </div>
+              <div class="clear"></div>
+              <!-- End main_right_unit -->
+            </div>
+          
+                        <div class="clear"></div>
+                        <div id="main_bottom">
+                            <div id="main_bottom_container">
+                                <div class="modal" id="timeoutCutDownWin">
+                                    <div class="modal_container">
+                                        <div class="modal_close right h2 no_top_margin"><a class="modal_link" href="javascript:void(0);"><span
+                                                class="fa-times-circle">&nbsp;</span></a></div>
+                                        <p class="h2">Session Timeout</p>
+                                        <hr>
+                                        <p>Due to lack of activity, this session will be logged out in 2 minutes.</p>
+
+                                        <p class="text_red">
+                                          <span id="sessionTimeoutLeftSeconds">
+120                                          </span>
+second(s) left ...                                        </p>
+                                        <p><a href="javascript:void(0);" onclick="activeSession();"
+                                              class="vertical button_standard bg_blue btn btn-primary">
+                                                <span>
+                                                  <strong>
+Keep Session Active                                                  </strong>
+                                                </span>
+                                              </a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="clear">&nbsp;</div>
+                            </div>
+                            <div class="clear">&nbsp;</div>
+                        </div>
+                        <div class="clear"></div>
+            
+            <div class='clear'></div>
+            <!-- End main_container -->
+          </div>
+          <div class='clear'></div>
+          <!-- End main -->
+        </div>
+        <div class='clear'></div>
+        <!-- End content_container -->
+      </div>
+    
+      <div id="footer">
+        <div id="footer_top_border">
+          <!-- End footer_top_border -->
+        </div>
+        <div id="footer_container">
+          <div class="article article_standard">
+            <p>
+              <span>
+                <a href="/doc/termsConditions" target="_blank">Terms and Conditions</a>
+                &nbsp;&nbsp;|&nbsp;
+                <a href="/doc/securityPolicy" target="_blank">Security Policy</a>
+                &nbsp;&nbsp;|&nbsp;
+                <a href="/doc/privacyPolicy" target="_blank">Privacy Policy</a>
+                &nbsp;&nbsp;|&nbsp;
+                <a href="/doc/contactUs" target="_blank">Contact Us</a>
+              </span>
+            </p>
+            <p>
+              <span>
+Copyright &copy; 2015                  <a id="usb" href="http://www.cmcagile.com" target="cmcuscorp">CMC US</a>
+              </span>
+              <span class="right">
+Call Us:&nbsp; 1-302-830-9262              </span>
+            </p>
+            <p></p>
+            <!-- End article -->
+          </div>
+          <div class="clear"></div>
+          <!-- End footer_container" -->
+        </div>
+        <div class="clear">
+        </div>
+        <!-- End footer -->
+      </div>
+            
+      <div class='clear'>
+      </div>
+      <!-- End content -->
+    </div>
+    <!-- End page_center_container -->
+  </div>
+  <!-- End page_center -->
+</div>
+
+
+<script src="./theme/js/global_js/global_framework_1.js" type="text/javascript"
+        language="javascript"></script>
+<script language="javascript" type="text/javascript"
+        src="./theme/js/sallie_mae_js/core/sallie_mae_core_1.js"></script>
+<script type="text/javascript" language="javascript"
+        src="./theme/js/loan_servicing_js/loan_servicing_1.js"></script>
+<script type="text/javascript" language="javascript"
+        src="./theme/js/loan_servicing_js/jquery-ui.min-1.11.2.js"></script>
+<script type="text/javascript">
+    var sessionCutDownTimes = 120;
+
+    var timeOutId = null;
+    function cutDownSessionTimeout() {
+        clearTimeout(timeOutId);
+        if (sessionCutDownTimes == 0) {
+            window.location.href = "/security/logout";
+        } else {
+            sessionCutDownTimes--;
+            jQuery("#sessionTimeoutLeftSeconds").html(sessionCutDownTimes);
+            timeOutId = setTimeout(cutDownSessionTimeout, 1000);
+        }
+    }
+    function activeSession() {
+        jQuery.ajax({
+            url: "/ping",
+            success: function (data, textStatus, xhr) {
+                var sessionTimeoutFlag = xhr.getResponseHeader("SessionTimeout")
+                if ("Y" == sessionTimeoutFlag)
+                    window.location.href = "/security/logout";
+                else {
+                    modalToggle("timeoutCutDownWin");
+                    clearTimeout(timeOutId);
+                }
+            }
+        });
+    }
+    function sessionTimeoutWarning() {
+        modalToggle("timeoutCutDownWin");
+        timeOutId = setTimeout(cutDownSessionTimeout, 1000);
+    }
+
+    function openPopupWin(uri) {
+        if (uri) {
+            window.frames["popupWinFrame"].location.href = uri;
+            openModal("popupWinModel");
+        }
+    }
+
+    function cancelPopupWin() {
+        modalToggle("popupWinModel");
+        return false;
+    }
+    $(document).ready(function () {
+          setTimeout(sessionTimeoutWarning, 1080* 1000);
+    });
+</script>
+            
+<script type="text/javascript">
+    var _form_validation = {
+        errorDisplayPrefix: "form_error_",
+        attr: {
+            errorPrefix: 'error_',
+            required: 'required',
+            fieldType: 'fieldtype',
+            fieldName: 'fieldname',
+            maxValue: 'maxvalue',
+            minValue: 'minvalue',
+            dateFormat: 'dateformat',
+            regExpr: 'regexpr'
+        },
+        availableFieldType: {
+            numeric: 'numeric',
+            date: 'date',
+            radio: 'radio'
+        },
+        fieldTypeReg: {
+            numeric: /^\d+(\.\d+)?$/
+        }
+    };
+
+    function initDateFields() {
+//        console.log('initDateFields');
+        var dateFields = jQuery("input[" + _form_validation.attr.fieldType + "='"
+                                + _form_validation.availableFieldType.date + "']");
+        for (var i = 0; i < dateFields.length; i++) {
+            var field = jQuery(dateFields[i]);
+            var availableDays = field.attr("availableDays") ?
+                                field.attr("availableDays").split(";") : null;
+            var dateFormat = field.attr('dateformat');
+            var dateTrigger = field.attr('dateTrigger');
+            if (!dateTrigger){
+               dateTrigger = 'button'
+            }
+//            console.log('dateFormat', dateFormat);
+            if (dateFormat) {
+//                console.log('dateFormat 2', dateFormat);
+                dateFormat = dateFormat.replace("yyyy", 'yy');
+                dateFormat = dateFormat.replace("MM", 'mm');
+                field.attr('dateformat', dateFormat);
+            }
+
+            var config = {
+                dateFormat: dateFormat || "yy-mm-dd",
+                maxDate:    field.attr("maxvalue") || null,
+                minDate:    field.attr("minvalue") || null,
+                yearRange:  field.attr("yearRange") || "c-10:c+10",
+                buttonImage: './theme/images/cal-icon32.png',
+                buttonImageOnly: false,
+                autoSize: true,
+                showOn: dateTrigger,
+                onGenerate: function (ct) {
+                  jQuery(this).find('.xdsoft_date').toggleClass('xdsoft_disabled');
+                },
+                buttonText : field.attr("buttonText") || '',
+                showButtonPanel: true,
+                changeYear: true,
+                changeMonth: true,
+                beforeShowDay: function (date) {
+                    if (!availableDays) {
+                        return [true, ""];
+                    }
+
+                    var dmy = jQuery.datepicker.formatDate(dateFormat, date);
+                    if (jQuery.inArray(dmy, availableDays) != -1) {
+                        return [true, ""];
+                    } else {
+                        return [false, ""];
+                    }
+                },
+                beforeShow: function (input) {
+                    setTimeout(function () {
+//                        var buttonPane = jQuery(input).datepicker("widget").find(".ui-datepicker-buttonpane");
+//
+//                        jQuery("<button>", {
+//                            text: "Clear",
+//                            click: function () {
+//                                //Code to clear your date field (text box, read only field etc.) I had to remove the line below and add custom code here
+//                                jQuery.datepicker._clearDate(input);
+//                            }
+//                        }).appendTo(buttonPane).addClass("ui-datepicker-clear ui-state-default ui-priority-primary ui-corner-all");
+                     //change today button opacity
+                     jQuery('button.ui-datepicker-current').css('opacity',1).css('font-weight','bold');
+                    }, 1);
+                }
+//              ,
+//                onChangeMonthYear: function (year, month, instance) {
+//                    setTimeout(function () {
+//                        var buttonPane = jQuery(instance)
+//                                .datepicker("widget")
+//                                .find(".ui-datepicker-buttonpane");
+//
+//                        jQuery("<button>", {
+//                            text: "Clear",
+//                            click: function () {
+//                                //Code to clear your date field (text box, read only field etc.) I had to remove the line below and add custom code here
+//                                jQuery.datepicker._clearDate(instance.input);
+//                            }
+//                        }).appendTo(buttonPane).addClass("ui-datepicker-clear ui-state-default ui-priority-primary ui-corner-all");
+//                    }, 1);
+//                }
+            };
+
+            field.datepicker(config);
+        }
+        /**
+         * override datepicker _gotoToday function
+         */
+        if(dateFields.length > 0 && jQuery.datepicker) {
+          var original_gotoToday = jQuery.datepicker._gotoToday;
+          jQuery.datepicker._gotoToday = function (id) {
+            var target = jQuery(id), inst = this._getInst(target[0]);
+            original_gotoToday.call(this, id);
+            this._selectDate(id, this._formatDate(inst, inst.selectedDay, inst.drawMonth, inst.drawYear));
+            inst.input.blur();
+          }
+        }
+    }
+
+    function validateForm(formId) {
+        if (!formId) {
+            throw "The param 'formId' is required.";
+        }
+        try {
+
+            var errorCount = 0;
+
+            var validateFormFields = function (formFields) {
+                for (var i = 0; i < formFields.length; i++) {
+                    var formField = jQuery(formFields[i]);
+                    errorCount += validateField(formField).length;
+                }
+            }
+
+            var inputFields = jQuery("#" + formId + " input[formField=true][type!='radio']");
+            validateFormFields(inputFields);
+            var textareaFields = jQuery("#" + formId + " textarea[formField=true]");
+            validateFormFields(textareaFields);
+            var selectFields = jQuery("#" + formId + " select[formField=true]");
+            validateFormFields(selectFields);
+            var radioFields = jQuery("#" + formId + " input[formField=true][type='radio']:checked");
+            validateFormFields(radioFields);
+
+            return errorCount <= 0;
+        } catch (e) {
+            console.log(e);
+        }
+        return false;
+    }
+
+    function printFieldErrors(formField, errors) {
+        var name = formField.attr("name") || formField.attr(_form_validation.attr.fieldName);
+        name = name.replace(".", "_");
+        var errorDisplay = jQuery("#" + _form_validation.errorDisplayPrefix + name);
+        if (errorDisplay) {
+            var html = "";
+            if (errors && errors.length > 0) {
+                for (var i = 0; i < errors.length; i++) {
+                    html += (( i != 0 ? "<br/>*&nbsp;&nbsp;&nbsp;&nbsp;" : "*&nbsp;&nbsp;&nbsp;&nbsp;") + errors[i]);
+                }
+            }
+            jQuery(errorDisplay).html(html);
+        }
+    }
+
+    function validateField(formField) {
+        var messageField = jQuery("#_form_error_msg");
+        var fieldName = formField.attr("name");
+        var fieldNamePrefix = fieldName + "_";
+        var errors = [];
+        var fieldType = formField.attr(_form_validation.attr.fieldType);
+        var val = formField.val();
+        var field = formField;
+
+        if (fieldType == _form_validation.availableFieldType.radio) {
+            var f = jQuery("input[name='" + formField.attr(_form_validation.attr.fieldName) + "']:checked");
+            if (f && f.length == 1) {
+                val = f.val();
+                field = f;
+            } else {
+                val = null;
+            }
+        }
+
+        var checkField = function () {
+            if (fieldType == _form_validation.availableFieldType.numeric) {
+                // test data type
+                var fieldTypeMatched = _form_validation.fieldTypeReg.numeric.test(val);
+                if (!fieldTypeMatched) {
+                    errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.fieldType) || "Data type is mismatched.");
+                } else {
+                    // check max & min value
+                    var maxValue = formField.attr(_form_validation.attr.maxValue);
+                    var minValue = formField.attr(_form_validation.attr.minValue);
+                    if (maxValue && (parseFloat(val) > parseFloat(maxValue))) {
+                        errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.maxValue) || ("The max value is " + maxValue + "."));
+                    }
+                    if (minValue && (parseFloat(val) < parseFloat(minValue))) {
+                        errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.minValue) || ("The min value is " + maxValue + "."));
+                    }
+                }
+            }
+            else if (fieldType == _form_validation.availableFieldType.date) {
+                var dateFormat = formField.attr(_form_validation.attr.dateFormat);
+                if (dateFormat) {
+                    var date = null;
+                    try {
+                        date = jQuery.datepicker.parseDate(dateFormat, val);
+                    } catch (e) {
+                        errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.fieldType) || "Invalid date format.");
+                    }
+                    if (date) {
+                        var maxDateOption = formField.datepicker("option", "maxDate");
+                        var maxDate = jQuery.datepicker._determineDate(date, maxDateOption);
+                        var minDateOption = formField.datepicker("option", "minDate");
+                        var minDate = jQuery.datepicker._determineDate(date, minDateOption);
+
+                        if (maxDate && date.getTime() > maxDate.getTime()) {
+                            errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.maxValue) || ("The max value is " + maxValue + "."));
+                        }
+                        if (minDate && date.getTime() < minDate.getTime()) {
+                            errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.minValue) || ("The min value is " + maxValue + "."));
+                        }
+                    }
+                }
+            }
+            else if (fieldType == _form_validation.availableFieldType.radio) {
+                var dateFormat = formField.attr(_form_validation.attr.dateFormat);
+                if (dateFormat) {
+                    var date = null;
+                    try {
+                        date = jQuery.datepicker.parseDate(dateFormat, val);
+                    } catch (e) {
+                        errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.fieldType) || "Invalid date format.");
+                    }
+                    if (date) {
+                        var maxDate = formField.datepicker("option", "maxDate");
+                        var minDate = formField.datepicker("option", "minDate");
+
+                        if (maxDate && date.getTime() > maxDate.getTime()) {
+                            errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.maxValue) || ("The max value is " + maxValue + "."));
+                        }
+                        if (minDate && date.getTime() < minDate.getTime()) {
+                            errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.minValue) || ("The min value is " + maxValue + "."));
+                        }
+                    }
+                }
+            }
+            else {
+                var regExpr = formField.attr(_form_validation.attr.regExpr);
+                if (regExpr) {
+                    var flag = false;
+                    try {
+                        var reg = new RegExp(regExpr);
+                        flag = reg.test(val)
+                    } catch (e) {
+                    }
+
+                    if (!flag) {
+                        errors.push(messageField.attr(fieldNamePrefix + _form_validation.attr.regExpr) || ("Mismatched regular expression: " + regExpr + ""));
+                    }
+                }
+            }
+        }
+        //check if answer is require.
+        var required = formField.attr(_form_validation.attr.required);
+        if (required) {
+            if (val) {
+                checkField()
+            } else {
+                errors.push(formField.attr(fieldNamePrefix + _form_validation.attr.required) || "Value is required.");
+            }
+        }
+        else {
+            checkField()
+        }
+        console.log('errors', errors);
+        printFieldErrors(field, errors);
+        return errors;
+    }
+
+    function showModalMask(modalDivId) {
+        jQuery(".modal-backdrop").show();
+    }
+
+    function hideModalMask(modalDivId) {
+        jQuery(".modal-backdrop").hide();
+    }
+
+    function openModal(modalDivId) {
+        jQuery("#" + modalDivId).show(150);
+        jQuery("#" + modalDivId).addClass("in");
+        showModalMask();
+    }
+
+    function closeModal(modalDivId) {
+        jQuery("#" + modalDivId).hide(150);
+        jQuery("#" + modalDivId).removeClass("in");
+        hideModalMask();
+    }
+
+    function showDialog(title, bodyContent) {
+        var _defaultDialog = jQuery("#_defaultDialog");
+        if (_defaultDialog) {
+            var titleElement = jQuery("#_defaultDialog h4[name='title']");
+            if (titleElement) {
+                jQuery(titleElement).html(title)
+            }
+
+            var body = jQuery("#_defaultDialog div[name='body']");
+            if (body) {
+                jQuery(body).html(bodyContent);
+            }
+
+            var closeBtn = jQuery("#_defaultDialog button[name='close']");
+            if (closeBtn) {
+                jQuery(closeBtn).bind('click', function () {
+                    jQuery(closeBtn).hide(150);
+                    jQuery(closeBtn).removeClass("in");
+                    hideModalMask();
+                });
+            }
+
+            _defaultDialog.show(150);
+            _defaultDialog.addClass("in");
+            jQuery(".modal-backdrop").show();
+        }
+    }
+
+    function _disableFormSubmit() {
+        var submitButtons = jQuery("[type!='submit']");
+        for (var i = 0; i < submitButtons.length; i++) {
+            var btn = submitButtons[i];
+            jQuery(btn).bind("click", function () {
+//                console.log("disable submit");
+                return false;
+            });
+        }
+    }
+
+    /**
+     * add  init smartPhone  dateField
+     */
+    function initSmartPhoneDateFields(){
+      var dateFields = jQuery("input[" + _form_validation.attr.fieldType + "='"
+                       + _form_validation.availableFieldType.date + "']");
+      for (var i = 0; i < dateFields.length; i++) {
+        var field = jQuery(dateFields[i]);
+        var config = {
+          availableDays: field.attr("availableDays") || ''
+        };
+        field.mobileDatePicker(config);
+      }
+    }
+    jQuery(document).ready(function () {
+//            initSmartPhoneDateFields();
+            initDateFields();
+    });
+
+</script></body>
+</html>

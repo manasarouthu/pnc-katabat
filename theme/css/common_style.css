@@ -1,0 +1,4475 @@
+
+
+.hide {
+    display: none;
+}
+
+.clearFix {
+    clear: both;
+}
+
+.secondContainer .errorMessage,
+.secondContainer .atg_store_formValidationError {
+    color: #018301!important;
+}
+
+
+
+div.live-help {
+    color: #FFF;
+    float: left;
+    font-size: 10px;
+    height: 33px;
+    letter-spacing: .025em;
+    line-height: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-transform: uppercase;
+}
+
+div.live-help a {
+    color: #FFF;
+    display: block;
+    text-decoration: none;
+    margin-top: 6px;
+    padding-top: 6px;
+}
+
+div.live-help a:hover {
+    color: #EA131D;
+}
+
+div.shopping-bag {
+    float: left;
+    font-size: 10px;
+    padding: 0 0 0 5px!important;
+}
+
+div.shopping-bag a#richCartTrigger {
+    color: #333;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: url("../images/ashford/cartIcon.png") no-repeat 0 8px;
+    padding: 12px 5px 10px 25px;
+    font-weight: bold;
+    letter-spacing: .025em;
+}
+
+span.bag-qty,
+span.bag-qty:hover {
+    background-color: #F00;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFF;
+    padding: 2px 3px;
+    margin-left: 4px;
+}
+
+div.login-register {
+    float: right;
+    font-size: 11px;
+    height: 33px;
+    letter-spacing: .15em;
+    line-height: 11px;
+    width: auto;
+    text-transform: uppercase;
+    background: url("../images/ashford/header_sep-white.png") repeat-y scroll left 0;
+}
+
+div.login-register #atg_store_userAccountNav,
+div.login-register .free {
+    float: left;
+    background: url("../images/ashford/header_sep-white.png") repeat-y scroll right 0;
+    padding: 0 10px 10px 0;
+    letter-spacing: .025em;
+}
+
+div.login-register #atg_store_userAccountNav {
+    padding-left: 20px;
+}
+
+div.login-register .registeredUser {
+    margin-left: 5px;
+}
+
+div.login-register .anonymousUser {
+    margin-left: 10px;
+}
+
+div.login-register .free {
+    padding: 12px 13px 10px 10px;
+}
+
+div.login-register .free a {
+    margin-top: 0;
+}
+
+.login-register #wishListClicked {
+    background: url('../images/icons/icon_star.png') no-repeat 0 -2px;
+    padding-left: 20px;
+    height: 12px;
+}
+
+.login-register #wishListClicked:hover {
+    background: url('../images/icons/icon_star.png') no-repeat 0 -15px!important;
+}
+
+div.login-register a {
+    color: #FFF;
+    display: inline-block;
+    margin-top: 9px;
+    text-decoration: none;
+    letter-spacing: .025em;
+    height: 22px;
+}
+
+.anonymousUser #logIn {
+    background: url("../images/ashford/commonIconsSprite.png") no-repeat scroll -18px -530px;
+    padding-left: 20px;
+    margin-left: -20px;
+    padding-top: 3px;
+}
+
+.registeredUser .atg_store_navAccount {
+    margin-left: -20px;
+}
+
+.registeredUser .atg_store_logoutLink {
+    margin-top: 12px;
+}
+
+div.login-register a:hover {
+    color: #EA131D;
+    text-decoration: none;
+    background-position: -18px -563px!important;
+}
+
+div.login-register a.atg_store_logoutLink:hover {
+    text-decoration: underline;
+    color: #FFF;
+}
+
+.header-wrapper {
+    background-image: url("../images/ashford/main-header-bg.png")!important;
+    background-position: center top;
+    background-repeat: repeat-x;
+    height: 135px;
+    box-shadow: 0 5px 20px rgba(50, 50, 50, 0.1);
+    margin: auto;
+    position: relative;
+    width: 100%;
+    z-index: 6;
+}
+
+.main-header {
+    height: 132px;
+    margin: 0 auto;
+    padding-top: 2px;
+    width: 1000px;
+}
+
+.top-header {
+    height: 96px;
+}
+
+.logo-navigation {
+    float: left;
+    width: 1000px;
+}
+
+.helper {
+    margin: 1px 13px 0;
+}
+
+.lang {
+    padding: 7px 7px 5px!important;
+    width: 98px;
+    height: 17px;
+    margin-top: 10px;
+}
+
+.site {
+    padding: 7px 7px 5px!important;
+    height: 17px;
+}
+
+.helper a {
+    color: #A1A2A2;
+    display: inline-block;
+    height: 15px;
+    padding-top: 1px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+#emailJoinHeader {
+    float: left;
+    height: 19px;
+    margin-top: 1px;
+    margin-right: 1px;
+    width: 215px;
+}
+
+ul.navigation {
+    background: url("../images/ashford/nav_border.png") no-repeat left 0;
+    height: 35px;
+}
+
+ul.navigation li {
+    background: url("../images/ashford/nav_border.png") no-repeat right 0;
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    font-family: 'cabinmedium';
+    position: relative;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 0;
+    border-radius: 4px 4px 0 0;
+    height: 35px;
+}
+
+.ie8 ul.navigation li.menu-item {
+    padding: 0;
+}
+
+.ie8 ul.navigation li .topNavSpan {
+    padding: 0 21.8px;
+}
+
+ul.navigation li .topCatLinks {
+    color: #393939;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: left;
+    padding: 8px 13px 8px 14px;
+    font-size: 14px;
+}
+
+ul.navigation li.menu-item:last-child {
+    float: right;
+}
+
+ul.navigation li:last-child .topCatLinks {
+    padding: 7px 9px 7px 8px;
+}
+
+ul.navigation .menu-item-focused,
+ul.navigation .menu-item:hover {
+    border-bottom: 4px solid #2b2a2a;
+    background: #2b2a2a;
+}
+
+ul.navigation .special-hover:hover {
+    border-bottom: 4px solid #2B2A2A;
+}
+
+ul.navigation li:hover .topCatLinks {
+    color: #fff;
+}
+
+.nav-last {
+    background: url("../images/ashford/main_nav_up.jpg") no-repeat scroll left 0 #ECECEC;
+    float: left;
+    height: 30px;
+    margin-top: 10px;
+    padding-top: 20px;
+    width: 2px;
+}
+
+.atg_store_catSubNv {
+    background: none repeat scroll 0 0 #f1f1f1;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    margin-top: 0;
+    width: 600px;
+    left: 0;
+    top: 32px;
+}
+
+.lastItem {
+    left: auto;
+    right: 0;
+}
+
+.atg_store_dropDownParent_1 .atg_store_catSubNv,
+.atg_store_dropDownParent_2 .atg_store_catSubNv,
+.atg_store_dropDownParent_3 .atg_store_catSubNv {
+    min-width: 1000px;
+}
+
+#onlyTopNav .atg_store_dropDownParent_1 .atg_store_catSubNv {
+    left: -48px;
+}
+
+.atg_store_dropDownParent_2 .atg_store_catSubNv {
+    left: -171px;
+}
+
+#onlyTopNav .atg_store_dropDownParent_2 .atg_store_catSubNv {
+    left: -196px;
+}
+
+.atg_store_dropDownParent_3 .atg_store_catSubNv {
+    left: -344px;
+}
+
+#onlyTopNav .atg_store_dropDownParent_3 .atg_store_catSubNv {
+    left: -346px;
+}
+
+.atg_store_dropDownParent_4 .atg_store_catSubNv {
+    width: 459px;
+}
+
+@-moz-document url-prefix() {
+    .atg_store_dropDownParent_4 .atg_store_catSubNv {
+        width: 464px;
+    }
+    .atg_store_dropDownParent_2 .atg_store_catSubNv {
+        left: -170px;
+    }
+    .atg_store_dropDownParent_3 .atg_store_catSubNv {
+        left: -342px;
+    }
+}
+
+.atg_store_dropDownParent_6 .atg_store_catSubNv {
+    width: auto;
+}
+
+.dj_ie8 .atg_store_catSubNv {
+    width: 580px;
+}
+
+.dj_ie8 .atg_store_dropDownParent_4 .atg_store_catSubNv {
+    width: 400px;
+}
+
+.dj_ie8 .atg_store_dropDownParent_6 .atg_store_catSubNv {
+    width: auto;
+}
+
+.atg_store_catSubNv .catSubNvWrap {
+    border: 10px solid #2B2A2A;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(50, 50, 50, 0.5);
+}
+
+.atg_store_catSubNv .sub_category {
+    float: left;
+    margin: 0 20px 0 0;
+    width: 160px;
+}
+
+.atg_store_dropDownParent_2 .atg_store_catSubNv .catSubNvWrap,
+.atg_store_dropDownParent_3 .atg_store_catSubNv .catSubNvWrap {
+    padding: 0;
+    height: 289px;
+}
+
+.atg_store_dropDownParent_2 .atg_store_catSubNv .catSubNvWrap {
+    background: url("../images/ashford/dropdown_men.jpg") no-repeat 755px 0;
+}
+
+.atg_store_dropDownParent_3 .atg_store_catSubNv .catSubNvWrap {
+    background: url("../images/ashford/dropdown_women.jpg") no-repeat 755px 0;
+}
+
+.atg_store_dropDownParent_2 .atg_store_catSubNv .sub_category,
+.atg_store_dropDownParent_3 .atg_store_catSubNv .sub_category {
+    width: 162px;
+    padding: 28px 10px 0 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.atg_store_dropDownParent_2 .atg_store_catSubNv .sub_category:nth-of-type(1),
+.atg_store_dropDownParent_3 .atg_store_catSubNv .sub_category:nth-of-type(1) {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.atg_store_dropDownParent_2 .atg_store_catSubNv .sub_category:nth-of-type(2),
+.atg_store_dropDownParent_3 .atg_store_catSubNv .sub_category:nth-of-type(2) {
+    margin-top: 25px;
+    margin-right: 0;
+}
+
+.atg_store_dropDownParent_2 .atg_store_catSubNv .sub_category:nth-of-type(3),
+.atg_store_dropDownParent_3 .atg_store_catSubNv .sub_category:nth-of-type(3) {
+    padding-right: 5px;
+}
+
+.atg_store_dropDownParent_2 .atg_store_catSubNv .sub_category:nth-of-type(3),
+.atg_store_dropDownParent_2 .atg_store_catSubNv .sub_category:nth-of-type(4),
+.atg_store_dropDownParent_3 .atg_store_catSubNv .sub_category:nth-of-type(3),
+.atg_store_dropDownParent_3 .atg_store_catSubNv .sub_category:nth-of-type(4) {
+    border-left: 1px dotted #dadada;
+    min-height: 289px;
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.atg_store_catSubNv .sub_category .alp,
+.atg_store_catSubNv .sub_category h2 {
+    color: #5D5D5D;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 4px;
+}
+
+.atg_store_catSubNv .sub_category h2 {
+    margin-bottom: 8px;
+    padding-left: 10px;
+}
+
+.atg_store_catSubNv .sub_category li {
+    background: none repeat scroll 0 0 transparent;
+    cursor: text;
+    float: none;
+    font-size: 11px;
+    font-weight: normal;
+    height: auto;
+    letter-spacing: 0;
+    margin: 0 0 4px;
+    padding: 0;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.atg_store_dropDownParent_1 .atg_store_catSubNv .catSubNvWrap {
+    padding: 20px 15px 20px 30px;
+}
+
+.atg_store_dropDownParent_1 .atg_store_catSubNv .sub_category li {
+    margin-bottom: 0;
+}
+
+.atg_store_dropDownParent_1 .atg_store_catSubNv .sub_category li .alp {
+    margin-top: 10px;
+    font-family: 'cabinmedium';
+}
+
+.atg_store_dropDownParent_1 .atg_store_catSubNv .sub_category li:first-child .alp {
+    margin-top: 0;
+}
+
+.atg_store_catSubNv .sub_category:last-child {
+    margin: 0;
+}
+
+.atg_store_catSubNv .sub_category li a {
+    border-radius: 2px 2px 2px 2px;
+    color: #393939;
+    font-size: 11px;
+    padding: 7px 0 7px 10px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.atg_store_dropDownParent_1 .atg_store_catSubNv .sub_category li a {
+    padding: 3px 0 3px 5px;
+    font-size: 10px;
+}
+
+.atg_store_catSubNv .sub_category li a:hover {
+    background: #e7e7e7;
+    text-decoration: none;
+}
+
+.searchWrap {
+    background: #F2F2F2;
+    float: right;
+    margin-top: 35px;
+    position: absolute;
+    left: 30%;
+    border: solid 1px #ddd;
+}
+
+#atg_store_search {
+    width: 375px;
+}
+
+#targeting-data form {
+    background: #FFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 1px 1px #E4E4E4 inset;
+    padding: 3px;
+    height: 24px;
+    position: relative;
+}
+
+#targeting-data form .text {
+    border: medium none;
+    color: #8E8E8E;
+    float: left;
+    font-size: 11px;
+    font-style: italic;
+    outline: medium none;
+    padding: 6px 6px 5px 4px;
+    width: 262px;
+}
+
+#atg_store_searchSubmit {
+    border: medium none;
+    cursor: pointer;
+    float: right;
+    margin-left: 4px;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    height: 23px;
+    font-weight: bold;
+}
+
+#atg_store_search.active {
+    border: 6px solid #2B2A2A;
+    box-shadow: 0 5px 10px rgba(50, 50, 50, 0.5);
+    height: 32px;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 541px;
+    z-index: 10;
+}
+
+#atg_store_search.active form {
+    border-radius: 0;
+    width: 533px;
+}
+
+#atg_store_search.active form .text {
+    width: 422px;
+}
+
+#targeting-data div.autocomplete,
+#onlyTopNav div.autocomplete {
+    position: relative;
+    width: 247px;
+    background-color: #FFF;
+    border: 6px solid #2B2A2A;
+    margin: 0;
+    padding: 10px;
+    z-index: 9999;
+    color: crimson;
+    font-weight: bold;
+    display: none;
+    clear: both;
+    border-top: none;
+    box-shadow: 0 5px 10px rgba(50, 50, 50, 0.5);
+}
+
+#onlyTopNav div.autocomplete {
+    border: 0 solid #2B2A2A;
+}
+
+#targeting-data div.autocomplete ul,
+#onlyTopNav div.autocomplete ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#targeting-data div.autocomplete ul li.selected,
+#onlyTopNav div.autocomplete ul li.selected {
+    color: #EF1919;
+}
+
+#targeting-data div.autocomplete ul li,
+#onlyTopNav div.autocomplete ul li {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 2px;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+#onlyTopNav div.autocomplete ul li {
+    list-style-type: none;
+    display: block;
+    margin: 0;
+    padding: 2px;
+    cursor: pointer;
+    font-weight: normal;
+    text-align: left;
+    background: none;
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    clear: both;
+}
+
+#targeting-data div.autocomplete ul li a,
+#onlyTopNav div.autocomplete ul li a {
+    color: #666;
+}
+
+#targeting-data div.autocomplete ul li:hover,
+#onlyTopNav div.autocomplete ul li:hover {
+    background: #ddd;
+    text-decoration: none;
+}
+
+#targeting-data div.show_autocomplete,
+#onlyTopNav div.show_autocomplete {
+    display: block;
+    position: absolute;
+    width: 521px;
+    top: 31px;
+    left: -7px;
+}
+
+#onlyTopNav div.show_autocomplete {
+    width: 468px;
+    left: 22px;
+    border-top: none;
+    top: 46px;
+}
+
+.dj_ie #targeting-data div.autocomplete,
+.dj_ie #targeting-data div.show_autocomplete,
+.dj_ie #onlyTopNav div.autocomplete,
+.dj_ie #onlyTopNav div.show_autocomplete {
+    width: 228px;
+    top: 33px;
+}
+
+.dj_ie #targeting-data #site-search-box-form {
+    width: auto;
+}
+
+.top-header .shipping,
+.top-header .order-status {
+    padding-top: 9px;
+    padding-bottom: 4px;
+}
+
+.sale-tag-wrapper {
+    height: 0;
+    position: relative;
+    width: 0;
+}
+
+.cust-serv-dd-wrapper {
+    display: none;
+    height: 0;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.cust-serv-dd {
+    background: none repeat scroll 0 0 #FAFAFA;
+    height: 91px;
+    left: 0;
+    position: relative;
+    top: -31px;
+    z-index: 10;
+    float: right;
+    width: 101%;
+}
+
+.cust-serv-dd-inner {
+    margin: auto;
+    width: auto;
+}
+
+ul.cs-dd li {
+    border-right: 2px dotted #E9ECEC;
+    float: left;
+    margin: 2px auto;
+    padding: 43px 27px;
+    text-align: center;
+    height: 5px;
+}
+
+ul.cs-dd li.first {
+    padding-left: 0;
+}
+
+ul.cs-dd li.first .logo {
+    top: -28px;
+    margin-left: 11px;
+}
+
+.dj_ie ul.cs-dd li.first .logo {
+    margin-left: 10px;
+}
+
+ul.cs-dd li a,
+ul.cs-dd .last {
+    color: #999;
+    font-family: 'cabinmedium';
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul.cs-dd li.last {
+    border-right: medium none;
+}
+
+.cust-serv-dd-arrow {
+    display: none;
+    height: 20px;
+    left: 50px;
+    position: absolute;
+    top: 23px;
+    width: 40px;
+    z-index: 9;
+}
+
+#brandsData {
+    float: left;
+    height: 240px;
+    overflow: hidden;
+}
+
+#selectedBrands {
+    float: left;
+    height: 200px;
+}
+
+ul.cs-dd li a:hover,
+.helper a:hover {
+    color: #EA131D;
+    text-decoration: none;
+}
+
+ul.cs-dd li.last:hover {
+    color: #EA131D;
+}
+
+.helper a:hover {
+    color: #ED0A0A;
+}
+
+.alphabet-links a:hover,
+.all-brands-text a:hover,
+.new-brands-nav div.column1 ul li a:hover,
+#selectedBrands li a:hover {
+    text-decoration: underline;
+    color: #ED0A0A;
+}
+
+.lang ul {
+    float: left;
+}
+
+#english a {
+    padding-top: 3px;
+}
+
+#chinese a {
+    padding-top: 2px;
+}
+
+.hide-sale-tag {
+    display: none;
+}
+
+.sub-nav-wrap {
+    padding-left: 215px;
+}
+
+.new-footer-inner a {
+    color: #fff;
+}
+
+.alphabet-links a.selected {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#atg_store_content .new-spacer {
+    float: left;
+    width: 1000px;
+    margin-left: -10px;
+    background-color: transparent!important;
+}
+
+#atg_store_wrapshadow {
+    margin: 0 auto;
+    width: 1000px!important;
+}
+
+.sale-tag {
+    background: url("../images/ashford/sale-tag.png") no-repeat scroll -28px -1px transparent;
+    height: 90px;
+    left: 0;
+    position: absolute;
+    top: 39px;
+    width: 60px;
+    z-index: 10;
+    display: none;
+}
+
+#emailJoin .atg_email_signUp {
+    height: 28px;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 100px;
+}
+
+.basicForm {
+    clear: both;
+    float: left;
+    margin-top: 10px;
+}
+
+.basicForm li {
+    clear: both;
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+.basicForm label {
+    color: #8B8B8B;
+    display: block;
+    font-size: 1em;
+}
+
+.basicForm input.text {
+    border: 1px solid #d4d4d4;
+    font-size: 1.2em;
+    width: 200px;
+}
+
+.basicForm SELECT {
+    margin: 0;
+    padding: 3px;
+    width: 300px;
+}
+
+.basicForm input.submitButton {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: transparent;
+    cursor: pointer;
+}
+
+#subNav_1,
+#subNav_2,
+#subNav_3,
+#subNav_4,
+#subNav_6,
+#subNav_7 {
+    width: 150px;
+}
+
+ul.navigation li:hover div.atg_store_catSubNv {
+    display: block;
+}
+
+#navlist {
+    position: relative;
+}
+
+#navlist li {
+    margin: 0 5px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+#navlist li,
+#navlist a {
+    height: 44px;
+    width: 44px;
+    display: inline-block;
+}
+
+#facebook,
+#youTube,
+#twitter,
+#pinterest,
+#tumbler,
+#weibo {
+    background: url('../images/ashford/commonIconsSprite.png') no-repeat;
+}
+
+#facebook {
+    background-position: -3px -223px;
+}
+
+#youTube {
+    background-position: -3px -418px;
+}
+
+#twitter {
+    background-position: -3px -273px;
+}
+
+#pinterest {
+    background-position: -3px -321px;
+}
+
+#tumbler {
+    background-position: -3px -371px;
+    margin-right: 0!important;
+}
+
+.ulimage #weibo {
+    background-position: -3px -608px;
+}
+
+.ulimage {
+    margin: 0 auto;
+    text-align: center;
+    width: 236px;
+}
+
+.marketing_promo {
+    float: left;
+    margin-left: 10px;
+}
+
+.marketing-slot-1 {
+    float: left;
+}
+
+#footer_catSubNv {
+    display: block;
+}
+
+#alphabetLinks .unselected,
+#alphabetLinks .selected {
+    margin-left: 5px;
+    margin-right: 6px;
+}
+
+#shipping_bar {
+    float: left;
+}
+
+#catSubNavWrap {
+    width: 960px;
+    padding: 50px 50px 0 75px;
+}
+
+#catSubNavWrap ul.sub_category {
+    width: 191px;
+    float: left;
+}
+
+#catSubNavWrap ul.sub_category li {
+    padding-bottom: 15px;
+}
+
+#catSubNavWrap ul.sub_category li span.alphabet {
+    color: #666;
+    font-family: 'cabinmedium';
+    font-size: 25px;
+    line-height: 28px;
+}
+
+#catSubNavWrap ul.sub_category li a {
+    color: #171717;
+    font-size: 13px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#catSubNavWrap ul.sub_category li a:hover {
+    color: #ED0A0A;
+    text-decoration: underline;
+}
+
+#atg_store_bdy #atg_store_content .atg_store_generalMessage {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    text-align: left;
+}
+
+#atg_store_bdy #atg_store_content .atg_store_generalMessage a.atg_store_basicButton span {
+    background: none;
+    color: #FFF;
+    padding: 0;
+    text-shadow: none;
+    white-space: nowrap;
+    font-family: josefinsansstdlight;
+}
+
+.atg_store_welcome #welcomeLink,
+.atg_store_welcome #firstName,
+.atg_store_welcome #signoutLink,
+.atg_store_welcome #seeMore {
+    float: left;
+}
+
+#welcomeLink a.atg_store_navAccount {
+    background: url("../images/ashford/commonIconsSprite.png") no-repeat scroll -10px -530px;
+    display: inline-block;
+    padding-bottom: 3px;
+    padding-left: 30px;
+    padding-top: 3px;
+    float: left;
+}
+
+#welcomeLink a.atg_store_navAccount:hover {
+    background-position: -10px -563px!important;
+}
+
+.atg_store_welcome #firstName,
+.atg_store_welcome #seeMore {
+    display: inline;
+    float: none;
+    font-weight: bold;
+}
+
+.atg_store_welcome #firstName {
+    float: none;
+    margin-top: 0;
+    font-weight: normal;
+    font-family: cabinmedium;
+    display: inline;
+}
+
+.atg_store_welcome #firstName:hover {
+    color: #EA131D;
+}
+
+#atg_store_outsideWrapper .breadcrumb {
+    font-size: 11px;
+    margin: 0 0 10px 0;
+    padding: 5px 0 0 0;
+}
+
+#atg_store_outsideWrapper .breadcrumb a {
+    text-decoration: none;
+}
+
+#atg_store_outsideWrapper .atg_store_View_Comparisions_wrapper_div {
+    float: right;
+    margin-right: 10px;
+    display: none;
+}
+
+.atg_store_pageProductDetail #atg_store_outsideWrapper .atg_store_View_Comparisions_wrapper_div {
+    margin-bottom: -18px;
+}
+
+.atg_store_productNotAvailable #atg_store_contentHeader {
+    background: none!important;
+    min-height: 0;
+}
+
+.atg_store_productNotAvailable .atg_store_generalMessage {
+    width: auto;
+    margin: 0;
+}
+
+.profileEditPage .example {
+    text-transform: uppercase;
+}
+
+.alt-column {
+    background: url("../images/newdesign/bg_gradient.jpg") repeat-x scroll 0 0 #ECECEC;
+    border: 1px solid #E5E5E5;
+    color: #666;
+    float: left;
+    margin: 0 25px 25px;
+    width: 345px;
+    min-height: 233px;
+    padding: 35px;
+}
+
+.atg_store_subHeadCustom_style {
+    color: #666;
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-bottom: 4px;
+    font-family: 'cabinmedium';
+    text-transform: uppercase;
+}
+
+.atg_store_orderDetails .message,
+.alt-column .message {
+    font-family: 'cabinmedium';
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+
+.privacy_policy {
+    margin-top: 20px;
+}
+
+.privacy_policy a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.alt-column input.text {
+    border: 1px solid #D4D4D4;
+    box-shadow: 2px 2px 2px 0 #DDD inset;
+    font-family: cabinmedium;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0 0 6px;
+    padding: 8px 3px 8px 8px;
+    width: 310px;
+}
+
+#registeredUser input.text {
+    width: 90%;
+}
+
+.alt-column .login_form_link {
+    float: left;
+    margin-top: 20px;
+    width: 160px;
+}
+
+.alt-column .login_form_link a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.alt-column .login_form_submitdiv {
+    float: right;
+    margin-right: 17px;
+    margin-top: 15px;
+    width: 114px;
+}
+
+#registeredUser .basicForm {
+    width: 100%;
+}
+
+#registeredUser .basicForm li {
+    margin: 0;
+    width: 100%;
+}
+
+.alt-column .atg_store_generalMessage a.atg_store_basicButton {
+    float: left;
+    clear: both;
+    margin-top: 35px;
+}
+
+.alt-column .privacy_policy {
+    float: left;
+    clear: both;
+    margin-top: 10px;
+}
+
+.alt-column .create_an_account_two_ul_left {
+    float: left;
+    height: 83px;
+}
+
+.searchWrap #currencyChange {
+    float: left;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#autocomplete_choices .column,
+#miniAutocomplete_choices .column {
+    padding-right: 20px;
+}
+
+#miniAutocomplete_choices .column {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.searchWrap .top-bar-spacer {
+    background: url("../images/ashford/header_sep.png") repeat-y scroll right 0;
+    height: 42px;
+}
+.searchWrap .off {
+    float: left;
+    color: #333!important;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 2px 12px 6px 0;
+    width: auto;
+}
+
+.searchWrap .off:hover,
+.searchWrap>a.active {
+    background: #000;
+    color: #FFF!important;
+}
+
+.searchWrap #arrow {
+    width: 12px;
+    height: 9px;
+    float: right;
+    background: url('../images/arrow_header2.png') 0 0 no-repeat;
+    margin-top: 12px;
+}
+
+.searchWrap .off:hover>span#arrow,
+.searchWrap .off.active>span#arrow {
+    background-position: 0 -10px;
+}
+
+.searchWrap #flag {
+    margin: 4px 7px 0 5px;
+    float: left;
+}
+
+.searchWrap #text {
+    float: left;
+    margin-top: 10px;
+    margin-right: 7px;
+}
+
+.searchWrap #shipLangCurrDropDown {
+    display: block;
+    position: absolute;
+    top: 44px;
+    background: #282828 url('../images/bg_countries.png') no-repeat 116px 3px;
+    z-index: 1000;
+    width: 320px;
+    -webkit-box-shadow: 0 5px 10px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 0 5px 10px rgba(50, 50, 50, 0.5);
+    box-shadow: 0 5px 10px rgba(50, 50, 50, 0.5);
+}
+
+.searchWrap #shipLangCurrContainer {
+    background: #f1f1f1;
+    float: left;
+    width: 300px;
+    margin: 10px;
+    padding-top: 20px;
+}
+
+.searchWrap .country-title {
+    text-align: center;
+    font-family: cabinmedium;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    line-height: 18px;
+}
+
+#currencyChange select,
+#currencyChange #currChange {
+    width: 240px;
+    padding: 8px!important;
+    float: left;
+}
+
+#currencyChange #submitCountrySel {
+    float: left;
+    width: 260px;
+    text-align: center;
+}
+
+#currencyChange .section {
+    margin: 0 0 15px 0;
+}
+
+#currencyChange .section span {
+    text-transform: uppercase;
+    font-family: 'cabinmedium', sans-serif;
+    font-weight: 500;
+    color: #707070;
+    display: inline-block;
+    letter-spacing: .03em;
+    font-size: 10px;
+}
+
+#currencyChange #shipLangCurr {
+    float: left;
+}
+
+#country-dropdown-footer {
+    margin: 15px 0 0;
+    padding: 15px 0 0 0;
+    float: left;
+    width: 260px;
+}
+
+#country-dropdown-footer a {
+    font-size: 10px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    float: left;
+    color: #333;
+}
+
+#country-dropdown-footer #leftLink {
+    margin: 0 48px 0 0;
+}
+
+.topNavSpan {
+    background-repeat: no-repeat!important;
+    display: inline-block;
+    padding: 0 19px;
+}
+
+#joinAListResult {
+    text-align: center;
+    font-family: cabinmedium;
+    font-weight: normal;
+    font-style: normal;
+    color: #ed0a0a;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#onlyTopNav {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    border-bottom: 1px solid #BDBDBD;
+    z-index: 6000;
+    box-shadow: 0 2px 15px rgba(35, 31, 32, 0.5);
+    margin-top: 3px;
+}
+
+#onlyTopNav ul.navigation {
+    background: url("../images/ashford/main-header-bg.png");
+    height: 43px;
+    width: 100%;
+    text-align: center;
+    background-position: 0 -91px;
+}
+
+#onlyTopNav ul.navigation li.menu-item {
+    padding-top: 3px;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    height: 36px;
+    margin-left: -3px;
+}
+
+#onlyTopNav ul.navigation .menu-item:hover {
+    background: #2b2a2a;
+}
+
+#onlyTopNav ul.navigation li .topCatLinks {
+    padding: 7px 13px 3px 14px;
+    font-size: 13px;
+}
+
+#onlyTopNav ul.navigation li:last-child .topCatLinks {
+    padding: 7px 9px 3px 8px;
+}
+
+#onlyTopNav .atg_store_catSubNv {
+    margin-top: 9px;
+}
+
+#onlyTopNav .topNavSpan {
+    padding: 6px 12px;
+}
+
+#onlyTopNav #ashfordNavLogo {
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+#onlyTopNav #ashfordNavLogo img {
+    width: 32px;
+}
+
+.form-element-hide input[type="text"] {
+    width: 90%;
+    margin: 0 0 6px;
+    border: 1px solid #d4d4d4;
+    padding: 8px 3px 8px 8px;
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
+    -webkit-box-shadow: inset 2px 2px 2px 0 #ddd;
+    -moz-box-shadow: inset 2px 2px 2px 0 #ddd;
+    box-shadow: inset 2px 2px 2px 0 #ddd;
+}
+
+.form-element-hide .atg_store_emailCaptchaValue #atg_store_emailAFriendSenderEmailCaptcha,
+.atg_store_emailCaptchaValue #atg_store_emailAFriendSenderEmailCaptcha {
+    text-transform: none;
+}
+
+.form-element-hide textarea {
+    width: 94%;
+    border: 1px solid #d4d4d4;
+    padding: 8px;
+    min-height: 100px;
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 500;
+    -webkit-box-shadow: inset 2px 2px 2px 0 #ddd;
+    -moz-box-shadow: inset 2px 2px 2px 0 #ddd;
+    box-shadow: inset 2px 2px 2px 0 #ddd;
+}
+
+.gradient-black-btn {
+    border: 1px solid #000;
+    padding: 10px 12px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    background: #535353;
+    background: -moz-linear-gradient(top, #535353 0, #292929 100%);
+    background: -o-linear-gradient(top, #535353 0, #292929 100%);
+    background: -ms-linear-gradient(top, #535353 0, #292929 100%);
+}
+
+.gradient-black-btn:hover {
+    background: #292929;
+    background: -moz-linear-gradient(top, #292929 0, #535353 100%);
+    background: -o-linear-gradient(top, #292929 0, #535353 100%);
+    background: -ms-linear-gradient(top, #292929 0, #535353 100%);
+}
+
+.a-list-content .error {
+    color: #f00;
+}
+
+.dropdown {
+    margin: 8px auto;
+    position: absolute;
+    left: -999em;
+    padding: 10px 10px 10px 10px;
+    background: #2b2a2a;
+    -webkit-box-shadow: 0 5px 10px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 0 5px 10px rgba(50, 50, 50, 0.5);
+    box-shadow: 0 5px 10px rgba(50, 50, 50, 0.5);
+    z-index: 101;
+}
+
+.dropdown .dropdown_container {
+    position: relative;
+    background: #f1f1f1;
+    padding: 15px 10px 15px 20px;
+}
+
+.dropdown.brands .dropdown_container {
+    padding-bottom: 10px;
+}
+
+.dropdown .dropdown_container>div {
+    display: inline;
+    float: left;
+}
+
+.searchWrap #cart {
+    margin-top: 3px;
+}
+
+
+.ddcommon {
+    position: relative;
+    display: -moz-inline-stack;
+    zoom: 1;
+    display: inline-block;
+    *display: inline;
+    cursor: default;
+}
+
+.ddcommon ul {
+    padding: 0;
+    margin: 0;
+}
+
+.ddcommon ul li {
+    list-style-type: none;
+}
+
+.ddcommon .disabled img,
+.ddcommon .disabled span,
+.ddcommon.disabledAll {
+    opacity: .5;
+    -ms-filter: "alpha(opacity=50)";
+    filter: alpha(opacity=50);
+    -khtml-opacity: .5;
+    -moz-opacity: .5;
+    color: #999;
+}
+
+.ddcommon .clear {
+    clear: both;
+}
+
+.ddcommon .shadow {
+    -moz-box-shadow: 5px 5px 5px -5px #888;
+    -webkit-box-shadow: 5px 5px 5px -5px #888;
+    box-shadow: 5px 5px 5px -5px #888;
+}
+
+.ddcommon input.text {
+    color: #7e7e7e;
+    padding: 0;
+    position: absolute;
+    background: #fff;
+    width: 98%;
+    height: 98%;
+    left: 2px;
+    top: 0;
+    border: none;
+}
+
+.ddOutOfVision {
+    position: relative;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+
+img.fnone {
+    float: none!important;
+}
+
+.ddcommon .divider {
+    width: 0;
+    height: 100%;
+    position: absolute;
+}
+
+.ddcommon .arrow {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 4px;
+}
+
+.ddcommon .arrow:hover {
+    background-position: 0 100%;
+}
+
+.ddcommon .ddTitle {
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.ddcommon .ddTitle .ddTitleText {
+    display: block;
+}
+
+.ddcommon .ddTitle .ddTitleText .ddTitleText {
+    padding: 0;
+}
+
+.ddcommon .ddTitle .description {
+    display: block;
+}
+
+.ddcommon .ddTitle .ddTitleText img {
+    position: relative;
+    vertical-align: middle;
+    float: left;
+    top: -1px;
+}
+
+.ddcommon .ddChild {
+    position: absolute;
+    display: none;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    zoom: 1;
+    z-index: 9999;
+}
+
+.ddcommon .ddChild li {
+    clear: both;
+}
+
+.ddcommon .ddChild li .description {
+    display: block;
+}
+
+.ddcommon .ddChild li img {
+    border: 0 none;
+    position: relative;
+    vertical-align: middle;
+    float: left;
+}
+
+.ddcommon .ddChild li.optgroup {
+    padding: 0;
+}
+
+.ddcommon .ddChild li.optgroup .optgroupTitle {
+    padding: 0 5px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.ddcommon .ddChild li.optgroup ul li {
+    padding: 5px 5px 5px 15px;
+}
+
+.ddcommon .noBorderTop {
+    border-top: none 0!important;
+    padding: 0;
+    margin: 0;
+}
+
+.dd {
+    border: 1px solid #ccc;
+    width: 260px !important;
+}
+
+.dd .divider {
+    visibility: hidden;
+}
+
+.dd .arrow {
+    width: 16px;
+    height: 16px;
+    margin-top: -7px;
+    margin-right: 10px;
+    /*background: url("../images/msdropdown/skin1/dd_arrow.gif") no-repeat;*/
+}
+
+.dd .ddTitle {
+    color: #666;
+    text-transform: uppercase;
+    background: #FFF;
+}
+
+.dd .ddTitle .ddTitleText {
+    padding: 10px 20px 10px 10px;
+}
+
+.dd .ddTitle .ddTitleText .ddTitleText {
+    padding: 0;
+}
+
+.dd .ddTitle .description {
+    font-size: 12px;
+    color: #666;
+}
+
+.dd .ddTitle .ddTitleText img {
+    padding-right: 5px;
+}
+
+.dd .ddTitle .ddTitleText .ddlabel {
+    font-size: 12px;
+}
+
+.dd .ddChild {
+    border: 1px solid #c3c3c3;
+    background-color: #fff;
+    left: -1px;
+}
+
+.dd .ddChild li {
+    padding: 8px 10px;
+    background-color: #fff;
+}
+
+.dd .ddChild li .description {
+    color: #666;
+}
+
+.dd .ddChild li .ddlabel {
+    color: #333;
+    margin-top: 1px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.dd .ddChild li.hover {
+    background-color: #f2f2f2;
+}
+
+.dd .ddChild li img {
+    padding: 0 6px 0 0;
+}
+
+.dd .ddChild li.optgroup {
+    padding: 0;
+}
+
+.dd .ddChild li.optgroup .optgroupTitle {
+    padding: 0 5px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.dd .ddChild li.optgroup ul li {
+    padding: 5px 5px 5px 15px;
+}
+
+.dd .ddChild li.selected {
+    background-color: #d5d5d5;
+    color: #000;
+}
+
+#submitCountSel{
+    width: 100%;
+    background: url(../images/bg-shipLngCurBtn.gif) repeat-x;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.flag {
+    float: left;
+    padding: 0!important;
+    margin: 0 5px 0 0;
+    width: 16px;
+    height: 16px;
+    background: url("../images/flagssprite_small.png") no-repeat;
+}
+
+.flag24 {
+    float: left;
+    padding: 0!important;
+    margin: 0 5px 0 0;
+    width: 24px;
+    height: 24px;
+    background: url("../images/flagssprite_big.png") no-repeat;
+}
+
+.flag.AD {
+    background-position: 0 0;
+}
+
+.flag.AE {
+    background-position: 0 -17px;
+}
+
+.flag.AF {
+    background-position: 0 -34px;
+}
+
+.flag.AG {
+    background-position: 0 -51px;
+}
+
+.flag.AI {
+    background-position: 0 -68px;
+}
+
+.flag.AL {
+    background-position: 0 -85px;
+}
+
+.flag.AM {
+    background-position: 0 -102px;
+}
+
+.flag.AO {
+    background-position: 0 -119px;
+}
+
+.flag.AQ {
+    background-position: 0 -136px;
+}
+
+.flag.AR {
+    background-position: 0 -153px;
+}
+
+.flag.AS {
+    background-position: 0 -170px;
+}
+
+.flag.AT {
+    background-position: 0 -187px;
+}
+
+.flag.AU {
+    background-position: 0 -204px;
+}
+
+.flag.AW {
+    background-position: 0 -221px;
+}
+
+.flag.AX {
+    background-position: 0 -238px;
+}
+
+.flag.AZ {
+    background-position: 0 -255px;
+}
+
+.flag.BA {
+    background-position: 0 -272px;
+}
+
+.flag.BB {
+    background-position: 0 -289px;
+}
+
+.flag.BD {
+    background-position: 0 -306px;
+}
+
+.flag.BE {
+    background-position: 0 -323px;
+}
+
+.flag.BF {
+    background-position: 0 -340px;
+}
+
+.flag.BG {
+    background-position: 0 -357px;
+}
+
+.flag.BH {
+    background-position: 0 -374px;
+}
+
+.flag.BI {
+    background-position: 0 -391px;
+}
+
+.flag.BJ {
+    background-position: 0 -408px;
+}
+
+.flag.BL {
+    background-position: 0 -425px;
+}
+
+.flag.BM {
+    background-position: 0 -442px;
+}
+
+.flag.BN {
+    background-position: 0 -459px;
+}
+
+.flag.BO {
+    background-position: 0 -476px;
+}
+
+.flag.BQ {
+    background-position: 0 -493px;
+}
+
+.flag.BS {
+    background-position: 0 -510px;
+}
+
+.flag.BT {
+    background-position: 0 -527px;
+}
+
+.flag.BV {
+    background-position: 0 -544px;
+}
+
+.flag.BW {
+    background-position: 0 -561px;
+}
+
+.flag.BY {
+    background-position: 0 -578px;
+}
+
+.flag.BZ {
+    background-position: 0 -595px;
+}
+
+.flag.CA {
+    background-position: 0 -612px;
+}
+
+.flag.CC {
+    background-position: 0 -629px;
+}
+
+.flag.CD {
+    background-position: 0 -646px;
+}
+
+.flag.CF {
+    background-position: 0 -663px;
+}
+
+.flag.CG {
+    background-position: 0 -680px;
+}
+
+.flag.CH {
+    background-position: 0 -697px;
+}
+
+.flag.CI {
+    background-position: 0 -714px;
+}
+
+.flag.CK {
+    background-position: 0 -731px;
+}
+
+.flag.CL {
+    background-position: 0 -748px;
+}
+
+.flag.CM {
+    background-position: 0 -765px;
+}
+
+.flag.CN {
+    background-position: 0 -782px;
+}
+
+.flag.CO {
+    background-position: 0 -799px;
+}
+
+.flag.CR {
+    background-position: 0 -816px;
+}
+
+.flag.CU {
+    background-position: 0 -833px;
+}
+
+.flag.CV {
+    background-position: 0 -850px;
+}
+
+.flag.CW {
+    background-position: 0 -867px;
+}
+
+.flag.CX {
+    background-position: 0 -884px;
+}
+
+.flag.CY {
+    background-position: 0 -901px;
+}
+
+.flag.CZ {
+    background-position: 0 -918px;
+}
+
+.flag.DE {
+    background-position: 0 -935px;
+}
+
+.flag.DJ {
+    background-position: 0 -952px;
+}
+
+.flag.DK {
+    background-position: 0 -969px;
+}
+
+.flag.DM {
+    background-position: 0 -986px;
+}
+
+.flag.DO {
+    background-position: 0 -1003px;
+}
+
+.flag.DZ {
+    background-position: 0 -1020px;
+}
+
+.flag.EC {
+    background-position: 0 -1037px;
+}
+
+.flag.EE {
+    background-position: 0 -1054px;
+}
+
+.flag.EG {
+    background-position: 0 -1071px;
+}
+
+.flag.EH {
+    background-position: 0 -1088px;
+}
+
+.flag.ER {
+    background-position: 0 -1105px;
+}
+
+.flag.ES {
+    background-position: 0 -1122px;
+}
+
+.flag.ET {
+    background-position: 0 -1139px;
+}
+
+.flag.FI {
+    background-position: 0 -1156px;
+}
+
+.flag.FJ {
+    background-position: 0 -1173px;
+}
+
+.flag.FK {
+    background-position: 0 -1190px;
+}
+
+.flag.FM {
+    background-position: 0 -1207px;
+}
+
+.flag.FO {
+    background-position: 0 -1224px;
+}
+
+.flag.FR {
+    background-position: 0 -1241px;
+}
+
+.flag.GA {
+    background-position: 0 -1258px;
+}
+
+.flag.GB{
+    background-position: -17px -1836px;
+}
+
+.flag.GD {
+    background-position: 0 -1275px;
+}
+
+.flag.GE {
+    background-position: 0 -1292px;
+}
+
+.flag.GF {
+    background-position: 0 -1309px;
+}
+
+.flag.GG {
+    background-position: 0 -1326px;
+}
+
+.flag.GH {
+    background-position: 0 -1343px;
+}
+
+.flag.GI {
+    background-position: 0 -1360px;
+}
+
+.flag.GL {
+    background-position: 0 -1377px;
+}
+
+.flag.GM {
+    background-position: 0 -1394px;
+}
+
+.flag.GN {
+    background-position: 0 -1411px;
+}
+
+.flag.GP {
+    background-position: 0 -1428px;
+}
+
+.flag.GQ {
+    background-position: 0 -1445px;
+}
+
+.flag.GR {
+    background-position: 0 -1462px;
+}
+
+.flag.GS {
+    background-position: 0 -1479px;
+}
+
+.flag.GT {
+    background-position: 0 -1496px;
+}
+
+.flag.GU {
+    background-position: 0 -1513px;
+}
+
+.flag.GW {
+    background-position: 0 -1530px;
+}
+
+.flag.GY {
+    background-position: 0 -1547px;
+}
+
+.flag.HK {
+    background-position: 0 -1564px;
+}
+
+.flag.HM {
+    background-position: 0 -1581px;
+}
+
+.flag.HN {
+    background-position: 0 -1598px;
+}
+
+.flag.HR {
+    background-position: 0 -1615px;
+}
+
+.flag.HT {
+    background-position: 0 -1632px;
+}
+
+.flag.HU {
+    background-position: 0 -1649px;
+}
+
+.flag.ID {
+    background-position: 0 -1666px;
+}
+
+.flag.IE {
+    background-position: 0 -1683px;
+}
+
+.flag.IL {
+    background-position: 0 -1700px;
+}
+
+.flag.IM {
+    background-position: 0 -1717px;
+}
+
+.flag.IN {
+    background-position: 0 -1734px;
+}
+
+.flag.IO {
+    background-position: 0 -1751px;
+}
+
+.flag.IQ {
+    background-position: 0 -1768px;
+}
+
+.flag.IR {
+    background-position: 0 -1785px;
+}
+
+.flag.IS {
+    background-position: 0 -1802px;
+}
+
+.flag.IT {
+    background-position: 0 -1819px;
+}
+
+.flag.JE {
+    background-position: 0 -1836px;
+}
+
+.flag.JM {
+    background-position: 0 -1853px;
+}
+
+.flag.JO {
+    background-position: 0 -1870px;
+}
+
+.flag.JP {
+    background-position: 0 -1887px;
+}
+
+.flag.KE {
+    background-position: 0 -1904px;
+}
+
+.flag.KG {
+    background-position: 0 -1921px;
+}
+
+.flag.KH {
+    background-position: 0 -1938px;
+}
+
+.flag.KI {
+    background-position: 0 -1955px;
+}
+
+.flag.KM {
+    background-position: 0 -1972px;
+}
+
+.flag.KN {
+    background-position: 0 -1989px;
+}
+
+.flag.KR {
+    background-position: -17px 0;
+}
+
+.flag.KV {
+    background-position: -17px -17px;
+}
+
+.flag.KW {
+    background-position: -17px -34px;
+}
+
+.flag.KZ {
+    background-position: -17px -51px;
+}
+
+.flag.LA {
+    background-position: -17px -68px;
+}
+
+.flag.LB {
+    background-position: -17px -85px;
+}
+
+.flag.LC {
+    background-position: -17px -102px;
+}
+
+.flag.LI {
+    background-position: -17px -119px;
+}
+
+.flag.LK {
+    background-position: -17px -136px;
+}
+
+.flag.LR {
+    background-position: -17px -153px;
+}
+
+.flag.LS {
+    background-position: -17px -170px;
+}
+
+.flag.LT {
+    background-position: -17px -187px;
+}
+
+.flag.LU {
+    background-position: -17px -204px;
+}
+
+.flag.LV {
+    background-position: -17px -221px;
+}
+
+.flag.LY {
+    background-position: -17px -238px;
+}
+
+.flag.MA {
+    background-position: -17px -255px;
+}
+
+.flag.MC {
+    background-position: -17px -272px;
+}
+
+.flag.MD {
+    background-position: -17px -289px;
+}
+
+.flag.ME {
+    background-position: -17px -306px;
+}
+
+.flag.MF {
+    background-position: -17px -323px;
+}
+
+.flag.MG {
+    background-position: -17px -340px;
+}
+
+.flag.MH {
+    background-position: -17px -357px;
+}
+
+.flag.MK {
+    background-position: -17px -374px;
+}
+
+.flag.ML {
+    background-position: -17px -391px;
+}
+
+.flag.MM {
+    background-position: -17px -408px;
+}
+
+.flag.MN {
+    background-position: -17px -425px;
+}
+
+.flag.MO {
+    background-position: -17px -442px;
+}
+
+.flag.MP {
+    background-position: -17px -459px;
+}
+
+.flag.MQ {
+    background-position: -17px -476px;
+}
+
+.flag.MR {
+    background-position: -17px -493px;
+}
+
+.flag.MS {
+    background-position: -17px -510px;
+}
+
+.flag.MT {
+    background-position: -17px -527px;
+}
+
+.flag.MU {
+    background-position: -17px -544px;
+}
+
+.flag.MV {
+    background-position: -17px -561px;
+}
+
+.flag.MW {
+    background-position: -17px -578px;
+}
+
+.flag.MX {
+    background-position: -17px -595px;
+}
+
+.flag.MY {
+    background-position: -17px -612px;
+}
+
+.flag.MZ {
+    background-position: -17px -629px;
+}
+
+.flag.NA {
+    background-position: -17px -646px;
+}
+
+.flag.NC {
+    background-position: -17px -663px;
+}
+
+.flag.NE {
+    background-position: -17px -680px;
+}
+
+.flag.NF {
+    background-position: -17px -697px;
+}
+
+.flag.NG {
+    background-position: -17px -714px;
+}
+
+.flag.NI {
+    background-position: -17px -731px;
+}
+
+.flag.NL {
+    background-position: -17px -748px;
+}
+
+.flag.NO {
+    background-position: -17px -765px;
+}
+
+.flag.NP {
+    background-position: -17px -782px;
+}
+
+.flag.NR {
+    background-position: -17px -799px;
+}
+
+.flag.NU {
+    background-position: -17px -816px;
+}
+
+.flag.NZ {
+    background-position: -17px -833px;
+}
+
+.flag.OM {
+    background-position: -17px -850px;
+}
+
+.flag.PA {
+    background-position: -17px -867px;
+}
+
+.flag.PE {
+    background-position: -17px -884px;
+}
+
+.flag.PF {
+    background-position: -17px -901px;
+}
+
+.flag.PG {
+    background-position: -17px -918px;
+}
+
+.flag.PH {
+    background-position: -17px -935px;
+}
+
+.flag.PK {
+    background-position: -17px -952px;
+}
+
+.flag.PL {
+    background-position: -17px -969px;
+}
+
+.flag.PM {
+    background-position: -17px -986px;
+}
+
+.flag.PN {
+    background-position: -17px -1003px;
+}
+
+.flag.PS {
+    background-position: -17px -1020px;
+}
+
+.flag.PT {
+    background-position: -17px -1037px;
+}
+
+.flag.PW {
+    background-position: -17px -1054px;
+}
+
+.flag.PY {
+    background-position: -17px -1071px;
+}
+
+.flag.QA {
+    background-position: -17px -1088px;
+}
+
+.flag.RE {
+    background-position: -17px -1105px;
+}
+
+.flag.RO {
+    background-position: -17px -1122px;
+}
+
+.flag.RS {
+    background-position: -17px -1139px;
+}
+
+.flag.RW {
+    background-position: -17px -1156px;
+}
+
+.flag.SA {
+    background-position: -17px -1173px;
+}
+
+.flag.SB {
+    background-position: -17px -1190px;
+}
+
+.flag.SC {
+    background-position: -17px -1207px;
+}
+
+.flag.SD {
+    background-position: -17px -1224px;
+}
+
+.flag.SE {
+    background-position: -17px -1241px;
+}
+
+.flag.SG {
+    background-position: -17px -1258px;
+}
+
+.flag.SH {
+    background-position: -17px -1275px;
+}
+
+.flag.SI {
+    background-position: -17px -1292px;
+}
+
+.flag.SJ {
+    background-position: -17px -1309px;
+}
+
+.flag.SK {
+    background-position: -17px -1326px;
+}
+
+.flag.SL {
+    background-position: -17px -1343px;
+}
+
+.flag.SM {
+    background-position: -17px -1360px;
+}
+
+.flag.SN {
+    background-position: -17px -1377px;
+}
+
+.flag.SO {
+    background-position: -17px -1394px;
+}
+
+.flag.SR {
+    background-position: -17px -1411px;
+}
+
+.flag.SS {
+    background-position: -17px -1428px;
+}
+
+.flag.ST {
+    background-position: -17px -1445px;
+}
+
+.flag.SV {
+    background-position: -17px -1462px;
+}
+
+.flag.SX {
+    background-position: -17px -1479px;
+}
+
+.flag.SY {
+    background-position: -17px -1496px;
+}
+
+.flag.SZ {
+    background-position: -17px -1513px;
+}
+
+.flag.TC {
+    background-position: -17px -1530px;
+}
+
+.flag.TD {
+    background-position: -17px -1547px;
+}
+
+.flag.TF {
+    background-position: -17px -1564px;
+}
+
+.flag.TG {
+    background-position: -17px -1581px;
+}
+
+.flag.TH {
+    background-position: -17px -1598px;
+}
+
+.flag.TJ {
+    background-position: -17px -1615px;
+}
+
+.flag.TK {
+    background-position: -17px -1632px;
+}
+
+.flag.TL {
+    background-position: -17px -1649px;
+}
+
+.flag.TM {
+    background-position: -17px -1666px;
+}
+
+.flag.TN {
+    background-position: -17px -1683px;
+}
+
+.flag.TO {
+    background-position: -17px -1700px;
+}
+
+.flag.TR {
+    background-position: -17px -1717px;
+}
+
+.flag.TT {
+    background-position: -17px -1734px;
+}
+
+.flag.TV {
+    background-position: -17px -1751px;
+}
+
+.flag.TW {
+    background-position: -17px -1768px;
+}
+
+.flag.TZ {
+    background-position: -17px -1785px;
+}
+
+.flag.UA {
+    background-position: -17px -1802px;
+}
+
+.flag.UG {
+    background-position: -17px -1819px;
+}
+
+.flag.GB {
+    background-position: -17px -1836px;
+}
+
+.flag.UM {
+    background-position: -17px -1853px;
+}
+
+.flag.US {
+    background-position: -17px -1870px;
+}
+
+.flag.UY {
+    background-position: -17px -1887px;
+}
+
+.flag.UZ {
+    background-position: -17px -1904px;
+}
+
+.flag.VA {
+    background-position: -17px -1921px;
+}
+
+.flag.VC {
+    background-position: -17px -1938px;
+}
+
+.flag.VE {
+    background-position: -17px -1955px;
+}
+
+.flag.VG {
+    background-position: -17px -1972px;
+}
+
+.flag.VI {
+    background-position: -17px -1989px;
+}
+
+.flag.VN {
+    background-position: -34px 0;
+}
+
+.flag.VU {
+    background-position: -34px -17px;
+}
+
+.flag.WF {
+    background-position: -34px -34px;
+}
+
+.flag.WS {
+    background-position: -34px -51px;
+}
+
+.flag.Wales {
+    background-position: -34px -68px;
+}
+
+.flag.YE {
+    background-position: -34px -85px;
+}
+
+.flag.YT {
+    background-position: -34px -102px;
+}
+
+.flag.ZA {
+    background-position: -34px -119px;
+}
+
+.flag.ZM {
+    background-position: -34px -136px;
+}
+
+.flag.ZW {
+    background-position: -34px -153px;
+}
+
+.flag24.AD {
+    background-position: 0 0;
+}
+
+.flag24.AE {
+    background-position: 0 -25px;
+}
+
+.flag24.AF {
+    background-position: 0 -50px;
+}
+
+.flag24.AG {
+    background-position: 0 -75px;
+}
+
+.flag24.AI {
+    background-position: 0 -100px;
+}
+
+.flag24.AL {
+    background-position: 0 -125px;
+}
+
+.flag24.AM {
+    background-position: 0 -150px;
+}
+
+.flag24.AO {
+    background-position: 0 -175px;
+}
+
+.flag24.AQ {
+    background-position: 0 -200px;
+}
+
+.flag24.AR {
+    background-position: 0 -225px;
+}
+
+.flag24.AS {
+    background-position: 0 -250px;
+}
+
+.flag24.AT {
+    background-position: 0 -275px;
+}
+
+.flag24.AU {
+    background-position: 0 -300px;
+}
+
+.flag24.AW {
+    background-position: 0 -325px;
+}
+
+.flag24.AX {
+    background-position: 0 -350px;
+}
+
+.flag24.AZ {
+    background-position: 0 -375px;
+}
+
+.flag24.BA {
+    background-position: 0 -400px;
+}
+
+.flag24.BB {
+    background-position: 0 -425px;
+}
+
+.flag24.BD {
+    background-position: 0 -450px;
+}
+
+.flag24.BE {
+    background-position: 0 -475px;
+}
+
+.flag24.BF {
+    background-position: 0 -500px;
+}
+
+.flag24.BG {
+    background-position: 0 -525px;
+}
+
+.flag24.BH {
+    background-position: 0 -550px;
+}
+
+.flag24.BI {
+    background-position: 0 -575px;
+}
+
+.flag24.BJ {
+    background-position: 0 -600px;
+}
+
+.flag24.BL {
+    background-position: 0 -625px;
+}
+
+.flag24.BM {
+    background-position: 0 -650px;
+}
+
+.flag24.BN {
+    background-position: 0 -675px;
+}
+
+.flag24.BO {
+    background-position: 0 -700px;
+}
+
+.flag24.BQ {
+    background-position: 0 -725px;
+}
+
+.flag24.BS {
+    background-position: 0 -750px;
+}
+
+.flag24.BT {
+    background-position: 0 -775px;
+}
+
+.flag24.BV {
+    background-position: 0 -800px;
+}
+
+.flag24.BW {
+    background-position: 0 -825px;
+}
+
+.flag24.BY {
+    background-position: 0 -850px;
+}
+
+.flag24.BZ {
+    background-position: 0 -875px;
+}
+
+.flag24.CA {
+    background-position: 0 -900px;
+}
+
+.flag24.CC {
+    background-position: 0 -925px;
+}
+
+.flag24.CD {
+    background-position: 0 -950px;
+}
+
+.flag24.CF {
+    background-position: 0 -975px;
+}
+
+.flag24.CG {
+    background-position: 0 -1000px;
+}
+
+.flag24.CH {
+    background-position: 0 -1025px;
+}
+
+.flag24.CI {
+    background-position: 0 -1050px;
+}
+
+.flag24.CK {
+    background-position: 0 -1075px;
+}
+
+.flag24.CL {
+    background-position: 0 -1100px;
+}
+
+.flag24.CM {
+    background-position: 0 -1125px;
+}
+
+.flag24.CN {
+    background-position: 0 -1150px;
+}
+
+.flag24.CO {
+    background-position: 0 -1175px;
+}
+
+.flag24.CR {
+    background-position: 0 -1200px;
+}
+
+.flag24.CU {
+    background-position: 0 -1225px;
+}
+
+.flag24.CV {
+    background-position: 0 -1250px;
+}
+
+.flag24.CW {
+    background-position: 0 -1275px;
+}
+
+.flag24.CX {
+    background-position: 0 -1300px;
+}
+
+.flag24.CY {
+    background-position: 0 -1325px;
+}
+
+.flag24.CZ {
+    background-position: 0 -1350px;
+}
+
+.flag24.DE {
+    background-position: 0 -1375px;
+}
+
+.flag24.DJ {
+    background-position: 0 -1400px;
+}
+
+.flag24.DK {
+    background-position: 0 -1425px;
+}
+
+.flag24.DM {
+    background-position: 0 -1450px;
+}
+
+.flag24.DO {
+    background-position: 0 -1475px;
+}
+
+.flag24.DZ {
+    background-position: 0 -1500px;
+}
+
+.flag24.EC {
+    background-position: 0 -1525px;
+}
+
+.flag24.EE {
+    background-position: 0 -1550px;
+}
+
+.flag24.EG {
+    background-position: 0 -1575px;
+}
+
+.flag24.EH {
+    background-position: 0 -1600px;
+}
+
+.flag24.ER {
+    background-position: 0 -1625px;
+}
+
+.flag24.ES {
+    background-position: 0 -1650px;
+}
+
+.flag24.ET {
+    background-position: 0 -1675px;
+}
+
+.flag24.FI {
+    background-position: 0 -1700px;
+}
+
+.flag24.FJ {
+    background-position: 0 -1725px;
+}
+
+.flag24.FK {
+    background-position: 0 -1750px;
+}
+
+.flag24.FM {
+    background-position: 0 -1775px;
+}
+
+.flag24.FO {
+    background-position: 0 -1800px;
+}
+
+.flag24.FR {
+    background-position: 0 -1825px;
+}
+
+.flag24.GA {
+    background-position: 0 -1850px;
+}
+
+.flag24.GD {
+    background-position: 0 -1875px;
+}
+
+.flag24.GE {
+    background-position: 0 -1900px;
+}
+
+.flag24.GF {
+    background-position: 0 -1925px;
+}
+
+.flag24.GG {
+    background-position: 0 -1950px;
+}
+
+.flag24.GH {
+    background-position: 0 -1975px;
+}
+
+.flag24.GI {
+    background-position: -25px 0;
+}
+
+.flag24.GL {
+    background-position: -25px -25px;
+}
+
+.flag24.GM {
+    background-position: -25px -50px;
+}
+
+.flag24.GN {
+    background-position: -25px -75px;
+}
+
+.flag24.GP {
+    background-position: -25px -100px;
+}
+
+.flag24.GQ {
+    background-position: -25px -125px;
+}
+
+.flag24.GR {
+    background-position: -25px -150px;
+}
+
+.flag24.GS {
+    background-position: -25px -175px;
+}
+
+.flag24.GT {
+    background-position: -25px -200px;
+}
+
+.flag24.GU {
+    background-position: -25px -225px;
+}
+
+.flag24.GW {
+    background-position: -25px -250px;
+}
+
+.flag24.GY {
+    background-position: -25px -275px;
+}
+
+.flag24.GoSquared {
+    background-position: -25px -300px;
+}
+
+.flag24.HK {
+    background-position: -25px -325px;
+}
+
+.flag24.HM {
+    background-position: -25px -350px;
+}
+
+.flag24.HN {
+    background-position: -25px -375px;
+}
+
+.flag24.HR {
+    background-position: -25px -400px;
+}
+
+.flag24.HT {
+    background-position: -25px -425px;
+}
+
+.flag24.HU {
+    background-position: -25px -450px;
+}
+
+.flag24.ID {
+    background-position: -25px -475px;
+}
+
+.flag24.IE {
+    background-position: -25px -500px;
+}
+
+.flag24.IL {
+    background-position: -25px -525px;
+}
+
+.flag24.IM {
+    background-position: -25px -550px;
+}
+
+.flag24.IN {
+    background-position: -25px -575px;
+}
+
+.flag24.IO {
+    background-position: -25px -600px;
+}
+
+.flag24.IQ {
+    background-position: -25px -625px;
+}
+
+.flag24.IR {
+    background-position: -25px -650px;
+}
+
+.flag24.IS {
+    background-position: -25px -675px;
+}
+
+.flag24.IT {
+    background-position: -25px -700px;
+}
+
+.flag24.JE {
+    background-position: -25px -725px;
+}
+
+.flag24.JM {
+    background-position: -25px -750px;
+}
+
+.flag24.JO {
+    background-position: -25px -775px;
+}
+
+.flag24.JP {
+    background-position: -25px -800px;
+}
+
+.flag24.KE {
+    background-position: -25px -825px;
+}
+
+.flag24.KG {
+    background-position: -25px -850px;
+}
+
+.flag24.KH {
+    background-position: -25px -875px;
+}
+
+.flag24.KI {
+    background-position: -25px -900px;
+}
+
+.flag24.KM {
+    background-position: -25px -925px;
+}
+
+.flag24.KN {
+    background-position: -25px -950px;
+}
+
+.flag24.KR {
+    background-position: -25px -975px;
+}
+
+.flag24.KW {
+    background-position: -25px -1000px;
+}
+
+.flag24.KY {
+    background-position: -25px -1025px;
+}
+
+.flag24.KZ {
+    background-position: -25px -1050px;
+}
+
+.flag24.LA {
+    background-position: -25px -1075px;
+}
+
+.flag24.LB {
+    background-position: -25px -1100px;
+}
+
+.flag24.LC {
+    background-position: -25px -1125px;
+}
+
+.flag24.LI {
+    background-position: -25px -1150px;
+}
+
+.flag24.LK {
+    background-position: -25px -1175px;
+}
+
+.flag24.LR {
+    background-position: -25px -1200px;
+}
+
+.flag24.LS {
+    background-position: -25px -1225px;
+}
+
+.flag24.LT {
+    background-position: -25px -1250px;
+}
+
+.flag24.LU {
+    background-position: -25px -1275px;
+}
+
+.flag24.LV {
+    background-position: -25px -1300px;
+}
+
+.flag24.LY {
+    background-position: -25px -1325px;
+}
+
+.flag24.MA {
+    background-position: -25px -1350px;
+}
+
+.flag24.MC {
+    background-position: -25px -1375px;
+}
+
+.flag24.MD {
+    background-position: -25px -1400px;
+}
+
+.flag24.ME {
+    background-position: -25px -1425px;
+}
+
+.flag24.MF {
+    background-position: -25px -1450px;
+}
+
+.flag24.MG {
+    background-position: -25px -1475px;
+}
+
+.flag24.MH {
+    background-position: -25px -1500px;
+}
+
+.flag24.MK {
+    background-position: -25px -1525px;
+}
+
+.flag24.ML {
+    background-position: -25px -1550px;
+}
+
+.flag24.MM {
+    background-position: -25px -1575px;
+}
+
+.flag24.MN {
+    background-position: -25px -1600px;
+}
+
+.flag24.MO {
+    background-position: -25px -1625px;
+}
+
+.flag24.MP {
+    background-position: -25px -1650px;
+}
+
+.flag24.MQ {
+    background-position: -25px -1675px;
+}
+
+.flag24.MR {
+    background-position: -25px -1700px;
+}
+
+.flag24.MS {
+    background-position: -25px -1725px;
+}
+
+.flag24.MT {
+    background-position: -25px -1750px;
+}
+
+.flag24.MU {
+    background-position: -25px -1775px;
+}
+
+.flag24.MV {
+    background-position: -25px -1800px;
+}
+
+.flag24.MW {
+    background-position: -25px -1825px;
+}
+
+.flag24.MX {
+    background-position: -25px -1850px;
+}
+
+.flag24.MY {
+    background-position: -25px -1875px;
+}
+
+.flag24.MZ {
+    background-position: -25px -1900px;
+}
+
+.flag24.NA {
+    background-position: -25px -1925px;
+}
+
+.flag24.NC {
+    background-position: -25px -1950px;
+}
+
+.flag24.NE {
+    background-position: -25px -1975px;
+}
+
+.flag24.NF {
+    background-position: -50px 0;
+}
+
+.flag24.NG {
+    background-position: -50px -25px;
+}
+
+.flag24.NI {
+    background-position: -50px -50px;
+}
+
+.flag24.NL {
+    background-position: -50px -75px;
+}
+
+.flag24.NO {
+    background-position: -50px -100px;
+}
+
+.flag24.NP {
+    background-position: -50px -125px;
+}
+
+.flag24.NR {
+    background-position: -50px -150px;
+}
+
+.flag24.NU {
+    background-position: -50px -175px;
+}
+
+.flag24.NZ {
+    background-position: -50px -200px;
+}
+
+.flag24.OM {
+    background-position: -50px -225px;
+}
+
+.flag24.PA {
+    background-position: -50px -250px;
+}
+
+.flag24.PE {
+    background-position: -50px -275px;
+}
+
+.flag24.PF {
+    background-position: -50px -300px;
+}
+
+.flag24.PG {
+    background-position: -50px -325px;
+}
+
+.flag24.PH {
+    background-position: -50px -350px;
+}
+
+.flag24.PK {
+    background-position: -50px -375px;
+}
+
+.flag24.PL {
+    background-position: -50px -400px;
+}
+
+.flag24.PM {
+    background-position: -50px -425px;
+}
+
+.flag24.PN {
+    background-position: -50px -450px;
+}
+
+.flag24.PS {
+    background-position: -50px -475px;
+}
+
+.flag24.PT {
+    background-position: -50px -500px;
+}
+
+.flag24.PW {
+    background-position: -50px -525px;
+}
+
+.flag24.PY {
+    background-position: -50px -550px;
+}
+
+.flag24.QA {
+    background-position: -50px -575px;
+}
+
+.flag24.RE {
+    background-position: -50px -600px;
+}
+
+.flag24.RO {
+    background-position: -50px -625px;
+}
+
+.flag24.RS {
+    background-position: -50px -650px;
+}
+
+.flag24.RW {
+    background-position: -50px -675px;
+}
+
+.flag24.SA {
+    background-position: -50px -700px;
+}
+
+.flag24.SB {
+    background-position: -50px -725px;
+}
+
+.flag24.SC {
+    background-position: -50px -750px;
+}
+
+.flag24.SD {
+    background-position: -50px -775px;
+}
+
+.flag24.SE {
+    background-position: -50px -800px;
+}
+
+.flag24.SG {
+    background-position: -50px -825px;
+}
+
+.flag24.SH {
+    background-position: -50px -850px;
+}
+
+.flag24.SI {
+    background-position: -50px -875px;
+}
+
+.flag24.SJ {
+    background-position: -50px -900px;
+}
+
+.flag24.SK {
+    background-position: -50px -925px;
+}
+
+.flag24.SL {
+    background-position: -50px -950px;
+}
+
+.flag24.SM {
+    background-position: -50px -975px;
+}
+
+.flag24.SN {
+    background-position: -50px -1000px;
+}
+
+.flag24.SO {
+    background-position: -50px -1025px;
+}
+
+.flag24.SR {
+    background-position: -50px -1050px;
+}
+
+.flag24.SS {
+    background-position: -50px -1075px;
+}
+
+.flag24.ST {
+    background-position: -50px -1100px;
+}
+
+.flag24.SV {
+    background-position: -50px -1125px;
+}
+
+.flag24.SX {
+    background-position: -50px -1150px;
+}
+
+.flag24.SY {
+    background-position: -50px -1175px;
+}
+
+.flag24.SZ {
+    background-position: -50px -1200px;
+}
+
+.flag24.TC {
+    background-position: -50px -1225px;
+}
+
+.flag24.TD {
+    background-position: -50px -1250px;
+}
+
+.flag24.TF {
+    background-position: -50px -1275px;
+}
+
+.flag24.TG {
+    background-position: -50px -1300px;
+}
+
+.flag24.TH {
+    background-position: -50px -1325px;
+}
+
+.flag24.TJ {
+    background-position: -50px -1350px;
+}
+
+.flag24.TK {
+    background-position: -50px -1375px;
+}
+
+.flag24.TL {
+    background-position: -50px -1400px;
+}
+
+.flag24.TM {
+    background-position: -50px -1425px;
+}
+
+.flag24.TN {
+    background-position: -50px -1450px;
+}
+
+.flag24.TO {
+    background-position: -50px -1475px;
+}
+
+.flag24.TR {
+    background-position: -50px -1500px;
+}
+
+.flag24.TT {
+    background-position: -50px -1525px;
+}
+
+.flag24.TV {
+    background-position: -50px -1550px;
+}
+
+.flag24.TW {
+    background-position: -50px -1575px;
+}
+
+.flag24.TZ {
+    background-position: -50px -1600px;
+}
+
+.flag24.UA {
+    background-position: -50px -1625px;
+}
+
+.flag24.UG {
+    background-position: -50px -1650px;
+}
+
+.flag24.GB {
+    background-position: -50px -1675px;
+}
+
+.flag24.UM {
+    background-position: -50px -1700px;
+}
+
+.flag24.US {
+    background-position: -50px -1725px;
+}
+
+.flag24.UY {
+    background-position: -50px -1750px;
+}
+
+.flag24.UZ {
+    background-position: -50px -1775px;
+}
+
+.flag24.VA {
+    background-position: -50px -1800px;
+}
+
+.flag24.VC {
+    background-position: -50px -1825px;
+}
+
+.flag24.VE {
+    background-position: -50px -1850px;
+}
+
+.flag24.VG {
+    background-position: -50px -1875px;
+}
+
+.flag24.VI {
+    background-position: -50px -1900px;
+}
+
+.flag24.VN {
+    background-position: -50px -1925px;
+}
+
+.flag24.VU {
+    background-position: -50px -1950px;
+}
+
+.flag24.WF {
+    background-position: -50px -1975px;
+}
+
+.flag24.WS {
+    background-position: -75px 0;
+}
+
+.flag24.YE {
+    background-position: -75px -25px;
+}
+
+.flag24.YT {
+    background-position: -75px -50px;
+}
+
+.flag24.ZA {
+    background-position: -75px -75px;
+}
+
+.flag24.ZM {
+    background-position: -75px -100px;
+}
+
+.flag24.ZW {
+    background-position: -75px -125px;
+}
+
+.flag.AND {
+    background-position: 0 0;
+}
+.flag.ARE {
+    background-position: 0 -17px;
+}
+.flag.AFG {
+    background-position: 0 -34px;
+}
+.flag.ATG {
+    background-position: 0 -51px;
+}
+.flag.AIA {
+    background-position: 0 -68px;
+}
+.flag.ALB {
+    background-position: 0 -85px;
+}
+.flag.ARM {
+    background-position: 0 -102px;
+}
+.flag.AGO {
+    background-position: 0 -119px;
+}
+.flag.ATA {
+    background-position: 0 -136px;
+}
+.flag.ARG {
+    background-position: 0 -153px;
+}
+.flag.ASM {
+    background-position: 0 -170px;
+}
+.flag.AUT {
+    background-position: 0 -187px;
+}
+.flag.AUS {
+    background-position: 0 -204px;
+}
+.flag.ABW {
+    background-position: 0 -221px;
+}
+.flag.AX {
+    background-position: 0 -238px;
+}
+.flag.AZE {
+    background-position: 0 -255px;
+}
+.flag.BIH {
+    background-position: 0 -272px;
+}
+.flag.BRB {
+    background-position: 0 -289px;
+}
+.flag.BGD {
+    background-position: 0 -306px;
+}
+.flag.BEL {
+    background-position: 0 -323px;
+}
+.flag.BFA {
+    background-position: 0 -340px;
+}
+.flag.BGR {
+    background-position: 0 -357px;
+}
+.flag.BHR {
+    background-position: 0 -374px;
+}
+.flag.BDI {
+    background-position: 0 -391px;
+}
+.flag.BEN {
+    background-position: 0 -408px;
+}
+.flag.BLM {
+    background-position: 0 -425px;
+}
+.flag.BMU {
+    background-position: 0 -442px;
+}
+.flag.BRN {
+    background-position: 0 -459px;
+}
+.flag.BOL {
+    background-position: 0 -476px;
+}
+.flag.BQ {
+    background-position: 0 -493px;
+}
+.flag.BHS {
+    background-position: 0 -510px;
+}
+.flag.BTN {
+    background-position: 0 -527px;
+}
+.flag.BV {
+    background-position: 0 -544px;
+}
+.flag.BWA {
+    background-position: 0 -561px;
+}
+.flag.BLR {
+    background-position: 0 -578px;
+}
+.flag.BLZ {
+    background-position: 0 -595px;
+}
+.flag.CAN {
+    background-position: 0 -612px;
+}
+.flag.CCK {
+    background-position: 0 -629px;
+}
+.flag.COD {
+    background-position: 0 -646px;
+}
+.flag.CAF {
+    background-position: 0 -663px;
+}
+.flag.COG {
+    background-position: 0 -680px;
+}
+.flag.CHE {
+    background-position: 0 -697px;
+}
+.flag.CIV {
+    background-position: 0 -714px;
+}
+.flag.COK {
+    background-position: 0 -731px;
+}
+.flag.CHL {
+    background-position: 0 -748px;
+}
+.flag.CMR {
+    background-position: 0 -765px;
+}
+.flag.CHN {
+    background-position: 0 -782px;
+}
+.flag.COL {
+    background-position: 0 -799px;
+}
+.flag.CRI {
+    background-position: 0 -816px;
+}
+.flag.CUB {
+    background-position: 0 -833px;
+}
+.flag.CPV {
+    background-position: 0 -850px;
+}
+.flag.CUW {
+    background-position: 0 -867px;
+}
+.flag.CXR {
+    background-position: 0 -884px;
+}
+.flag.CYP {
+    background-position: 0 -901px;
+}
+.flag.CZE {
+    background-position: 0 -918px;
+}
+.flag.DEU {
+    background-position: 0 -935px;
+}
+.flag.DJI {
+    background-position: 0 -952px;
+}
+.flag.DNK {
+    background-position: 0 -969px;
+}
+.flag.DMA {
+    background-position: 0 -986px;
+}
+.flag.DOM {
+    background-position: 0 -1003px;
+}
+.flag.DZA {
+    background-position: 0 -1020px;
+}
+.flag.ECU {
+    background-position: 0 -1037px;
+}
+.flag.EST {
+    background-position: 0 -1054px;
+}
+.flag.EGY {
+    background-position: 0 -1071px;
+}
+.flag.ESH {
+    background-position: 0 -1088px;
+}
+.flag.ERI {
+    background-position: 0 -1105px;
+}
+.flag.ESP {
+    background-position: 0 -1122px;
+}
+.flag.ETH {
+    background-position: 0 -1139px;
+}
+.flag.FIN {
+    background-position: 0 -1156px;
+}
+.flag.FJI {
+    background-position: 0 -1173px;
+}
+.flag.FLK {
+    background-position: 0 -1190px;
+}
+.flag.FSM {
+    background-position: 0 -1207px;
+}
+.flag.FRO {
+    background-position: 0 -1224px;
+}
+.flag.FRA {
+    background-position: 0 -1241px;
+}
+.flag.GAB {
+    background-position: 0 -1258px;
+}
+.flag.GRD {
+    background-position: 0 -1275px;
+}
+.flag.GEO {
+    background-position: 0 -1292px;
+}
+.flag.GF {
+    background-position: 0 -1309px;
+}
+.flag.GGY {
+    background-position: 0 -1326px;
+}
+.flag.GHA {
+    background-position: 0 -1343px;
+}
+.flag.GIB {
+    background-position: 0 -1360px;
+}
+.flag.GRL {
+    background-position: 0 -1377px;
+}
+.flag.GMB {
+    background-position: 0 -1394px;
+}
+.flag.GIN {
+    background-position: 0 -1411px;
+}
+.flag.GP {
+    background-position: 0 -1428px;
+}
+.flag.GNQ {
+    background-position: 0 -1445px;
+}
+.flag.GRC {
+    background-position: 0 -1462px;
+}
+.flag.GS {
+    background-position: 0 -1479px;
+}
+.flag.GTM {
+    background-position: 0 -1496px;
+}
+.flag.GUM {
+    background-position: 0 -1513px;
+}
+.flag.GNB {
+    background-position: 0 -1530px;
+}
+.flag.GUY {
+    background-position: 0 -1547px;
+}
+.flag.HKG {
+    background-position: 0 -1564px;
+}
+.flag.HM {
+    background-position: 0 -1581px;
+}
+.flag.HND {
+    background-position: 0 -1598px;
+}
+.flag.HRV {
+    background-position: 0 -1615px;
+}
+.flag.HTI {
+    background-position: 0 -1632px;
+}
+.flag.HUN {
+    background-position: 0 -1649px;
+}
+.flag.IDN {
+    background-position: 0 -1666px;
+}
+.flag.IRL {
+    background-position: 0 -1683px;
+}
+.flag.ISR {
+    background-position: 0 -1700px;
+}
+.flag.IMN {
+    background-position: 0 -1717px;
+}
+.flag.IND {
+    background-position: 0 -1734px;
+}
+.flag.IOT {
+    background-position: 0 -1751px;
+}
+.flag.IRQ {
+    background-position: 0 -1768px;
+}
+.flag.IRN {
+    background-position: 0 -1785px;
+}
+.flag.ISL {
+    background-position: 0 -1802px;
+}
+.flag.ITA {
+    background-position: 0 -1819px;
+}
+.flag.JEY {
+    background-position: 0 -1836px;
+}
+.flag.JAM {
+    background-position: 0 -1853px;
+}
+.flag.JOR {
+    background-position: 0 -1870px;
+}
+.flag.JPN {
+    background-position: 0 -1887px;
+}
+.flag.KEN {
+    background-position: 0 -1904px;
+}
+.flag.KGZ {
+    background-position: 0 -1921px;
+}
+.flag.KHM {
+    background-position: 0 -1938px;
+}
+.flag.KIR {
+    background-position: 0 -1955px;
+}
+.flag.COM {
+    background-position: 0 -1972px;
+}
+.flag.KNA {
+    background-position: 0 -1989px;
+}
+.flag.KOR {
+    background-position: -17px 0;
+}
+.flag.KV {
+    background-position: -17px -17px;
+}
+.flag.KWT {
+    background-position: -17px -34px;
+}
+.flag.KAZ {
+    background-position: -17px -51px;
+}
+.flag.LAO {
+    background-position: -17px -68px;
+}
+.flag.LBN {
+    background-position: -17px -85px;
+}
+.flag.LCA {
+    background-position: -17px -102px;
+}
+.flag.LIE {
+    background-position: -17px -119px;
+}
+.flag.LKA {
+    background-position: -17px -136px;
+}
+.flag.LBR {
+    background-position: -17px -153px;
+}
+.flag.LSO {
+    background-position: -17px -170px;
+}
+.flag.LTU {
+    background-position: -17px -187px;
+}
+.flag.LUX {
+    background-position: -17px -204px;
+}
+.flag.LVA {
+    background-position: -17px -221px;
+}
+.flag.LBY {
+    background-position: -17px -238px;
+}
+.flag.MAR {
+    background-position: -17px -255px;
+}
+.flag.MCO {
+    background-position: -17px -272px;
+}
+.flag.MDA {
+    background-position: -17px -289px;
+}
+.flag.MNE {
+    background-position: -17px -306px;
+}
+.flag.MAF {
+    background-position: -17px -323px;
+}
+.flag.MDG {
+    background-position: -17px -340px;
+}
+.flag.MHL {
+    background-position: -17px -357px;
+}
+.flag.MKD {
+    background-position: -17px -374px;
+}
+.flag.MLI {
+    background-position: -17px -391px;
+}
+.flag.MMR {
+    background-position: -17px -408px;
+}
+.flag.MNG {
+    background-position: -17px -425px;
+}
+.flag.MAC {
+    background-position: -17px -442px;
+}
+.flag.MNP {
+    background-position: -17px -459px;
+}
+.flag.MQ {
+    background-position: -17px -476px;
+}
+.flag.MRT {
+    background-position: -17px -493px;
+}
+.flag.MSR {
+    background-position: -17px -510px;
+}
+.flag.MLT {
+    background-position: -17px -527px;
+}
+.flag.MUS {
+    background-position: -17px -544px;
+}
+.flag.MDV {
+    background-position: -17px -561px;
+}
+.flag.MWI {
+    background-position: -17px -578px;
+}
+.flag.MEX {
+    background-position: -17px -595px;
+}
+.flag.MYS {
+    background-position: -17px -612px;
+}
+.flag.MOZ {
+    background-position: -17px -629px;
+}
+.flag.NAM {
+    background-position: -17px -646px;
+}
+.flag.NCL {
+    background-position: -17px -663px;
+}
+.flag.NER {
+    background-position: -17px -680px;
+}
+.flag.NF {
+    background-position: -17px -697px;
+}
+.flag.NGA {
+    background-position: -17px -714px;
+}
+.flag.NIC {
+    background-position: -17px -731px;
+}
+.flag.NLD {
+    background-position: -17px -748px;
+}
+.flag.NOR {
+    background-position: -17px -765px;
+}
+.flag.NPL {
+    background-position: -17px -782px;
+}
+.flag.NRU {
+    background-position: -17px -799px;
+}
+.flag.NIU {
+    background-position: -17px -816px;
+}
+.flag.NZL {
+    background-position: -17px -833px;
+}
+.flag.OMN {
+    background-position: -17px -850px;
+}
+.flag.PAN {
+    background-position: -17px -867px;
+}
+.flag.PER {
+    background-position: -17px -884px;
+}
+.flag.PYF {
+    background-position: -17px -901px;
+}
+.flag.PNG {
+    background-position: -17px -918px;
+}
+.flag.PHL {
+    background-position: -17px -935px;
+}
+.flag.PAK {
+    background-position: -17px -952px;
+}
+.flag.POL {
+    background-position: -17px -969px;
+}
+.flag.SPM {
+    background-position: -17px -986px;
+}
+.flag.PCN {
+    background-position: -17px -1003px;
+}
+.flag.PSE {
+    background-position: -17px -1020px;
+}
+.flag.PRT {
+    background-position: -17px -1037px;
+}
+.flag.PLW {
+    background-position: -17px -1054px;
+}
+.flag.PRY {
+    background-position: -17px -1071px;
+}
+.flag.QAT {
+    background-position: -17px -1088px;
+}
+.flag.REU {
+    background-position: -17px -1105px;
+}
+.flag.ROU {
+    background-position: -17px -1122px;
+}
+.flag.SRB {
+    background-position: -17px -1139px;
+}
+.flag.RWA {
+    background-position: -17px -1156px;
+}
+.flag.SAU {
+    background-position: -17px -1173px;
+}
+.flag.SLB {
+    background-position: -17px -1190px;
+}
+.flag.SYC {
+    background-position: -17px -1207px;
+}
+.flag.SDN {
+    background-position: -17px -1224px;
+}
+.flag.SWE {
+    background-position: -17px -1241px;
+}
+.flag.SGP {
+    background-position: -17px -1258px;
+}
+.flag.SHN {
+    background-position: -17px -1275px;
+}
+.flag.SVN {
+    background-position: -17px -1292px;
+}
+.flag.SJM {
+    background-position: -17px -1309px;
+}
+.flag.SVK {
+    background-position: -17px -1326px;
+}
+.flag.SLE {
+    background-position: -17px -1343px;
+}
+.flag.SMR {
+    background-position: -17px -1360px;
+}
+.flag.SEN {
+    background-position: -17px -1377px;
+}
+.flag.SOM {
+    background-position: -17px -1394px;
+}
+.flag.SUR {
+    background-position: -17px -1411px;
+}
+.flag.SSD {
+    background-position: -17px -1428px;
+}
+.flag.STP {
+    background-position: -17px -1445px;
+}
+.flag.SLV {
+    background-position: -17px -1462px;
+}
+.flag.SXM {
+    background-position: -17px -1479px;
+}
+.flag.SYR {
+    background-position: -17px -1496px;
+}
+.flag.SWZ {
+    background-position: -17px -1513px;
+}
+.flag.TCA {
+    background-position: -17px -1530px;
+}
+.flag.TCD {
+    background-position: -17px -1547px;
+}
+.flag.TF {
+    background-position: -17px -1564px;
+}
+.flag.TGO {
+    background-position: -17px -1581px;
+}
+.flag.THA {
+    background-position: -17px -1598px;
+}
+.flag.TJK {
+    background-position: -17px -1615px;
+}
+.flag.TKL {
+    background-position: -17px -1632px;
+}
+.flag.TLS {
+    background-position: -17px -1649px;
+}
+.flag.TKM {
+    background-position: -17px -1666px;
+}
+.flag.TUN {
+    background-position: -17px -1683px;
+}
+.flag.TON {
+    background-position: -17px -1700px;
+}
+.flag.TUR {
+    background-position: -17px -1717px;
+}
+.flag.TTO {
+    background-position: -17px -1734px;
+}
+.flag.TUV {
+    background-position: -17px -1751px;
+}
+.flag.TWN {
+    background-position: -17px -1768px;
+}
+.flag.TZA {
+    background-position: -17px -1785px;
+}
+.flag.UKR {
+    background-position: -17px -1802px;
+}
+.flag.UGA {
+    background-position: -17px -1819px;
+}
+.flag.GB {
+    background-position: -17px -1836px;
+}
+.flag.UM {
+    background-position: -17px -1853px;
+}
+.flag.USA {
+    background-position: -17px -1870px;
+}
+.flag.US {
+    background-position: -17px -1870px;
+}
+.flag.URY {
+    background-position: -17px -1887px;
+}
+.flag.UZB {
+    background-position: -17px -1904px;
+}
+.flag.VAT {
+    background-position: -17px -1921px;
+}
+.flag.VCT {
+    background-position: -17px -1938px;
+}
+.flag.VEN {
+    background-position: -17px -1955px;
+}
+.flag.VGB {
+    background-position: -17px -1972px;
+}
+.flag.VIR {
+    background-position: -17px -1989px;
+}
+.flag.VNM {
+    background-position: -34px 0;
+}
+.flag.VUT {
+    background-position: -34px -17px;
+}
+.flag.WLF {
+    background-position: -34px -34px;
+}
+.flag.WSM {
+    background-position: -34px -51px;
+}
+.flag.Wales {
+    background-position: -34px -68px;
+}
+.flag.YEM {
+    background-position: -34px -85px;
+}
+.flag.MYT {
+    background-position: -34px -102px;
+}
+.flag.ZAF {
+    background-position: -34px -119px;
+}
+.flag.ZMB {
+    background-position: -34px -136px;
+}
+.flag.ZWE {
+    background-position: -34px -153px;
+}
+
+.brandPage .footer_description.new-footer.copyright {
+    display: block;
+}
+.dd_input_tel{
+    width: 240px !important;
+    margin-top: -1px;
+}
+
+.borderRadius input.borderRadius {
+    display: none !important;
+}
+
+.ddcommon{
+    height: 40px;
+}
+.ddcommon .ddChild{
+    position: relative !important;
+    top: 0 !important;
+}
+.ddcommon input{
+    height: 40px;
+}
