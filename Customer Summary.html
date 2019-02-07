@@ -1,303 +1,417 @@
-            
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Customer Summary</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-  <meta name="robots" content="index, follow"/>
+    <title>Customer Summary</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="index, follow" />
 
-            <link rel="shortcut icon" type="image/ico" href="theme_default/favicon.ico"/>
-            <link rel="icon" type="image/ico" href="theme_default/favicon.ico"/>
-            <link rel="apple-touch-icon" href="theme_default/favicon.ico"/>
-            
+    <link rel="shortcut icon" type="image/ico" href="theme_default/favicon.ico" />
+    <link rel="icon" type="image/ico" href="theme_default/favicon.ico" />
+    <link rel="apple-touch-icon" href="theme_default/favicon.ico" />
 
-    <link href="theme_default/css/global_css/global_framework_1.css" type="text/css" rel="stylesheet"/>
-    <link href="theme_default/css/global_css/default_styles_1.css" type="text/css" rel="stylesheet"/>
-    <link href="theme_default/css/sallie_mae_css/core/sallie_mae_core_1.css" type="text/css"
-          rel="stylesheet"/>
-    <link href="theme_default/css/loan_servicing_css/loan_servicing_1.css" rel="stylesheet"
-          type="text/css"/>
-    <link href="theme_default/css/cmc.css" rel="stylesheet" type="text/css"/>
-    <link href="theme_default/css/client.css" rel="stylesheet" type="text/css"/>
-    <link href="theme_default/css/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <link href="theme_default/css/global_css/global_framework_1.css" type="text/css" rel="stylesheet" />
+    <link href="theme_default/css/global_css/default_styles_1.css" type="text/css" rel="stylesheet" />
+    <link href="theme_default/css/sallie_mae_css/core/sallie_mae_core_1.css" type="text/css" rel="stylesheet" />
+    <link href="theme_default/css/loan_servicing_css/loan_servicing_1.css" rel="stylesheet" type="text/css" />
+    <link href="theme_default/css/cmc.css" rel="stylesheet" type="text/css" />
+    <link href="theme_default/css/client.css" rel="stylesheet" type="text/css" />
+    <link href="theme_default/css/jquery-ui.css" rel="stylesheet" type="text/css" />
     <script src="theme_default/scripts/jquery-1.12.0.js" type="text/javascript"></script>
     <style type="text/css">
-      .ui-datepicker .ui-datepicker-title {
-        margin: 0px 1.3em;
-        line-height: 1.8em;
-        text-align: center;
-      }
+        .ui-datepicker .ui-datepicker-title {
+            margin: 0px 1.3em;
+            line-height: 1.8em;
+            text-align: center;
+        }
     </style>
-  <script type="text/javascript">
-    function sortSchoolAccount(url) {
-      window.location.href = url;
-    }
-  </script>
+    <script type="text/javascript">
+        function sortSchoolAccount(url) {
+            window.location.href = url;
+        }
+    </script>
 </head>
+
 <body class="responsive">
 
-
-            <div id="mobile_nav_flyout_left" class="small medium inactive">
-              <div id="mobile_nav_flyout_left_container">
-                  <a title="Customer Summary" href="/html/customerSummary" class="vertical button_menu_item bg_blue">
-                    <span class="h3 alignment_wide text-transform">Customer Summary</span><span class="fa-chevron-right text_white"></span>
-                  </a>
-                  <div class="bg_off_white">
-                    <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large active">
+    <div id="mobile_nav_flyout_left" class="small medium inactive">
+        <div id="mobile_nav_flyout_left_container">
+            <a title="Customer Summary" href="/html/customerSummary" class="vertical button_menu_item bg_blue">
+                <span class="h3 alignment_wide text-transform">Customer Summary</span><span class="fa-chevron-right text_white"></span>
+            </a>
+            <div class="bg_off_white">
+                <h3 class="indent_1 accordion accordion_small accordion_medium accordion_large active">
                           <a title="Logout" class="block horizontal active" href="/security/logout">
                               <span class="text-transform">Logout</span>
                           </a>
                     </h3>
-                  </div>
-
-              </div>
-             </div>
-
-             <div id="mobile_nav_flyout_right" class="small medium inactive">
-                <div id="mobile_nav_flyout_right_container">
-                </div>
-              </div>
-            
-
-<div id="page_center">
-  <div id="page_center_container">
-    <div id='content'>
-      <div id='content_container'>
-        <div id='header'>
-          <div id='header_container'>
-          
-            <div id="mobile_nav" class="small medium">
-              <ul>
-                <li class="icon">
-                    <a class="menu_activator" href="javascript:mobile_menu('mobile_nav_flyout_left')"><span
-                      class="fa-bars"></span></a>
-                </li>
-                <li>
-Welcome <br/>
-                    <span class="weight_bold welcome_info">
-Malvina&#32;Ma&#235;lle&#32;Szanto                    </span>
-                </li>
-                <li class="icon">
-                  <a title="" href="/r_key_ozEsYt=fp_yDqwHiq1K8FafZtEMBw%3D%3D/html/acctSummary">
-                    <img class="logo mobile_logo" alt="" src="./theme/images/logo/pnc_logo_rev.svg"> <!-- html_edit src, class -->
-                  </a>
-                </li>
-              </ul>
             </div>
-            <div id="user_logout" class="large">
-                <div id="user_logout_container">
-                  <p class="weight_bold">Welcome &nbsp; 
 
-Malvina&#32;Ma&#235;lle&#32;Szanto                          &nbsp;|&nbsp;<a href="/security/logout?param=https://www.google.com">Return To MyAccount</a>
-                    &nbsp;|&nbsp;
-                    <a href="/security/logout">Logout</a>
-                  </p>
-                </div>
-            </div>
-            <div class="clear"></div>
-          
-          
-            <div id="top_nav" class="large">
-              <div id="top_nav_container">
-                <div class="multicolumn_row multicolumn_row_borderless">
-                  <div class="multicolumn_column top_logo_width">
-                    <div class="multicolumn_column_container">
-                      <a title="" href="/html/customerSummary">
-                        <img alt="" class="desk_logo" src="./theme/images/logo/pnc_logo_rev.svg"> <!-- html_edit src, class -->
-                      </a>
-                      <div class="fit-logo"></div>
-                      <div class="column_fill">
-                      </div>
-                      <!-- End multicolumn_column_container -->
-                    </div>
-                    <!-- End multicolumn_column -->
-                  </div>
-                  <!-- End multicolumn_row -->
-                </div>
-              </div>
-            </div>
-            
-            <div class='clear'></div>
-            <!-- End header_container -->
-          </div>
-          <div class='clear'>
-          </div>
-          <!-- End header -->
         </div>
-        <div id='main'>
-          <div id='main_container'>
-            <div id="main_right_unit">
-              <div id="main_content_right_rail_unit">
-                <div id="main_content" class="no_right_rail">
-                  <div id="main_content_container">
-                    <div id="title_main_content" class="page_title">
-                      <h1 class="text-transform">Customer Summary</h1>
-                      <!-- End title_main_content -->
+    </div>
+
+    <div id="mobile_nav_flyout_right" class="small medium inactive">
+        <div id="mobile_nav_flyout_right_container">
+        </div>
+    </div>
+
+    <div id="page_center">
+        <div id="page_center_container">
+            <div id='content'>
+                <div id='content_container'>
+                    <div id='header'>
+                        <div id='header_container'>
+
+                            <div id="mobile_nav" class="small medium">
+                                <ul>
+                                    <li class="icon">
+                                        <a class="menu_activator" href="javascript:mobile_menu('mobile_nav_flyout_left')"><span
+                      class="fa-bars"></span></a>
+                                    </li>
+                                    <li>
+                                        Welcome
+                                        <br/>
+                                        <span class="weight_bold welcome_info">
+Malvina&#32;Ma&#235;lle&#32;Szanto                    </span>
+                                    </li>
+                                    <li class="icon">
+                                        <a title="" href="/r_key_ozEsYt=fp_yDqwHiq1K8FafZtEMBw%3D%3D/html/acctSummary">
+                                            <img class="logo mobile_logo" alt="" src="./theme/images/logo/pnc_logo_rev.svg">
+                                            <!-- html_edit src, class -->
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id="user_logout" class="large">
+                                <div id="user_logout_container">
+                                    <p class="weight_bold">Welcome &nbsp; Malvina&#32;Ma&#235;lle&#32;Szanto &nbsp;|&nbsp;<a href="/security/logout?param=https://www.google.com">Return To MyAccount</a> &nbsp;|&nbsp;
+                                        <a href="/security/logout">Logout</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+
+                            <div id="top_nav" class="large">
+                                <div id="top_nav_container">
+                                    <div class="multicolumn_row multicolumn_row_borderless">
+                                        <div class="multicolumn_column top_logo_width">
+                                            <div class="multicolumn_column_container">
+                                                <a title="" href="/html/customerSummary">
+                                                    <img alt="" class="desk_logo" src="./theme/images/logo/pnc_logo_rev.svg">
+                                                    <!-- html_edit src, class -->
+                                                </a>
+                                                <div class="fit-logo"></div>
+                                                <div class="column_fill">
+                                                </div>
+                                                <!-- End multicolumn_column_container -->
+                                            </div>
+                                            <!-- End multicolumn_column -->
+                                        </div>
+                                        <!-- End multicolumn_row -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class='clear'></div>
+                            <!-- End header_container -->
+                        </div>
+                        <div class='clear'>
+                        </div>
+                        <!-- End header -->
                     </div>
-                      <div class="article article_standard">
-                          <h3>
-                      
+                    <div id='main'>
+                        <div id='main_container'>
+                            <div id="main_right_unit">
+                                <div id="main_content_right_rail_unit">
+                                    <div id="main_content" class="no_right_rail">
+                                        <div id="main_content_container">
+                                            <div id="title_main_content" class="page_title">
+                                                <h1 class="text-transform">Customer Summary</h1>
+                                                <!-- End title_main_content -->
+                                            </div>
+                                            <div class="article article_standard">
+                                                <h3>
+
                       </h3>
-                      </div>
-                    <div class="article article_standard">
-                      <h3>Please select one of the accounts below to make a payment or to view more details.</h3>
-                    </div>
-                    <div class="clear">&nbsp;</div>
-                    <!--End main_content_container -->
-                  </div>
+                                            </div>
+                                            <div class="article article_standard">
+                                                <h3>Please select one of the accounts below to make a payment or to view more details.</h3>
+                                            </div>
+                                            <div class="clear">&nbsp;</div>
+                                            <!--End main_content_container -->
+                                        </div>
 
-                 <div class="article article_standard bg_light_blue" style="margin-bottom: 1px;">
-                     <h3 class="h3 weight_bold"
-                     style="padding: 0.5em;">Portfolio Name:CMCCard</h3>
-                 </div>
-                         <div class="article article_standard">
-                             <table class="no_more_tables table-striped table-standard cf" style="table-layout: fixed">
-                                 <thead>
-                                 <tr class="bg_light_grey">
-                                     <th width="14%"><p class="weight_normal">Account number</p></th>
-                                     <th width="12%"><p class="weight_normal">Product type</p></th>
-                                     <th width="14%"><p class="weight_normal">Current Balance</p></th>
-                                     <th width="12%"><p class="weight_normal">Total Due</p></th>
-                                     <th width="12%"><p class="weight_normal">Past Due</p></th>
-                                     <th width="18%"><p class="weight_normal">Last Payment Amount</p></th>
-                                     <th width="18%"><p class="weight_normal">Last Payment Date</p></th>
-                                 </tr>
-                                 </thead>
-                                     <tr>
-                                         <td data-title="Account Number" class="width_16">
-                                             <p class="large">
-                                                    <a href="/r_key_ozEsYt=RWm-ljVdxLlKCyrb5ZdO-Q%3D%3D/html/acctSummary">-5393</a>
-                                             </p>
+                                        <div class="article article_standard bg_light_blue" style="margin-bottom: 1px;">
+                                            <h3 class="h3 weight_bold" style="padding: 0.5em;">Portfolio Name: PNC Card</h3>
+                                        </div>
+                                        <div class="article article_standard">
+                                            <table class="no_more_tables table-striped table-standard cf" style="table-layout: fixed">
+                                                <thead>
+                                                    <tr class="bg_light_grey">
+                                                        <th width="14%">
+                                                            <p class="weight_normal">Account number</p>
+                                                        </th>
+                                                        <th width="12%">
+                                                            <p class="weight_normal">Product type</p>
+                                                        </th>
+                                                        <th width="14%">
+                                                            <p class="weight_normal">Current Balance</p>
+                                                        </th>
+                                                        <th width="12%">
+                                                            <p class="weight_normal">Total Due</p>
+                                                        </th>
+                                                        <th width="12%">
+                                                            <p class="weight_normal">Past Due</p>
+                                                        </th>
+                                                        <th width="18%">
+                                                            <p class="weight_normal">Last Payment Amount</p>
+                                                        </th>
+                                                        <th width="18%">
+                                                            <p class="weight_normal">Last Payment Date</p>
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tr>
+                                                    <td data-title="Account Number" class="width_16">
+                                                        <p class="large">
+                                                            <a href="/r_key_ozEsYt=RWm-ljVdxLlKCyrb5ZdO-Q%3D%3D/html/acctSummary">-5393</a>
+                                                        </p>
 
-                                             <p class="small medium right no_top_margin">
-                                                     <a href="/r_key_ozEsYt=RWm-ljVdxLlKCyrb5ZdO-Q%3D%3D/html/acctSummary">-5393</a>
-                                             </p>
-                                             <div class="clear"></div>
-                                         </td>
-                                         <td data-title="Product Type" class="width_16">
-                                         <p class="large">
-                                         Credit Card
-                                         </p>
+                                                        <p class="small medium right no_top_margin">
+                                                            <a href="/r_key_ozEsYt=RWm-ljVdxLlKCyrb5ZdO-Q%3D%3D/html/acctSummary">-5393</a>
+                                                        </p>
+                                                        <div class="clear"></div>
+                                                    </td>
+                                                    <td data-title="Product Type" class="width_16">
+                                                        <p class="large">
+                                                            Credit Card
+                                                        </p>
 
-                                         <p class="small medium right no_top_margin">
-                                         Credit Card
-                                         </p>
-                                         <div class="clear"></div>
-                                       </td>
-                                         </td>
-                                         <td data-title="Current Balance" class="width_16">
-                                             <p class="large">
-$79,003.75                                             </p>
+                                                        <p class="small medium right no_top_margin">
+                                                            Credit Card
+                                                        </p>
+                                                        <div class="clear"></div>
+                                                    </td>
+                                                    </td>
+                                                    <td data-title="Current Balance" class="width_16">
+                                                        <p class="large">
+                                                            $9,003.75 </p>
 
-                                             <p class="small medium right no_top_margin">
-$79,003.75                                             </p>
+                                                        <p class="small medium right no_top_margin">
+                                                            $9,003.75 </p>
 
-                                             <div class="clear"></div>
-                                         </td>
-                                         </td>
-                                         <td data-title="Total Due" class="width_16">
-                                             <p class="large">
-$38,105.69                                             </p>
+                                                        <div class="clear"></div>
+                                                    </td>
+                                                    </td>
+                                                    <td data-title="Total Due" class="width_16">
+                                                        <p class="large">
+                                                            $8,105.69 </p>
 
-                                             <p class="small medium right no_top_margin">
-$38,105.69                                             </p>
+                                                        <p class="small medium right no_top_margin">
+                                                            $8,105.69 </p>
 
-                                             <div class="clear"></div>
-                                         </td>
-                                         </td>
-                                         <td data-title="Past Due" class="width_16">
-                                             <p class="large">
-$11,161.16                                             </p>
+                                                        <div class="clear"></div>
+                                                    </td>
+                                                    </td>
+                                                    <td data-title="Past Due" class="width_16">
+                                                        <p class="large">
+                                                            $1,161.16 </p>
 
-                                             <p class="small medium right no_top_margin">
-$11,161.16                                             </p>
+                                                        <p class="small medium right no_top_margin">
+                                                            $1,161.16 </p>
 
-                                             <div class="clear"></div>
-                                         </td>
-                                         <td data-title="Last Payment Amount" class="width_16">
-                                             <p class="large">
-$0.00                                             </p>
+                                                        <div class="clear"></div>
+                                                    </td>
+                                                    <td data-title="Last Payment Amount" class="width_16">
+                                                        <p class="large">
+                                                            $0.00 </p>
 
-                                             <p class="small medium right no_top_margin">
-$0.00                                             </p>
-                                             <div class="clear"></div>
-                                         </td>
-                                         <td data-title="Last Payment Date" class="width_16">
-                                             <p class="large">
-                                             
-                                             </p>
+                                                        <p class="small medium right no_top_margin">
+                                                            $0.00 </p>
+                                                        <div class="clear"></div>
+                                                    </td>
+                                                    <td data-title="Last Payment Date" class="width_16">
+                                                        <p class="large">
 
-                                             <p class="small medium right no_top_margin">
-                                             
-                                             </p>
-                                             <div class="clear"></div>
-                                         </td>
-                                     </tr>
-                                 </tbody>
-                             </table>
-                             <div class="clear">&nbsp;</div>
-                         </div>
-                  <div class="multicolumn_row multicolumn_row_standard">
-                    <div class="clear"></div>
-                    <!-- ECM0000 -->
-                    <!-- End multicolumn_row -->
-                  </div>
-                <!-- End main_content_right_rail_unit -->
-              </div>
-              <div class="clear"></div>
-              <!-- End main_right_unit --></div>
-            
-                        <div class="clear"></div>
-                        <div id="main_bottom">
-                            <div id="main_bottom_container">
-                                <div class="modal" id="timeoutCutDownWin">
-                                    <div class="modal_container">
-                                        <div class="modal_close right h2 no_top_margin"><a class="modal_link" href="javascript:void(0);"><span
+                                                        </p>
+
+                                                        <p class="small medium right no_top_margin">
+
+                                                        </p>
+                                                        <div class="clear"></div>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                            <div class="clear">&nbsp;</div>
+                                        </div>
+										
+										<div class="article article_standard bg_light_blue" style="margin-bottom: 1px;">
+                                            <h3 class="h3 weight_bold" style="padding: 0.5em;">Portfolio Name: PNC Loan</h3>
+                                        </div>
+                                        <div class="article article_standard">
+                                            <table class="no_more_tables table-striped table-standard cf" style="table-layout: fixed">
+                                                <thead>
+                                                    <tr class="bg_light_grey">
+                                                        <th width="14%">
+                                                            <p class="weight_normal">Account number</p>
+                                                        </th>
+                                                        <th width="12%">
+                                                            <p class="weight_normal">Product type</p>
+                                                        </th>
+                                                        <th width="14%">
+                                                            <p class="weight_normal">Current Balance</p>
+                                                        </th>
+                                                        <th width="12%">
+                                                            <p class="weight_normal">Total Due</p>
+                                                        </th>
+                                                        <th width="12%">
+                                                            <p class="weight_normal">Past Due</p>
+                                                        </th>
+                                                        <th width="18%">
+                                                            <p class="weight_normal">Last Payment Amount</p>
+                                                        </th>
+                                                        <th width="18%">
+                                                            <p class="weight_normal">Last Payment Date</p>
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tr>
+                                                    <td data-title="Account Number" class="width_16">
+                                                        <p class="large">
+                                                            <a href="/r_key_ozEsYt=RWm-ljVdxLlKCyrb5ZdO-Q%3D%3D/html/acctSummary">-5393</a>
+                                                        </p>
+
+                                                        <p class="small medium right no_top_margin">
+                                                            <a href="/r_key_ozEsYt=RWm-ljVdxLlKCyrb5ZdO-Q%3D%3D/html/acctSummary">-5393</a>
+                                                        </p>
+                                                        <div class="clear"></div>
+                                                    </td>
+                                                    <td data-title="Product Type" class="width_16">
+                                                        <p class="large">
+                                                            Credit Card
+                                                        </p>
+
+                                                        <p class="small medium right no_top_margin">
+                                                            Credit Card
+                                                        </p>
+                                                        <div class="clear"></div>
+                                                    </td>
+                                                    </td>
+                                                    <td data-title="Current Balance" class="width_16">
+                                                        <p class="large">
+                                                            $7,003.75 </p>
+
+                                                        <p class="small medium right no_top_margin">
+                                                            $7,003.75 </p>
+
+                                                        <div class="clear"></div>
+                                                    </td>
+                                                    </td>
+                                                    <td data-title="Total Due" class="width_16">
+                                                        <p class="large">
+                                                            $3,105.69 </p>
+
+                                                        <p class="small medium right no_top_margin">
+                                                            $3,105.69 </p>
+
+                                                        <div class="clear"></div>
+                                                    </td>
+                                                    </td>
+                                                    <td data-title="Past Due" class="width_16">
+                                                        <p class="large">
+                                                            $1,161.16 </p>
+
+                                                        <p class="small medium right no_top_margin">
+                                                            $1,161.16 </p>
+
+                                                        <div class="clear"></div>
+                                                    </td>
+                                                    <td data-title="Last Payment Amount" class="width_16">
+                                                        <p class="large">
+                                                            $0.00 </p>
+
+                                                        <p class="small medium right no_top_margin">
+                                                            $0.00 </p>
+                                                        <div class="clear"></div>
+                                                    </td>
+                                                    <td data-title="Last Payment Date" class="width_16">
+                                                        <p class="large">
+
+                                                        </p>
+
+                                                        <p class="small medium right no_top_margin">
+
+                                                        </p>
+                                                        <div class="clear"></div>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                            <div class="clear">&nbsp;</div>
+                                        </div>
+										
+                                        <div class="multicolumn_row multicolumn_row_standard">
+                                            <div class="clear"></div>
+                                            <!-- ECM0000 -->
+                                            <!-- End multicolumn_row -->
+                                        </div>
+                                        <!-- End main_content_right_rail_unit -->
+                                    </div>
+                                    <div class="clear"></div>
+                                    <!-- End main_right_unit -->
+                                </div>
+
+                                <div class="clear"></div>
+                                <div id="main_bottom">
+                                    <div id="main_bottom_container">
+                                        <div class="modal" id="timeoutCutDownWin">
+                                            <div class="modal_container">
+                                                <div class="modal_close right h2 no_top_margin"><a class="modal_link" href="javascript:void(0);"><span
                                                 class="fa-times-circle">&nbsp;</span></a></div>
-                                        <p class="h2">Session Timeout</p>
-                                        <hr>
-                                        <p>Due to lack of activity, this session will be logged out in 2 minutes.</p>
+                                                <p class="h2">Session Timeout</p>
+                                                <hr>
+                                                <p>Due to lack of activity, this session will be logged out in 2 minutes.</p>
 
-                                        <p class="text_red">
-                                          <span id="sessionTimeoutLeftSeconds">
-120                                          </span>
-second(s) left ...                                        </p>
-                                        <p><a href="javascript:void(0);" onclick="activeSession();"
-                                              class="vertical button_standard bg_blue btn btn-primary">
-                                                <span>
+                                                <p class="text_red">
+                                                    <span id="sessionTimeoutLeftSeconds">
+120                                          </span> second(s) left ... </p>
+                                                <p>
+                                                    <a href="javascript:void(0);" onclick="activeSession();" class="vertical button_standard bg_blue btn btn-primary">
+                                                        <span>
                                                   <strong>
 Keep Session Active                                                  </strong>
                                                 </span>
-                                              </a>
-                                        </p>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="clear">&nbsp;</div>
                                     </div>
+                                    <div class="clear">&nbsp;</div>
                                 </div>
-                                <div class="clear">&nbsp;</div>
+                                <div class="clear"></div>
+
                             </div>
-                            <div class="clear">&nbsp;</div>
+                            <!-- End main_container -->
                         </div>
-                        <div class="clear"></div>
-            
-            </div>
-            <!-- End main_container -->
-          </div>
-          <div class='clear'>
-          </div>
-          <!-- End main -->
-        </div>
-        <div class='clear'>
-        </div>
-        <!-- End content_container -->
-      </div>
-    
-      <div id="footer">
-        <div id="footer_top_border">
-          <!-- End footer_top_border -->
-        </div>
-        <div id="footer_container">
-          <div class="article article_standard">
-            <p>
-              <span>
+                        <div class='clear'>
+                        </div>
+                        <!-- End main -->
+                    </div>
+                    <div class='clear'>
+                    </div>
+                    <!-- End content_container -->
+                </div>
+
+                <div id="footer">
+                    <div id="footer_top_border">
+                        <!-- End footer_top_border -->
+                    </div>
+                    <div id="footer_container">
+                        <div class="article article_standard">
+                            <p>
+                                <span>
                 <a href="/doc/termsConditions" target="_blank">Terms and Conditions</a>
                 &nbsp;&nbsp;|&nbsp;
                 <a href="/doc/securityPolicy" target="_blank">Security Policy</a>
@@ -306,92 +420,91 @@ Keep Session Active                                                  </strong>
                 &nbsp;&nbsp;|&nbsp;
                 <a href="/doc/contactUs" target="_blank">Contact Us</a>
               </span>
-            </p>
-            <p>
-              <span>
+                            </p>
+                            <p>
+                                <span>
                   <!--Copyright &copy; 2017
                   <a id="usb" href="http://www.cmcagile.com" target="cmcuscorp">Katabat US</a>-->
               </span>
-              <span class="right">
+                                <span class="right">
 Call Us:&nbsp; 1-302-830-9262              </span>
-            </p>
-            <p></p>
-            <!-- End article -->
-          </div>
-          <div class="clear"></div>
-          <!-- End footer_container" -->
+                            </p>
+                            <p></p>
+                            <!-- End article -->
+                        </div>
+                        <div class="clear"></div>
+                        <!-- End footer_container" -->
+                    </div>
+                    <div class="clear">
+                    </div>
+                    <!-- End footer -->
+                </div>
+
+                <div class='clear'>
+                </div>
+                <!-- End content -->
+            </div>
+            <!-- End page_center_container -->
         </div>
-        <div class="clear">
-        </div>
-        <!-- End footer -->
-      </div>
-            
-      <div class='clear'>
-      </div>
-      <!-- End content -->
+        <!-- End page_center -->
     </div>
-    <!-- End page_center_container -->
-  </div>
-  <!-- End page_center -->
-</div>
 
+    <script src="theme_default/js/global_js/global_framework_1.js" type="text/javascript" language="javascript"></script>
+    <script language="javascript" type="text/javascript" src="theme_default/js/sallie_mae_js/core/sallie_mae_core_1.js"></script>
+    <script type="text/javascript" language="javascript" src="theme_default/js/loan_servicing_js/loan_servicing_1.js"></script>
+    <script type="text/javascript" language="javascript" src="theme_default/js/loan_servicing_js/jquery-ui.min-1.11.2.js"></script>
+    <script type="text/javascript">
+        var sessionCutDownTimes = 120;
 
-<script src="theme_default/js/global_js/global_framework_1.js" type="text/javascript"
-        language="javascript"></script>
-<script language="javascript" type="text/javascript"
-        src="theme_default/js/sallie_mae_js/core/sallie_mae_core_1.js"></script>
-<script type="text/javascript" language="javascript"
-        src="theme_default/js/loan_servicing_js/loan_servicing_1.js"></script>
-<script type="text/javascript" language="javascript"
-        src="theme_default/js/loan_servicing_js/jquery-ui.min-1.11.2.js"></script>
-<script type="text/javascript">
-    var sessionCutDownTimes = 120;
+        var timeOutId = null;
 
-    var timeOutId = null;
-    function cutDownSessionTimeout() {
-        clearTimeout(timeOutId);
-        if (sessionCutDownTimes == 0) {
-            window.location.href = "/security/logout";
-        } else {
-            sessionCutDownTimes--;
-            jQuery("#sessionTimeoutLeftSeconds").html(sessionCutDownTimes);
+        function cutDownSessionTimeout() {
+            clearTimeout(timeOutId);
+            if (sessionCutDownTimes == 0) {
+                window.location.href = "/security/logout";
+            } else {
+                sessionCutDownTimes--;
+                jQuery("#sessionTimeoutLeftSeconds").html(sessionCutDownTimes);
+                timeOutId = setTimeout(cutDownSessionTimeout, 1000);
+            }
+        }
+
+        function activeSession() {
+            jQuery.ajax({
+                url: "/ping",
+                success: function(data, textStatus, xhr) {
+                    var sessionTimeoutFlag = xhr.getResponseHeader("SessionTimeout")
+                    if ("Y" == sessionTimeoutFlag)
+                        window.location.href = "/security/logout";
+                    else {
+                        modalToggle("timeoutCutDownWin");
+                        clearTimeout(timeOutId);
+                    }
+                }
+            });
+        }
+
+        function sessionTimeoutWarning() {
+            modalToggle("timeoutCutDownWin");
             timeOutId = setTimeout(cutDownSessionTimeout, 1000);
         }
-    }
-    function activeSession() {
-        jQuery.ajax({
-            url: "/ping",
-            success: function (data, textStatus, xhr) {
-                var sessionTimeoutFlag = xhr.getResponseHeader("SessionTimeout")
-                if ("Y" == sessionTimeoutFlag)
-                    window.location.href = "/security/logout";
-                else {
-                    modalToggle("timeoutCutDownWin");
-                    clearTimeout(timeOutId);
-                }
+
+        function openPopupWin(uri) {
+            if (uri) {
+                window.frames["popupWinFrame"].location.href = uri;
+                openModal("popupWinModel");
             }
-        });
-    }
-    function sessionTimeoutWarning() {
-        modalToggle("timeoutCutDownWin");
-        timeOutId = setTimeout(cutDownSessionTimeout, 1000);
-    }
-
-    function openPopupWin(uri) {
-        if (uri) {
-            window.frames["popupWinFrame"].location.href = uri;
-            openModal("popupWinModel");
         }
-    }
 
-    function cancelPopupWin() {
-        modalToggle("popupWinModel");
-        return false;
-    }
-    $(document).ready(function () {
-          setTimeout(sessionTimeoutWarning, 1080* 1000);
-    });
-</script>
-            
+        function cancelPopupWin() {
+            modalToggle("popupWinModel");
+            return false;
+        }
+        $(document).ready(function() {
+            setTimeout(sessionTimeoutWarning, 1080 * 1000);
+        });
+    </script>
+
 </body>
+
 </html>
