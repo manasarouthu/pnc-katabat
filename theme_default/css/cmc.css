@@ -236,7 +236,5 @@ label.nwr input[type="radio"]{
         content: "↓";
         color: #e1e1e1;
     }
-    .no_more_tables td:before{
-        font-size: 1em;
-    }
+
 }

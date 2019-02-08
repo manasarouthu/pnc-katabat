@@ -117,13 +117,6 @@ p, .p
     margin-top: 1em;
 }
 
-@media only screen and (max-width:640px){
-  p, .p
-  { 
-    font-size: 1em;
-    margin-top: 1em;
-  }
-}
 
 h2, .h2, #right_rail h2, #right_rail .h2
 {
@@ -833,13 +826,13 @@ input[type*="radio"]+label {
     }
 
     .responsive .accordion_medium > a[href], .responsive .accordion_medium > a[href]:active, .responsive .accordion_medium > a[href]:visited {
-        color: #0069aa !important;
+        color: #333 !important;
         text-decoration: none !important;
         cursor: pointer !important;
     }
 
         .responsive .accordion_medium > a[href]:hover {
-            color: #006b9e !important;
+            color: #f58025 !important;
             cursor: pointer !important;
             text-decoration: none !important;
         }
