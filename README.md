@@ -18,7 +18,7 @@
 
 <a href="https://cmcit.github.io/pnc-katabat/Payment%20Deleted.html">Payment Deleted.html</a>
 
-<a href="https://cmcit.github.io/pnc-katabat/Payment%20Offers.html">Payment Offers.html</a>
+<a href="https://cmcit.github.io/pnc-katabat/Payment%20Offers_offers.html">Payment Offers.html</a>
 
 <a href="https://cmcit.github.io/pnc-katabat/Payment%20Offer%20Details.html">Payment Offer Details.html</a>
 
